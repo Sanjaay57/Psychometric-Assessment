@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-localize="page_title">Career Discovery Assessment System</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+</head>
+<body>
+
+<div id="loader" class="loader hidden">
+    <div class="spinner"></div>
+    <p data-localize="loader_text">Generating Assessment Report...</p>
+</div>
+
+<div id="adminLoginModal" class="admin-modal hidden">
+    <div class="admin-modal-content">
+        <h2 data-localize="admin_login_title">Administrator Login</h2>
+        <input type="password" id="adminPassword" data-localize-placeholder="admin_placeholder" placeholder="Enter Password">
+        <div class="admin-modal-actions">
+            <button id="adminLoginBtn" class="btn primary-btn" data-localize="admin_login_btn">Login</button>
+            <button id="closeAdminLoginBtn" class="btn secondary-btn" data-localize="admin_cancel_btn">Cancel</button>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+
+    <header class="hero">
+        <div class="hero-header-top">
+            <div class="split-lang-container">
+                <button class="split-lang-btn active" id="langBtnEn" data-lang-set="english">A</button>
+                <button class="split-lang-btn" id="langBtnTa" data-lang-set="tamil">அ</button>
+            </div>
+        </div>
+        <div class="hero-content">
+            <h1 id="heroTitle" data-localize="hero_title">Career Exploration Assessment</h1>
+            <p id="heroSubtitle" data-localize="hero_subtitle">Discover your strengths, understand your learning profile, and Explore you career Pathways</p>
+        </div>
+    </header>
+
+    <div id="studentWorkflowContainer">
+        <section id="assessmentSection">
+            <div id="welcomeCard" class="welcome-card">
+                <h2 class="welcome-title-large" id="welcomeTitleMain">
+                    <span data-localize="welcome_title_main">Discover Your Strengths. Shape Your Future.</span>
+                </h2>
+                <p class="welcome-p-text" data-localize="welcome_desc">Understand your abilities, explore careers, and plan your future journey.</p>
+                
+                <div class="welcome-features-grid">
+                    <div class="feat-card">
+                        <span class="feat-icon">📋</span>
+                        <h4 data-localize="feat_1_title">100 Questions</h4>
+                    </div>
+                    <div class="feat-card">
+                        <span class="feat-icon">🧠</span>
+                        <h4 data-localize="feat_2_title">Intelligence Analysis</h4>
+                    </div>
+                    <div class="feat-card">
+                        <span class="feat-icon">🚀</span>
+                        <h4 data-localize="feat_3_title">Career Matches</h4>
+                    </div>
+                    <div class="feat-card">
+                        <span class="feat-icon">📄</span>
+                        <h4 data-localize="feat_4_title">PDF Report</h4>
+                    </div>
+                </div>
+
+                <button id="openRegistrationBtn" class="btn primary-btn start-journey-btn" data-localize="start_journey_btn">
+                    Click for registration →
+                </button>
+            </div>
+
+            <div id="registrationCard" class="card hidden">
+                <h2 class="section-title" data-localize="reg_title">Student Registration</h2>
+                <div class="student-grid">
+                    <div class="field">
+                        <label data-localize="label_name">Student Name</label>
+                        <input type="text" id="studentName">
+                    </div>
+                    <div class="field">
+                        <label data-localize="label_emis">EMIS No</label>
+                        <input type="text" id="studentEmis" maxlength="11">
+                    </div>
+                    <div class="field">
+                        <label data-localize="label_standard">Standard</label>
+                        <select id="studentClass">
+                            <option value="" data-localize="opt_select">Select</option>
+                            <option value="IX">IX</option>
+                            <option value="X">X</option>
+                        </select>
+                    </div>
+                    <div class="field">
+                        <label data-localize="label_medium">Medium</label>
+                        <select id="studentMedium">
+                            <option value="" data-localize="opt_select_medium">Select Medium</option>
+                            <option value="Tamil">Tamil</option>
+                            <option value="English">English</option>
+                        </select>
+                    </div>
+                    <div class="field">
+                        <label data-localize="label_school">School Name</label>
+                        <input type="text" id="studentSchool">
+                    </div>
+                    <div class="field">
+                        <label data-localize="label_district">District Name</label>
+                        <select id="studentDistrict">
+                            <option value="" data-localize="opt_select_district">Select District</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="registration-actions">
+                    <button id="startAssessmentBtn" class="btn success-btn btn-lg" data-localize="start_assessment_btn">Start Assessment</button>
+                </div>
+            </div>
+
+            <div id="quizInterfaceContainer" class="hidden">
+                <div class="card progress-card-container">
+                    <div class="progress-header">
+                        <div id="answeredCountLabel">
+                            <span data-localize="answered_txt">Answered</span>: <span id="answeredCount" class="counter-highlight">0</span> / <span id="totalQuestions">100</span>
+                        </div>
+                        <div id="progressPercentage" class="percentage-badge">0%</div>
+                    </div>
+                    <div class="progress-track">
+                        <div id="progressBar" class="progress-fill"></div>
+                    </div>
+                </div>
+
+                <div id="questions" class="question-container"></div>
+
+                <div class="navigation">
+                    <button id="prevBtn" class="btn secondary-btn" data-localize="btn_prev">← Previous</button>
+                    <button id="nextBtn" class="btn primary-btn" data-localize="btn_next">Next →</button>
+                    <button id="submitBtn" class="btn success-btn" style="display:none;" data-localize="btn_submit">Generate Report</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="report" class="hidden">
+            <div id="reportCaptureBounds">
+                <div id="reportBody" class="report-template"></div>
+            </div>
+            <div class="report-toolbar">
+                <button id="printBtn" class="btn primary-btn btn-lg" data-localize="btn_download_report">
+                    Download PDF Report
+                </button>
+            </div>
+        </section>
+
+    </div>
+
+    <section id="adminSection" class="hidden">
+        <div class="admin-header-card">
+            <div style="display: flex; justify-content: space-between; align-items: center;">
+                <h2>Administrator Dashboard</h2>
+                <button class="btn secondary-btn" onclick="exitAdminView()">Exit Dashboard</button>
+            </div>
+        </div>
+
+        <div id="adminDashboardSummary" class="admin-summary-grid"></div>
+        <div id="districtSplitPanel" class="admin-district-panel hidden"></div>
+
+        <div class="card" style="overflow-x: auto;">
+            <table class="admin-table">
+                <thead>
+                    <tr>
+                        <th>S.No</th>
+                        <th>Name</th>
+                        <th>EMIS No</th>
+                        <th>Standard</th>
+                        <th>School & District</th>
+                        <th>Time Taken</th>
+                        <th>Top Cluster</th>
+                        <th>Metrics Summary</th>
+                        <th>View</th>
+                    </tr>
+                </thead>
+                <tbody id="adminTableBody"></tbody>
+            </table>
+        </div>
+
+        <div id="adminInspectionPanel" class="card hidden">
+            <div class="admin-report-header">
+                <h3>Advanced Diagnostics File Portfolio</h3>
+                <button class="btn secondary-btn" onclick="document.getElementById('adminInspectionPanel').classList.add('hidden')">Close Portfolio</button>
+            </div>
+            <div id="adminInspectionBody"></div>
+        </div>
+    </section>
+
+</div>
+
+<footer class="footer">
+    <p><a href="#" class="admin-link" id="adminLoginLink" data-localize="admin_link">Admin Login</a></p>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>

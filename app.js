@@ -685,7 +685,7 @@ function renderQuestion() {
                     ${compiledContent}
                 </div>
                 <div class="question-image">
-                    <img src="${question.image}" alt="Question Graphic Reference" onerror="this.src='images/default.jpg'">
+                    <img src="${question.image}" alt="Question Graphic Reference" onerror="this.src='/images/default.jpg'">
                 </div>
             </div>
             <div class="options-grid" id="optionsGrid"></div>

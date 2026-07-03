@@ -1366,7 +1366,7 @@ function displayReportHTML(reportData, targetContainer) {
                     </div>
                 </div>
                 <div style="flex: 0 0 260px; display: flex; align-items: center; justify-content: center;">
-                    <img src="images/Int${primaryImgNumber}.jpg" alt="Learning Style Graphic" style="width: 100%; height: 100%; min-height: 200px; object-fit: cover; border-radius: 16px; border: 2px solid #cbd5e1; box-shadow: 0 4px 12px rgba(0,0,0,0.06);" onerror="this.src='images/default.jpg'">
+                    <img src="/images/Int${primaryImgNumber}.jpg" alt="Learning Style Graphic" style="width: 100%; height: 100%; min-height: 200px; object-fit: cover; border-radius: 16px; border: 2px solid #cbd5e1; box-shadow: 0 4px 12px rgba(0,0,0,0.06);" onerror="this.src='/images/default.jpg'">
                 </div>
             </div>
         </div>

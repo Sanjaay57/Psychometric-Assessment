@@ -27,14 +27,35 @@ const uiLocalizationMap = {
         admin_cancel_btn: "ரத்துசெய்",
         hero_title: "தொழில் வழிகாட்டல் திறன் கண்டறிதல் மதிப்பீட்டு அமைப்பு",
         hero_subtitle: "உங்கள் திறன்களை கண்டறியுங்கள், உங்கள் கற்றல் சுயவிவரத்தைப் புரிந்துகொள்ளுங்கள், மற்றும் உங்களுக்கு ஏற்ற தொழில் வாய்ப்புகளை ஆராயுங்கள்.",
-        welcome_badge: "🎯 உங்கள் திறன்களைக் கண்டறியுங்கள்",
-        welcome_title_main: "உங்கள் திறன்களைக் கண்டறியுங்கள். உங்கள் எதிர்காலத்தை வடிவமைக்கவும்.",
-        welcome_desc: "உங்கள் திறன்களைப் புரிந்துகொண்டு, உங்களுக்கான தொழில்நெறிகளை ஆராய்ந்து, உங்கள் எதிர்காலப் பயணத்தைத் திட்டமிடுங்கள்.",
-        feat_1_title: "100 கேள்விகள்", feat_1_desc: "எளிமையான வினாக்கள்",
-        feat_2_title: "நுண்ணறிவு பகுப்பாய்வு", feat_2_desc: "பல்வகை அறிவுத்திறன்",
-        feat_3_title: "தொழில் பரிந்துரைகள்", feat_3_desc: "பொருத்தமான வாய்ப்புகள்",
-        feat_4_title: "PDF அறிக்கை", feat_4_desc: "பதிவிறக்கம் செய்யும் வசதி",
-        start_journey_btn: "உங்கள் பயணத்தைத் தொடங்குங்கள் →",
+        welcome_badge: "🎯 உங்களை அறிந்துகொள்ளுங்கள். உங்கள் எதிர்காலத்தை வடிவமைக்கவும்.",
+        welcome_title_main: "தொழில்நெறி கண்டறியும் மதிப்பீட்டு முறைமைக்கு வரவேர்கிறோம்",
+        welcome_desc_1: "ஒவ்வொரு மாணவரும் தனித்துவமானவர்கள். நம் ஒவ்வொருவருக்கும் வெவ்வேறு பலங்கள், திறமைகள் மற்றும் ஆர்வங்கள் உள்ளன. சில மாணவர்கள் சிக்கல்களைத் தீர்ப்பதில் மகிழ்ச்சியடைகிறார்கள், சிலர் மனிதர்களுடன் இணைந்து பணியாற்றுவதை விரும்புகிறார்கள், சிலர் ஆக்கப்பூர்வமாக இருக்கிறார்கள், மற்றவர்கள் இயற்கை, விளையாட்டு, இசை அல்லது தகவல் தொடர்புகளை விரும்புகிறார்கள்.",
+        welcome_desc_2: "இந்த மதிப்பீடு ஒவ்வொருவரும் வெவ்வேறு வழிகளில் புத்திசாலிகள் என்ற கருத்தின் அடிப்படையில் அமைந்துள்ளது. எட்டு முதன்மையான மற்றும் வெவ்வேறு வகையான நுண்ணறிவுகளில் உங்கள் பலங்களைக் கண்டறிய இது உதவுகிறது:",
+        how_it_works_title: "இந்த மதிப்பீடு எவ்வாறு செயல்படுகிறது?",
+        feat_1_title: "80 எளிய கூற்றுகள்", feat_1_desc: "உங்களைப் பற்றிய 80 எளிய கூற்றுகளுக்கு நீங்கள் பதிலளிப்பீர்கள்.",
+        feat_2_title: "உங்கள் பலங்கள்", feat_2_desc: "எட்டு நுண்ணறிவுத் துறைகளிலும் உங்கள் பலங்களைப் புரிந்துகொள்ள உங்கள் பதில்கள் எங்களுக்கு உதவும்.",
+        feat_3_title: "18 தொழில் தொகுப்புகள்", feat_3_desc: "இந்த பலங்கள் பொறியியல், மருத்துவம், கணினி அறிவியல், விவசாயம், சட்டம், வடிவமைப்பு, வணிகம் போன்ற 18 தொழில் தொகுப்புகளுடன் பொருத்தப்படும்.",
+        report_includes_title: "இதன் அடிப்படையில், பின்வருவனவற்றை உள்ளடக்கிய தொழில்நெறி கண்டறியும் அறிக்கையைப் பெறுவீர்கள்:",
+        report_item_1: "✨ உங்கள் வலுவான நுண்ணறிவுத் துறைகள்",
+        report_item_2: "📖 உங்கள் விருப்பமான கற்றல் பாணி",
+        report_item_3: "💼 உங்கள் பலத்திற்கு மிகவும் பொருத்தமான தொழில் தொகுப்புகள்",
+        report_item_4: "🎓 நீங்கள் ஆராயக்கூடிய கல்வி வழிகள்",
+        report_item_5: "🌱 நீங்கள் கற்றுக்கொள்ளவும் வளரவும் உதவும் பரிந்துரைகள்",
+        before_begin_title: "நீங்கள் தொடங்குவதற்கு முன்",
+        begin_item_1: "இந்த மதிப்பீட்டில் 80 கூற்றுகள் உள்ளன.",
+        begin_item_2: "இதை முடிக்க சுமார் 20-25 நிமிடங்கள் ஆகும்.",
+        begin_item_3: "ஒவ்வொரு கூற்றையும் கவனமாகப் படியுங்கள்.",
+        begin_item_4: "உங்களைச் சிறந்த முறையில் விவரிக்கும் பதிலைத் தேர்ந்தெடுக்கவும்.",
+        begin_item_5: "மதிப்பீட்டை நீங்களாகவே பூர்த்தி செய்யவும்.",
+        begin_item_6: "இதில் மதிப்பெண்களோ அல்லது தேர்ச்சி/தோல்வி முடிவுகளோ இல்லை.",
+        begin_item_7: "சரியான அல்லது தவறான பதில்கள் எதுவும் இல்லை, இது ஒரு தேர்வு அல்ல.",
+        remember_title: "நினைவில் கொள்க",
+        remember_item_1: "✔ நேர்மையாக பதிலளிக்கவும்.",
+        remember_item_2: "✔ உங்களைச் சிறந்த முறையில் விவரிக்கும் விருப்பத்தைத் தேர்ந்தெடுக்கவும்.",
+        remember_item_3: "✔ சரியான அல்லது தவறான பதில்கள் என்று எதுவுமில்லை.",
+        remember_item_4: "✔ உங்கள் பதில்கள் எவ்வளவு நேர்மையாக இருக்கிறதோ, அவ்வளவு சிறந்த முறையில் உங்கள் அறிக்கை உங்கள் பலங்களைப் பிரதிபலிக்கும்.",
+        wish_luck_text: "எங்கள் மனமார்ந்த நல்வாழ்த்துகள்! நீங்கள் தயாராக இருக்கும்போது கீழே உள்ள பொத்தானை அழுத்தவும்.",
+        start_journey_btn: "மதிப்பீட்டைத் தொடங்கவும்",
         reg_title: "மாணவர் பதிவு",
         label_name: "மாணவர் பெயர்",
         label_emis: "இ.எம்.ஐ.எஸ் (EMIS) எண்",
@@ -45,7 +66,7 @@ const uiLocalizationMap = {
         label_school: "பள்ளியின் பெயர்",
         label_district: "மாவட்டத்தின் பெயர்",
         opt_select_district: "மாவட்டத்தைத் தேர்வு செய்க",
-        start_assessment_btn: "மதிப்பீட்டைத் தொடங்கு",
+        start_assessment_btn: "அடுத்தது →",
         answered_txt: "பதிலளிக்கப்பட்டவை",
         btn_prev: "← முந்தையது",
         btn_next: "அடுத்தது →",
@@ -54,21 +75,41 @@ const uiLocalizationMap = {
         admin_login_link: "நிர்வாகி உள்நுழைவு"
     },
     english: {
-        page_title: "Career Discovery Assessment System",
+        page_title: "Career Exploration Assessment",
         loader_text: "Generating Assessment Report...",
         admin_login_title: "Administrator Login",
         admin_placeholder: "Enter Password",
         admin_login_btn: "Login",
         admin_cancel_btn: "Cancel",
-        hero_title: "Career Discovery Assessment System",
-        hero_subtitle: "Discover your strengths, understand your learning profile, and Explore you career Pathways",
-        welcome_title_main: "Discover Your Strengths. Shape Your Future.",
-        welcome_desc: "Understand your abilities, explore careers, and plan your future journey.",
-        feat_1_title: "100 Questions", feat_1_desc: "Simple and intuitive",
-        feat_2_title: "Intelligence Analysis", feat_2_desc: "Multiple Intelligences",
-        feat_3_title: "Career Matches", feat_3_desc: "Best options for you",
-        feat_4_title: "PDF Report", feat_4_desc: "Personalized dossier",
-        start_journey_btn: "Click for registration →",
+        hero_title: "Career Exploration Assessment",
+        hero_subtitle: "🎯 Know Yourself. Explore Your Future",
+        welcome_title_main: "Welcome to the Career Exploration Assessment",
+        welcome_desc_1: "Every student is unique. Each one of us has different strengths, talents, and interests. Some students enjoy solving problems, some enjoy working with people, some are creative, while others enjoy nature, sports, music, or communication.",
+        welcome_desc_2: "This assessment is based on the idea that everyone is intelligent in different ways. It helps you discover your strengths across eight primary and different types of intelligence:",
+        how_it_works_title: "How Does This Assessment Work?",
+        feat_1_title: "80 Simple Statements", feat_1_desc: "You will answer 80 simple statements about yourself.",
+        feat_2_title: "Your Strengths", feat_2_desc: "Your responses will help us understand your strengths in each of the eight intelligence areas.",
+        feat_3_title: "18 Career Clusters", feat_3_desc: "These strengths are then matched with 18 career clusters such as Engineering, Medicine, Computer Science, Agriculture, Law, Design, Commerce, and many more.",
+        report_includes_title: "Based on this, you will receive a Career Exploration Report that includes:",
+        report_item_1: "✨ Your strongest intelligence areas",
+        report_item_2: "📖 Your preferred learning style",
+        report_item_3: "💼 Career clusters that best match your strengths",
+        report_item_4: "🎓 Educational pathways you can explore",
+        report_item_5: "🌱 Suggestions to help you learn and grow",
+        before_begin_title: "Before You Begin",
+        begin_item_1: "This assessment contains 80 statements.",
+        begin_item_2: "It will take about 20–25 minutes to complete.",
+        begin_item_3: "Read each statement carefully.",
+        begin_item_4: "Choose the answer that best describes you.",
+        begin_item_5: "Complete the assessment on your own.",
+        begin_item_6: "There are no marks or pass/fail results.",
+        begin_item_7: "There are no right or wrong answers, and this is not an exam.",
+        remember_title: "Remember",
+        remember_item_1: "✔ Answer honestly.",
+        remember_item_2: "✔ Choose the option that best describes you.",
+        remember_item_4: "✔ The more honest your answers, the better your Career Exploration Report will reflect your strengths.",
+        wish_luck_text: "We wish you all the very best! Click 'Start Assessment' when you are ready.",
+        start_journey_btn: "Start Assessment",
         reg_title: "Student Registration",
         label_name: "Student Name",
         label_emis: "EMIS No",
@@ -79,7 +120,7 @@ const uiLocalizationMap = {
         label_school: "School Name",
         label_district: "District Name",
         opt_select_district: "Select District",
-        start_assessment_btn: "Start Assessment",
+        start_assessment_btn: "Next →",
         answered_txt: "Answered",
         btn_prev: "← Previous",
         btn_next: "Next →",
@@ -172,96 +213,198 @@ const careerClusters = [
         name: "Engineering & Technology",
         icon: "⚙️",
         description: "Suitable for students who enjoy logical thinking, innovation, mathematics, technology, and problem solving.",
-        descriptionTamil: "தருக்க சிந்தனை, புத்தாக்கம், கணிதம், தொழில்நுட்பம் மற்றும் சிக்கல்களைத் தீர்ப்பதில் ஆர்வமுள்ள மாணவர்களுக்கு இது மிகவும் பொருத்தமானது.",
         intelligences: { logical: 5, spatial: 4, bodily: 2, intrapersonal: 2 },
         schoolGroups: ["Mathematics + Physics + Chemistry + Computer Science", "Mathematics + Physics + Chemistry + Biology"],
         entranceExams: ["JEE Main", "JEE Advanced", "State Engineering Counselling"],
         degreePrograms: ["B.E", "B.Tech"],
-        careers: ["Software Engineer", "Mechanical Engineer", "Civil Engineer", "Electrical Engineer", "Electronics Engineer", "Robotics Engineer"]
+        careers: ["Mechanical Engineer", "Civil Engineer", "Electrical Engineer", "Electronics Engineer", "Robotics Engineer", "Aerospace Engineer", "Mechatronics Engineer", "Manufacturing Engineer", "Renewable Energy Engineer", "Industrial Engineer"]
     },
     {
         id: "computer_science",
-        name: "Computer Science & AI",
+        name: "Computer Science & Digital Technologies",
         icon: "💻",
         description: "Recommended for students interested in software, AI, coding, and emerging technologies.",
-        descriptionTamil: "மென்பொருள், செயற்கை நுண்ணறிவு (AI), கணினி நிரலாக்கம் மற்றும் வளர்ந்து வரும் தொழில்நுட்பங்களில் ஆர்வமுள்ள மாணவர்களுக்குப் பரிந்துரைக்கப்படுகிறது.",
         intelligences: { logical: 5, intrapersonal: 4, spatial: 3, linguistic: 2 },
         schoolGroups: ["Mathematics + Physics + Chemistry + Computer Science"],
         entranceExams: ["JEE", "University Entrance Exams"],
         degreePrograms: ["B.Tech Computer Science", "BCA", "B.Sc Computer Science", "AI & Data Science"],
-        careers: ["Software Developer", "AI Engineer", "Data Scientist", "Cyber Security Analyst", "Machine Learning Engineer"]
+        careers: ["Software Developer", "Artificial Intelligence Engineer", "Data Scientist", "Cybersecurity Analyst", "Cloud Engineer", "Machine Learning Engineer", "Mobile App Developer", "Full Stack Developer", "UI/UX Designer", "Blockchain Developer"]
+    },
+    {
+        id: "science_research",
+        name: "Science & Research",
+        icon: "🔬",
+        description: "Your responses show curiosity and a desire to understand how things work. You may enjoy asking questions, exploring ideas, and discovering new knowledge.",
+        intelligences: { logical: 5, naturalistic: 4, intrapersonal: 3 },
+        schoolGroups: ["Mathematics, Physics, Chemistry, Biology", "Mathematics, Physics, Chemistry"],
+        entranceExams: ["IISER Aptitude Test (IAT)", "NEST", "CUET"],
+        degreePrograms: ["B.Sc.", "BS-MS Integrated Programme", "Integrated M.Sc.", "B.Tech. (Research Programmes)"],
+        careers: ["Research Scientist", "Physicist", "Chemist", "Biotechnologist", "Microbiologist", "Environmental Scientist", "Food Scientist", "Clinical Research Associate", "Space Scientist", "Materials Scientist"]
     },
     {
         id: "medicine",
-        name: "Medicine & Healthcare",
+        name: "Medicine",
         icon: "🩺",
-        description: "Ideal for students who enjoy biology, helping others, and healthcare careers.",
-        descriptionTamil: "உயிரியல், மற்றவர்களுக்கு உதவுதல் மற்றும் மருத்துவத் துறை சார்ந்த பணிகளில் ஆர்வமுள்ள மாணவர்களுக்கு இது மிகவும் உகந்தது.",
-        intelligences: { logical: 4, interpersonal: 5, intrapersonal: 3, naturalistic: 3 },
-        schoolGroups: ["Biology + Physics + Chemistry", "Biology + Physics + Chemistry + Mathematics"],
-        entranceExams: ["NEET"],
-        degreePrograms: ["MBBS", "BDS", "B.Sc Nursing", "Allied Health Sciences", "Pharmacy"],
-        careers: ["Doctor", "Dentist", "Nurse", "Physiotherapist", "Pharmacist"]
+        description: "Based on your responses, you may enjoy learning about science while helping others lead healthier lives.",
+        intelligences: { naturalistic: 3, logical: 4, interpersonal: 5 },
+        schoolGroups: ["Biology, Physics, Chemistry (PCB)"],
+        entranceExams: ["NEET-UG"],
+        degreePrograms: ["MBBS", "BDS", "BAMS", "BHMS", "BSMS"],
+        careers: ["Doctor", "Surgeon", "Paediatrician", "Psychiatrist", "Cardiologist", "Radiologist", "Dermatologist", "Anaesthesiologist", "Public Health Specialist", "Medical Researcher"]
+    },
+    {
+        id: "paramedical",
+        name: "Paramedical & Allied Health Sciences",
+        icon: "🏥",
+        description: "Your responses suggest that you enjoy supporting and caring for others. You may enjoy practical work that makes a positive difference in people's lives.",
+        intelligences: { interpersonal: 5, bodily: 4, logical: 3 },
+        schoolGroups: ["Biology, Physics, Chemistry (PCB)"],
+        entranceExams: ["NEET (for selected programmes)", "AIIMS Nursing", "AIIMS Paramedical", "NIMHANS Paramedical", "CUET"],
+        degreePrograms: ["B.Sc. Allied Health Sciences", "Bachelor of Physiotherapy (BPT)", "B.Sc. Medical Laboratory Technology", "B.Sc. Radiography", "B.Optom"],
+        careers: ["Physiotherapist", "Medical Laboratory Technologist", "Radiographer", "Occupational Therapist", "Optometrist", "Audiologist", "Dialysis Technologist", "Emergency Medical Technician", "Operation Theatre Technologist", "Nutritionist"]
     },
     {
         id: "agriculture",
-        name: "Agriculture & Environmental Science",
+        name: "Agriculture & Food Technology",
+        icon: "🌾",
+        description: "Your responses suggest an interest in nature, farming, food, and sustainable living.",
+        intelligences: { naturalistic: 5, logical: 3, bodily: 4 },
+        schoolGroups: ["Biology, Physics, Chemistry", "Mathematics, Physics, Chemistry", "Agriculture (where offered)"],
+        entranceExams: ["ICAR AIEEA", "CUET", "State Agricultural University Entrance Examinations"],
+        degreePrograms: ["B.Sc. Agriculture", "B.Tech. Food Technology", "B.Sc. Horticulture", "B.Sc. Forestry", "B.F.Sc."],
+        careers: ["Agricultural Officer", "Agricultural Scientist", "Food Technologist", "Horticulturist", "Dairy Technologist", "Agribusiness Manager", "Soil Scientist", "Seed Technologist", "Fisheries Officer", "Farm Manager"]
+    },
+    {
+        id: "environment",
+        name: "Environment & Sustainability",
         icon: "🌿",
-        description: "Suitable for students interested in agriculture, sustainability, environment, and natural sciences.",
-        descriptionTamil: "விவசாயம், நிலையான வளர்ச்சி, சுற்றுச்சூழல் மற்றும் இயற்கை அறிவியலில் ஆர்வமுள்ள மாணவர்களுக்குப் பொருத்தமானது.",
-        intelligences: { naturalistic: 5, logical: 3, bodily: 2 },
-        schoolGroups: ["Biology + Agriculture", "Biology + Mathematics", "Biology + Computer Science"],
-        entranceExams: ["ICAR", "State Agriculture Admissions"],
-        degreePrograms: ["B.Sc Agriculture", "B.Sc Forestry", "B.Sc Environmental Science"],
-        careers: ["Agricultural Scientist", "Environmental Scientist", "Forest Officer", "Wildlife Biologist"]
+        description: "Based on your responses, you care about nature and protecting the environment. You may enjoy finding solutions to environmental challenges and promoting sustainable living.",
+        intelligences: { naturalistic: 5, logical: 4, intrapersonal: 3 },
+        schoolGroups: ["Biology, Physics, Chemistry", "Mathematics, Physics, Chemistry"],
+        entranceExams: ["CUET", "ICAR AIEEA", "JEE Main (for Environmental Engineering)"],
+        degreePrograms: ["B.Sc. Environmental Science", "B.Tech. Environmental Engineering", "B.Sc. Forestry", "B.Sc. Wildlife Science", "B.Sc. Earth Sciences"],
+        careers: ["Environmental Engineer", "Sustainability Consultant", "Wildlife Biologist", "Forest Officer", "Climate Change Analyst", "Conservation Scientist", "Environmental Planner", "GIS Specialist", "Renewable Energy Consultant", "Waste Management Specialist"]
     },
     {
-        id: "law",
-        name: "Law & Public Administration",
-        icon: "⚖️",
-        description: "Recommended for students with strong communication and reasoning abilities.",
-        descriptionTamil: "சிறந்த தகவல் தொடர்பு மற்றும் பகுத்தறியும் திறன் கொண்ட மாணவர்களுக்குப் பரிந்துரைக்கப்படும் ஒரு சிறந்த துறை.",
-        intelligences: { linguistic: 5, interpersonal: 4, logical: 3 },
-        schoolGroups: ["Commerce", "Humanities", "Mathematics Group"],
-        entranceExams: ["CLAT", "AILET"],
-        degreePrograms: ["BA LLB", "BBA LLB", "LLB"],
-        careers: ["Lawyer", "Judge", "Legal Advisor", "Civil Servant"]
-    },
-    {
-        id: "business",
-        name: "Business & Management",
-        icon: "📈",
-        description: "Suitable for students interested in commerce, finance, management, and entrepreneurship.",
-        descriptionTamil: "வணிகம், நிதி மேலாண்மை, நிர்வாகம் மற்றும் தொழில்முனைவோர் ஆவதில் ஆர்வமுள்ள மாணவர்களுக்கு ஏற்றது.",
-        intelligences: { interpersonal: 4, logical: 4, intrapersonal: 3, linguistic: 2 },
-        schoolGroups: ["Commerce + Accountancy", "Commerce + Computer Applications"],
-        entranceExams: ["CUET", "University Admissions"],
-        degreePrograms: ["B.Com", "BBA", "Finance", "Management"],
-        careers: ["Entrepreneur", "Business Analyst", "Accountant", "Financial Consultant"]
+        id: "architecture",
+        name: "Architecture & Planning",
+        icon: "🏛️",
+        description: "Based on your responses, you may enjoy visualising ideas, designing spaces, and combining creativity with practical thinking. This field offers opportunities to shape the places where people live and work.",
+        intelligences: { spatial: 5, logical: 4, bodily: 2 },
+        schoolGroups: ["Mathematics, Physics, Chemistry"],
+        entranceExams: ["NATA", "JEE Main (Paper 2)"],
+        degreePrograms: ["Bachelor of Architecture (B.Arch.)", "Bachelor of Planning (B.Plan.)"],
+        careers: ["Architect", "Urban Planner", "Interior Designer", "Landscape Architect", "Town Planner", "Urban Designer", "Construction Manager", "BIM Specialist", "Quantity Surveyor", "Sustainable Building Consultant"]
     },
     {
         id: "design",
-        name: "Design & Architecture",
+        name: "Design",
         icon: "🎨",
-        description: "Ideal for creative students interested in visual design, architecture, and innovation.",
-        descriptionTamil: "காட்சி வடிவமைப்பு, கட்டிடக்கலை மற்றும் புத்தாக்கத்தில் ஆர்வமுள்ள ஆக்கப்பூர்வமான மாணவர்களுக்கு உகந்தது.",
+        description: "Based on your responses, you show creativity and enjoy expressing ideas in new and innovative ways. You may enjoy creating designs that are both attractive and useful.",
         intelligences: { spatial: 5, intrapersonal: 3, bodily: 2 },
-        schoolGroups: ["Mathematics + Design", "Mathematics + Computer Science"],
-        entranceExams: ["NIFT","NATA", "UCEED", "NID DAT"],
-        degreePrograms: ["B.Arch", "B.Des", "Interior Design", "Animation"],
-        careers: ["Architect", "Graphic Designer", "UI/UX Designer", "Animator"]
+        schoolGroups: ["Any Higher Secondary Group (depending on the institution and specialization)"],
+        entranceExams: ["UCEED", "NID DAT", "NIFT Entrance Examination", "CUET (for selected institutions)"],
+        degreePrograms: ["Bachelor of Design (B.Des.)", "Bachelor of Fine Arts (BFA)", "Bachelor of Fashion Technology (BFTech)", "Bachelor of Interior Design", "Bachelor of Visual Communication"],
+        careers: ["Graphic Designer", "Product Designer", "Fashion Designer", "Interior Designer", "UX/UI Designer", "Animation Artist", "Game Designer", "Industrial Designer", "Jewellery Designer", "Visual Communication Designer"]
+    },
+    {
+        id: "commerce",
+        name: "Commerce, Finance & Accounting",
+        icon: "📊",
+        description: "Based on your responses, you may enjoy working with numbers, understanding business, and making informed decisions. This field offers opportunities to manage finances and support the growth of organisations.",
+        intelligences: { logical: 5, intrapersonal: 3, linguistic: 2 },
+        schoolGroups: ["Commerce", "Commerce with Mathematics", "Mathematics, Physics, Chemistry"],
+        entranceExams: ["CUET", "CA Foundation", "CMA Foundation", "CS Executive Entrance Test (CSEET)"],
+        degreePrograms: ["B.Com.", "B.Com. (Accounting & Finance)", "Bachelor of Business Administration (BBA)", "Bachelor of Economics", "Integrated CA/CMA/CS Pathways"],
+        careers: ["Chartered Accountant", "Financial Analyst", "Investment Banker", "Auditor", "Banking Officer", "Tax Consultant", "Cost Accountant", "Financial Planner", "Risk Analyst", "Accountant"]
+    },
+    {
+        id: "management",
+        name: "Management",
+        icon: "💼",
+        description: "Based on your responses, you may enjoy organising activities, leading teams, and working with people. You may also enjoy planning, decision-making, and solving business challenges.",
+        intelligences: { interpersonal: 5, intrapersonal: 4, linguistic: 3 },
+        schoolGroups: ["Commerce", "Commerce with Mathematics", "Mathematics, Physics, Chemistry", "Any stream"],
+        entranceExams: ["CUET", "IPMAT (Integrated Programme in Management)", "JIPMAT"],
+        degreePrograms: ["Bachelor of Business Administration (BBA)", "Bachelor of Management Studies (BMS)", "Integrated Programme in Management (IPM)", "B.Com.", "Bachelor of Entrepreneurship"],
+        careers: ["Business Manager", "Marketing Manager", "Human Resource Manager", "Operations Manager", "Project Manager", "Product Manager", "Business Analyst", "Entrepreneur", "Retail Manager", "Supply Chain Manager"]
+    },
+    {
+        id: "economics",
+        name: "Economics & Public Policy",
+        icon: "📈",
+        description: "Based on your responses, you may enjoy understanding society, the economy, and how decisions affect people's lives. You may be interested in solving social and economic challenges.",
+        intelligences: { logical: 5, intrapersonal: 3, linguistic: 2 },
+        schoolGroups: ["Commerce", "Commerce with Mathematics", "Humanities", "Mathematics, Physics, Chemistry"],
+        entranceExams: ["CUET"],
+        degreePrograms: ["B.Sc. Economics", "B.A. Economics", "B.A. Public Policy", "B.A. Development Studies", "BBA"],
+        careers: ["Economist", "Policy Analyst", "Development Consultant", "Economic Researcher", "Public Policy Consultant", "CSR Manager", "Programme Officer", "Social Impact Analyst", "Urban Policy Planner", "Development Officer"]
+    },
+    {
+        id: "law",
+        name: "Law",
+        icon: "⚖️",
+        description: "Based on your responses, you may enjoy communication, logical reasoning, and understanding different viewpoints. You may also enjoy solving problems fairly and standing up for justice.",
+        intelligences: { linguistic: 5, logical: 5, interpersonal: 4 },
+        schoolGroups: ["Any Higher Secondary Group"],
+        entranceExams: ["CLAT", "AILET", "SLAT", "LSAT (where applicable)", "CUET (for selected universities)"],
+        degreePrograms: ["B.A. LL.B.", "B.B.A. LL.B.", "B.Com. LL.B.", "B.Sc. LL.B.", "LL.B."],
+        careers: ["Advocate", "Corporate Lawyer", "Judge", "Legal Advisor", "Public Prosecutor", "Legal Officer", "Compliance Officer", "Cyber Law Specialist", "Intellectual Property Lawyer", "Legal Researcher"]
+    },
+    {
+        id: "public_services",
+        name: "Public Services",
+        icon: "🏛️",
+        description: "Based on your responses, you may enjoy serving society, taking responsibility, and making a positive difference in people's lives. This field offers opportunities to contribute to the nation through public service.",
+        intelligences: { intrapersonal: 5, interpersonal: 4, linguistic: 3 },
+        schoolGroups: ["Any Higher Secondary Group"],
+        entranceExams: ["NDA (after Class XII)", "CDS (after graduation)", "UPSC Civil Services Examination (after graduation)", "State Public Service Commission Examinations (after graduation)"],
+        degreePrograms: ["Any Bachelor's Degree (eligible for most Civil Services)", "B.A. Public Administration", "B.A. Political Science", "B.A. History", "B.Com./B.Sc./B.Tech. (all are eligible)"],
+        careers: ["IAS Officer", "IPS Officer", "Indian Forest Service Officer", "Defence Officer", "Police Officer", "Fire & Rescue Officer", "Revenue Officer", "Panchayat Development Officer", "Government Administrative Officer", "Disaster Management Officer"]
+    },
+    {
+        id: "education",
+        name: "Education & Human Development",
+        icon: "🎓",
+        description: "Based on your responses, you may enjoy helping others learn, grow, and achieve their potential. You may find satisfaction in guiding, teaching, and supporting people.",
+        intelligences: { interpersonal: 5, linguistic: 4, intrapersonal: 3 },
+        schoolGroups: ["Any Higher Secondary Group"],
+        entranceExams: ["NCET", "NCERT - CEE", "CUET"],
+        degreePrograms: ["B.A.B.Ed.", "B.Sc.B.Ed.", "B.El.Ed.", "B.A. Psychology"],
+        careers: ["School Teacher", "College Professor", "Special Educator", "School Counsellor", "Educational Psychologist", "Curriculum Developer", "Corporate Trainer", "Instructional Designer", "Child Development Specialist", "Education Administrator"]
+    },
+    {
+        id: "humanities",
+        name: "Humanities & Liberal Arts",
+        icon: "🎭",
+        description: "Based on your responses, you may enjoy understanding people, society, culture, languages, and history. You may like exploring ideas and thinking about the world from different perspectives.",
+        intelligences: { linguistic: 5, interpersonal: 4, intrapersonal: 4 },
+        schoolGroups: ["Humanities", "Commerce", "Any Higher Secondary Group"],
+        entranceExams: ["CUET"],
+        degreePrograms: ["B.A.", "B.A. History", "B.A. Sociology", "B.A. Political Science", "B.A. Psychology", "B. Social Work"],
+        careers: ["Historian", "Archaeologist", "Sociologist", "Political Scientist", "Anthropologist", "Psychologist", "Writer", "Editor", "Social Researcher", "Social Worker"]
     },
     {
         id: "media",
         name: "Media & Communication",
         icon: "🎙️",
-        description: "Suitable for students interested in writing, communication, journalism, and content creation.",
-        descriptionTamil: "எழுதுதல், தகவல் தொடர்பு, இதழியல் மற்றும் உள்ளடக்க உருவாக்கத்தில் (Content creation) ஆர்வமுள்ள மாணவர்களுக்குப் பொருத்தமானது.",
+        description: "Based on your responses, you may enjoy expressing ideas, telling stories, and connecting with people. You may be creative and confident in sharing information through different forms of communication.",
         intelligences: { linguistic: 5, interpersonal: 4, spatial: 2 },
-        schoolGroups: ["Humanities", "Commerce"],
-        entranceExams: ["CUET", "University Admissions"],
-        degreePrograms: ["Journalism", "Mass Communication", "Digital Media"],
-        careers: ["Journalist", "Content Creator", "News Anchor", "Public Relations Officer"]
+        schoolGroups: ["Any Higher Secondary Group"],
+        entranceExams: ["CUET", "IIMC Entrance Examination (when applicable)"],
+        degreePrograms: ["B.A. Journalism", "B.A. Mass Communication", "B.A. Visual Communication", "Bachelor of Multimedia", "Bachelor of Film Studies"],
+        careers: ["Journalist", "News Anchor", "Content Creator", "Public Relations Officer", "Film Director", "Script Writer", "Video Producer", "Advertising Executive", "Social Media Manager", "Corporate Communications Specialist"]
+    },
+    {
+        id: "hospitality",
+        name: "Hospitality, Tourism & Sports",
+        icon: "🏨",
+        description: "Based on your responses, you may enjoy working with people, creating memorable experiences, and working in dynamic environments. You may also enjoy teamwork, communication, and service.",
+        intelligences: { interpersonal: 5, bodily: 4, linguistic: 3 },
+        schoolGroups: ["Any Higher Secondary Group"],
+        entranceExams: ["NCHM JEE", "CUET", "IGNTU-ICI Joint Entrance Examination", "IITTM Admission Test (IIAT)"],
+        degreePrograms: ["B.Sc. Hospitality & Hotel Administration", "Bachelor of Hotel Management (BHM)", "BBA Tourism & Travel Management", "BBA in Culinary Arts", "Bachelor of Physical Education (B.P.Ed.)", "Bachelor of Sports Management"],
+        careers: ["Hotel Manager", "Chef", "Tourism Manager", "Travel Consultant", "Event Manager", "Sports Manager", "Fitness Trainer", "Sports Coach", "Airline Cabin Crew", "Resort Manager"]
     }
 ];
 
@@ -318,120 +461,102 @@ const schoolData = {
 
 /* SYSTEM QUESTIONS MATRIX COLLECTION WITH BILINGUAL SUPPORT */
 const questions = [
-    // LINGUISTIC
-    { id: 1, domain: "linguistic", english: "I enjoy reading books, stories, or articles in my free time.", tamil: "நான் எனது ஓய்வு நேரத்தில் புத்தகங்கள், கதைகள் அல்லது கட்டுரைகளைப் படிப்பதை விரும்புகிறேன்." },
-    { id: 2, domain: "linguistic", english: "I like expressing my thoughts through writing.", tamil: "எனது எண்ணங்களை எழுதுவதன் மூலம் வெளிப்படுத்த எனக்குப் பிடிக்கும்." },
-    { id: 3, domain: "linguistic", english: "I enjoy telling stories or explaining ideas to others.", tamil: "மற்றவர்களுக்குக் கதைகள் சொல்ல அல்லது யோசனைகளை விளக்க நான் விரும்புகிறேன்." },
-    { id: 4, domain: "linguistic", english: "Learning new words and their meanings interests me.", tamil: "புதிய சொற்களையும் அவற்றின் அர்த்தங்களையும் கற்றுக்கொள்வதில் எனக்கு ஆர்வம் உண்டு." },
-    { id: 5, domain: "linguistic", english: "I feel confident speaking in front of a class or audience.", tamil: "வகுப்பறை அல்லது பார்வையாளர்களுக்கு முன்னால் நம்பிக்கையுடன் பேசுவேன்." },
-    { id: 6, domain: "linguistic", english: "I enjoy debates or discussions on different topics.", tamil: "பல்வேறு தலைப்புகளில் விவாதங்கள் அல்லது கலந்துரையாடல்களில் பங்கேற்பதை விரும்புகிறேன்." },
-    { id: 7, domain: "linguistic", english: "I can remember information better by reading it.", tamil: "தகவல்களைப் படிப்பதன் மூலம் என்னால் எளிதாக நினைவில் வைக்க முடியும்." },
-    { id: 8, domain: "linguistic", english: "I like writing poems, essays, or creative stories.", tamil: "கவிதைகள், கட்டுரைகள் அல்லது கற்பனைக் கதைகள் எழுத எனக்குப் பிடிக்கும்." },
-    { id: 9, domain: "linguistic", english: "People often appreciate my communication skills.", tamil: "மக்கள் பெரும்பாலும் எனது தகவல் தொடர்புத் திறனைப் பாராட்டுகிறார்கள்." },
-    { id: 10, domain: "linguistic", english: "I enjoy learning new languages.", tamil: "புதிய மொழிகளைக் கற்றுக்கொள்வதில் நான் மகிழ்ச்சியடைகிறேன்." },
-    { id: 11, domain: "linguistic", english: "I prefer assignments that involve reading or writing.", tamil: "வாசிப்பது அல்லது எழுதுவது தொடர்பான பணிகளை நான் அதிகம் விரும்புகிறேன்." },
-    { id: 12, domain: "linguistic", english: "I can explain complex ideas in a simple way.", tamil: "கடினமான கருத்துக்களையும் என்னால் எளிமையாக விளக்க முடியும்." },
-    { id: 13, domain: "linguistic", english: "I enjoy participating in speeches, quizzes, or literary events.", tamil: "பேச்சுப் போட்டிகள், வினாடி-வினா அல்லது இலக்கிய நிகழ்வுகளில் பங்கேற்பதை விரும்புகிறேன்." },
-    // LOGICAL
-    { id: 14, domain: "logical", english: "I enjoy solving puzzles and brain teasers.", tamil: "புதிர்கள் மற்றும் மூளைக்கு வேலை கொடுக்கும் கணக்குகளை விடுவிப்பதை நான் விரும்புகிறேன்." },
-    { id: 15, domain: "logical", english: "I like finding patterns in numbers or ideas.", tamil: "எண்கள் அல்லது கருத்துக்களில் உள்ள பொதுவான வடிவங்கள்/அமைப்புகளைக் கண்டறிய எனக்குப் பிடிக்கும்." },
-    { id: 16, domain: "logical", english: "I enjoy mathematics and calculations.", tamil: "நான் கணிதம் மற்றும் கணக்கீடுகளைச் செய்வதை விரும்புகிறேன்." },
-    { id: 17, domain: "logical", english: "I solve problems step by step.", tamil: "பிரச்சனைகளுக்கு நான் படிப்படியாகத் தீர்வு காண்பேன்." },
-    { id: 18, domain: "logical", english: "I enjoy science experiments.", tamil: "அறிவியல் சோதனைகளைச் செய்வதில் நான் மகிழ்ச்சியடைகிறேன்." },
-    { id: 19, domain: "logical", english: "I enjoy strategy games.", tamil: "திட்டமிட்டு விளையாடும் உத்தி விளையாட்டுகளை நான் விரும்புகிறேன்." },
-    { id: 20, domain: "logical", english: "I can identify mistakes in information.", tamil: "தகவல்களில் உள்ள பிழைகளை என்னால் எளிதில் அடையாளம் காண முடியும்." },
-    { id: 21, domain: "logical", english: "I enjoy coding or learning about computers.", tamil: "கணினி நிரலாக்கம் (Coding) அல்லது கணினிகளைப் பற்றிக் கற்றுக்கொள்வதை விரும்புகிறேன்." },
-    { id: 22, domain: "logical", english: "I analyse information before making decisions.", tamil: "முடிவுகளை எடுப்பதற்கு முன் தகவல்களைச் சீராகப் பகுப்பாய்வு செய்வேன்." },
-    { id: 23, domain: "logical", english: "I enjoy understanding how machines work.", tamil: "இயந்திரங்கள் எவ்வாறு செயல்படுகின்றன என்பதைப் புரிந்துகொள்வதில் எனக்கு விருப்பம் உண்டு." },
-    { id: 24, domain: "logical", english: "I break large problems into smaller tasks.", tamil: "பெரிய சிக்கல்களைச் சிறிய பகுதிகளாகப் பிரித்துத் தீர்ப்பேன்." },
-    { id: 25, domain: "logical", english: "I often ask why and how things happen.", tamil: "விஷயங்கள் ஏன், எப்படி நடக்கின்றன என்று நான் அடிக்கடி கேள்வி எழுப்புவேன்." },
-    { id: 26, domain: "logical", english: "I enjoy critical thinking activities.", tamil: "தீர்க்கமாகச் சிந்திக்கும் (Critical thinking) செயல்பாடுகளை நான் விரும்புகிறேன்." },
-    // SPATIAL
-    { id: 27, domain: "spatial", english: "I enjoy drawing or sketching.", tamil: "நான் வரைவது அல்லது ஓவியம் தீட்டுவதை விரும்புகிறேன்." },
-    { id: 28, domain: "spatial", english: "I can imagine objects from different angles.", tamil: "பொருட்களை வெவ்வேறு கோணங்களில் என்னால் கற்பனை செய்து பார்க்க முடியும்." },
-    { id: 29, domain: "spatial", english: "I enjoy visual puzzles and mazes.", tamil: "காட்சிப் புதிர்கள் மற்றும் பிரமை (Mazes) விளையாட்டுகளை விரும்புகிறேன்." },
-    { id: 30, domain: "spatial", english: "I enjoy decorating or arranging spaces.", tamil: "இடங்களை அலங்கரிப்பது அல்லது ஒழுங்கமைப்பது எனக்குப் பிடிக்கும்." },
-    { id: 31, domain: "spatial", english: "I learn better through pictures and diagrams.", tamil: "படங்கள் மற்றும் வரைபடங்கள் மூலம் என்னால் சிறப்பாகக் கற்றுக்கொள்ள முடிகிறது." },
-    { id: 32, domain: "spatial", english: "I notice colours, shapes, and designs easily.", tamil: "வண்ணங்கள், வடிவங்கள் மற்றும் வடிவமைப்புக்களை நான் எளிதில் கவனிப்பேன்." },
-    { id: 33, domain: "spatial", english: "I enjoy photography or digital art.", tamil: "புகைப்படம் எடுத்தல் அல்லது டிஜிட்டல் கலையில் எனக்கு ஆர்வம் உண்டு." },
-    { id: 34, domain: "spatial", english: "I can visualize routes and locations easily.", tamil: "வழிகள் மற்றும் இடங்களை என்னால் எளிதில் மனக்கண்ணில் கொண்டுவர முடியும்." },
-    { id: 35, domain: "spatial", english: "I enjoy building models or crafts.", tamil: "மாதிரிகள் (Models) அல்லது கைவினைப் பொருட்கள் செய்வதை விரும்புகிறேன்." },
-    { id: 36, domain: "spatial", english: "I enjoy thinking of creative ideas.", tamil: "படைப்பாற்றல் மிக்க புதிய யோசனைகளைச் சிந்திப்பதை நான் விரும்புகிறேன்." },
-    { id: 37, domain: "spatial", english: "I enjoy architecture and design-related subjects.", tamil: "கட்டிடக்கலை மற்றும் வடிவமைப்பு தொடர்பான பாடங்களை நான் விரும்புகிறேன்." },
-    { id: 38, domain: "spatial", english: "I often think in pictures.", tamil: "நான் பல நேரங்களில் காட்சிகளாகவோ அல்லது படங்களாகவோ சிந்திப்பேன்." },
-    { id: 39, domain: "spatial", english: "I enjoy presenting ideas visually.", tamil: "கருத்துக்களைக் காட்சி வடிவில் வழங்குவதை நான் விரும்புகிறேன்." },
-    // BODILY-KINESTHETIC
-    { id: 40, domain: "bodily", english: "I enjoy sports and physical activities.", tamil: "நான் விளையாட்டுகள் மற்றும் உடல் செயல்பாடுகளை விரும்புகிறேன்." },
-    { id: 41, domain: "bodily", english: "I learn better by doing rather than reading.", tamil: "படிப்பதை விடச் செய்து பார்ப்பதன் மூலம் நான் நன்றாகக் கற்றுக்கொள்கிறேன்." },
-    { id: 42, domain: "bodily", english: "I enjoy building or fixing things.", tamil: "பொருட்களை உருவாக்குவது அல்லது பழுதுபார்ப்பதை நான் விரும்புகிறேன்." },
-    { id: 43, domain: "bodily", english: "I enjoy activities requiring coordination.", tamil: "உடல் உறுப்புகளின் ஒருங்கிணைப்பு தேவைப்படும் செயல்பாடுகளை நான் விரும்புகிறேன்." },
-    { id: 44, domain: "bodily", english: "I enjoy dance, drama, or acting.", tamil: "நடனம், நாடகம் அல்லது நடிப்பை நான் விரும்புகிறேன்." },
-    { id: 45, domain: "bodily", english: "I prefer practical demonstrations.", tamil: "செய்முறை விளக்கங்களை (Practical demonstrations) நான் அதிகம் விரும்புகிறேன்." },
-    { id: 46, domain: "bodily", english: "I enjoy hands-on projects.", tamil: "நேரடியாகக் கைகளால் செய்து பார்க்கும் திட்டப்பணிகளை விரும்புகிறேன்." },
-    { id: 47, domain: "bodily", english: "I learn physical skills quickly.", tamil: "உடல் சார்ந்த திறன்களை நான் விரைவாகக் கற்றுக்கொள்வேன்." },
-    { id: 48, domain: "bodily", english: "I enjoy outdoor adventure activities.", tamil: "வெளிப்புற சாகச நடவடிக்கைகளில் ஈடுபடுவதை நான் விரும்புகிறேன்." },
-    { id: 49, domain: "bodily", english: "I like using tools and equipment.", tamil: "கருவிகள் மற்றும் உபகரணங்களைப் பயன்படுத்த எனக்குப் பிடிக்கும்." },
-    { id: 50, domain: "bodily", english: "I feel energetic when physically active.", tamil: "உடல் ரீதியாக சுறுசுறுப்பாக இருக்கும்போது நான் அதிக ஆற்றலுடன் உணர்கிறேன்." },
-    // MUSICAL
-    { id: 51, domain: "musical", english: "I enjoy listening to music regularly.", tamil: "நான் வழக்கமாக இசை கேட்பதை விரும்புகிறேன்." },
-    { id: 52, domain: "musical", english: "I can easily recognize different tunes and melodies.", tamil: "வெவ்வேறு மெட்டுகள் மற்றும் இசையமைப்புகளை என்னால் எளிதில் அடையாளம் காண முடியும்." },
-    { id: 53, domain: "musical", english: "I enjoy singing songs.", tamil: "பாடல் பாடுவதை நான் விரும்புகிறேன்." },
-    { id: 54, domain: "musical", english: "I like learning musical instruments.", tamil: "இசைக் கருவிகளைக் கற்றுக்கொள்ள எனக்கு விருப்பம் உண்டு." },
-    { id: 55, domain: "musical", english: "I can remember songs easily.", tamil: "பாடல்களை என்னால் எளிதில் நினைவில் வைத்துக் கொள்ள முடியும்." },
-    { id: 56, domain: "musical", english: "I often tap rhythms while studying or working.", tamil: "படிக்கும்போதோ அல்லது வேலை செய்யும்போதோ நான் அடிக்கடி தாளம் போடுவேன்." },
-    { id: 57, domain: "musical", english: "I enjoy participating in music-related activities.", tamil: "இசை தொடர்பான செயல்பாடுகளில் பங்கேற்பதை விரும்புகிறேன்." },
-    { id: 58, domain: "musical", english: "Music helps me concentrate or relax.", tamil: "இசை எனக்குக் கவனத்தை ஒருமுகப்படுத்த அல்லது ஓய்வெடுக்க உதவுகிறது." },
-    { id: 59, domain: "musical", english: "I can identify differences in musical sounds.", tamil: "இசை ஒலிகளில் உள்ள வேறுபாடுகளை என்னால் கண்டறிய முடியும்." },
-    { id: 60, domain: "musical", english: "I enjoy creating or composing music.", tamil: "இசையை உருவாக்க அல்லது இசையமைக்க நான் விரும்புகிறேன்." },
-    { id: 61, domain: "musical", english: "I enjoy learning about different styles of music.", tamil: "பல்வேறு இசை வடிவங்களைப் பற்றிக் கற்றுக்கொள்வதில் எனக்கு விருப்பம் உண்டு." },
-    { id: 62, domain: "musical", english: "I notice rhythm and beat in songs quickly.", tamil: "பாடல்களில் உள்ள லயம் மற்றும் தாளத்தை நான் விரைவாகக் கவனிப்பேன்." },
-    { id: 63, domain: "musical", english: "I enjoy performing music in front of others.", tamil: "மற்றவர்களுக்கு முன்னால் இசை நிகழ்ச்சிகளை நடத்த நான் விரும்புகிறேன்." },
-    // INTERPERSONAL
-    { id: 64, domain: "interpersonal", english: "I enjoy working with classmates on group activities.", tamil: "வகுப்புத் தோழர்களுடன் குழுச் செயல்பாடுகளில் இணைந்து பணியாற்றுவதை விரும்புகிறேன்." },
-    { id: 65, domain: "interpersonal", english: "People often come to me for help or advice.", tamil: "மக்கள் பெரும்பாலும் உதவி அல்லது ஆலோசனைக்காக என்னிடம் வருகிறார்கள்." },
-    { id: 66, domain: "interpersonal", english: "I find it easy to make new friends.", tamil: "புதிய நண்பர்களை உருவாக்குவது எனக்கு எளிதாக உள்ளது." },
-    { id: 67, domain: "interpersonal", english: "I enjoy helping others learn new things.", tamil: "மற்றவர்கள் புதிய விஷயங்களைக் கற்றுக்கொள்ள உதவுவதில் நான் மகிழ்ச்சியடைகிறேன்." },
-    { id: 68, domain: "interpersonal", english: "I enjoy team sports and group projects.", tamil: "கூட்டு விளையாட்டுகள் மற்றும் குழு திட்டப்பணிகளை (Group projects) நான் விரும்புகிறேன்." },
-    { id: 69, domain: "interpersonal", english: "I can understand how others are feeling.", tamil: "மற்றவர்கள் என்ன உணர்கிறார்கள் என்பதை என்னால் புரிந்து கொள்ள முடிகிறது." },
-    { id: 70, domain: "interpersonal", english: "I enjoy organizing activities or events.", tamil: "செயல்பாடுகள் அல்லது நிகழ்ச்சிகளை ஏற்பாடு செய்வதை நான் விரும்புகிறேன்." },
-    { id: 71, domain: "interpersonal", english: "I prefer discussing ideas with others.", tamil: "கருத்துக்களை மற்றவர்களுடன் கலந்துரையாட நான் விரும்புகிறேன்." },
-    { id: 72, domain: "interpersonal", english: "I can resolve disagreements peacefully.", tamil: "கருத்து வேறுபாடுகளை என்னால் அமைதியான முறையில் தீர்க்க முடியும்." },
-    { id: 73, domain: "interpersonal", english: "I enjoy motivating people.", tamil: "மக்களை ஊக்குவிப்பதில் நான் மகிழ்ச்சியடைகிறேன்." },
-    { id: 74, domain: "interpersonal", english: "I am comfortable leading a group discussion.", tamil: "குழு விவாதத்தை வழிநடத்துவதில் நான் தடையின்றி உணர்கிறேன்." },
-    { id: 75, domain: "interpersonal", english: "I enjoy volunteering and community activities.", tamil: "தன்னார்வத் தொண்டு மற்றும் சமூகச் செயல்பாடுகளில் ஈடுபடுவதை விரும்புகிறேன்." },
-    { id: 76, domain: "interpersonal", english: "Teamwork usually produces better results.", tamil: "கூட்டு முயற்சி (Teamwork) எப்போதும் சிறந்த முடிவுகளைத் தரும் என்று நம்புகிறேன்." },
-    // INTRAPERSONAL
-    { id: 77, domain: "intrapersonal", english: "I understand my strengths and weaknesses.", tamil: "எனது பலம் மற்றும் பலவீனங்களை நான் தெளிவாகப் புரிந்து வைத்துள்ளேன்." },
-    { id: 78, domain: "intrapersonal", english: "I set goals and work towards achieving them.", tamil: "நான் இலக்குகளை நிர்ணயித்து அவற்றை அடைய உழைக்கிறேன்." },
-    { id: 79, domain: "intrapersonal", english: "I often think about my future plans.", tamil: "எனது எதிர்காலத் திட்டங்களைப் பற்றி நான் அடிக்கடி சிந்திப்பேன்." },
-    { id: 80, domain: "intrapersonal", english: "I understand my emotions well.", tamil: "எனது உணர்ச்சிகளை நான் நன்றாகப் புரிந்து கொள்கிறேன்." },
-    { id: 81, domain: "intrapersonal", english: "I make important decisions after self-reflection.", tamil: "சுயசிந்தனைக்குப் பிறகே நான் முக்கியமான முடிவுகளை எடுப்பேன்." },
-    { id: 82, domain: "intrapersonal", english: "I stay calm while working independently.", tamil: "தனித்துச் செயல்படும்போது நான் அமைதியாக இருப்பேன்." },
-    { id: 83, domain: "intrapersonal", english: "I learn from my mistakes.", tamil: "நான் செய்த தவறுகளில் இருந்து பாடம் கற்றுக்கொள்கிறேன்." },
-    { id: 84, domain: "intrapersonal", english: "I know which study methods suit me best.", tamil: "எந்த படிப்பு முறை எனக்குச் சிறப்பாகப் பொருந்தும் என்பதை நான் அறிவேன்." },
-    { id: 85, domain: "intrapersonal", english: "I stay calm during difficult situations.", tamil: "கடினமான சூழ்நிலைகளிலும் நான் அமைதியாக இருப்பேன்." },
-    { id: 86, domain: "intrapersonal", english: "I regularly evaluate my progress.", tamil: "எனது முன்னேற்றத்தை நான் தொடர்ந்து மதிப்பீடு செய்வேன்." },
-    { id: 87, domain: "intrapersonal", english: "I confidently express my opinions.", tamil: "எனது கருத்துக்களை நான் நம்பிக்கையுடன் வெளிப்படுத்துவேன்." },
-    { id: 88, domain: "intrapersonal", english: "I take responsibility for my actions.", tamil: "எனது செயல்களுக்கு நானே பொறுப்பேற்கிறேன்." },
-    // NATURALISTIC
-    { id: 89, domain: "naturalistic", english: "I enjoy spending time in nature.", tamil: "இயற்கையோடு நேரத்தைக் கழிக்க நான் விரும்புகிறேன்." },
-    { id: 90, domain: "naturalistic", english: "I enjoy learning about plants and animals.", tamil: "தாவரங்கள் மற்றும் விலங்குகளைப் பற்றிக் கற்றுக்கொள்வதை நான் விரும்புகிறேன்." },
-    { id: 91, domain: "naturalistic", english: "I notice differences among plants, animals, and natural objects.", tamil: "தாவரங்கள், விலங்குகள் மற்றும் இயற்கை பொருட்களுக்கு இடையே உள்ள வேறுபாடுகளை நான் எளிதில் கவனிப்பேன்." },
-    { id: 92, domain: "naturalistic", english: "I enjoy gardening or taking care of plants.", tamil: "தோட்டம் வளர்ப்பது அல்லது தாவரங்களைப் பராமரிப்பதை நான் விரும்புகிறேன்." },
-    { id: 93, domain: "naturalistic", english: "I am interested in protecting the environment.", tamil: "சுற்றுச்சூழலைப் பாதுகாப்பதில் எனக்கு அதிக ஆர்வம் உண்டு." },
-    { id: 94, domain: "naturalistic", english: "I enjoy visiting wildlife parks, zoos, and science museums.", tamil: "வனவிலங்கு பூங்காக்கள், மிருகக்காட்சிசாலைகள் மற்றும் அறிவியல் அருங்காட்சியகங்களுக்குச் செல்வதை விரும்புகிறேன்." },
-    { id: 95, domain: "naturalistic", english: "I enjoy observing weather and natural phenomena.", tamil: "வானிலை மற்றும் இயற்கை நிகழ்வுகளைக் கவனிப்பதை நான் விரும்புகிறேன்." },
-    { id: 96, domain: "naturalistic", english: "I enjoy sorting and classifying objects.", tamil: "பொருட்களை அவற்றின் பண்புகளுக்கேற்ப வரிசைப்படுத்த மற்றும் வகைப்படுத்த எனக்குப் பிடிக்கும்." },
-    { id: 97, domain: "naturalistic", english: "I enjoy documentaries about nature and wildlife.", tamil: "இயற்கை மற்றும் வனவிலங்குகள் பற்றிய ஆவணப்படங்களைப் பார்ப்பதை விரும்புகிறேன்." },
-    { id: 98, domain: "naturalistic", english: "I feel relaxed when I spend time outdoors.", tamil: "இயற்கையான வெளிப்புற இடங்களில் நேரத்தைச் செலவிடும்போது நான் நிம்மதியாக உணர்கிறேன்." },
-    { id: 99, domain: "naturalistic", english: "I enjoy participating in environmental activities.", tamil: "சுற்றுச்சூழல் விழிப்புணர்வு செயல்பாடுகளில் பங்கேற்பதை விரும்புகிறேன்." },
-    { id: 100, domain: "naturalistic", english: "I am curious about ecosystems and how nature works.", tamil: "சுற்றுச்சூழல் அமைப்புகள் (Ecosystems) மற்றும் இயற்கை எவ்வாறு செயல்படுகிறது என்பதை அறிய நான் ஆர்வமாக உள்ளேன்." }
+    // SECTION A — LINGUISTIC INTELLIGENCE (Questions 1–10)
+    { id: 1, domain: "linguistic", english: "I enjoy reading books, articles, or stories.", tamil: "நான் புத்தகங்கள், கட்டுரைகள் அல்லது கதைகளைப் படிப்பதை விரும்புகிறேன்." },
+    { id: 2, domain: "linguistic", english: "I can explain ideas clearly to others.", tamil: "என்னால் மற்றவர்களுக்கு கருத்துக்களை தெளிவாக விளக்க முடியும்." },
+    { id: 3, domain: "linguistic", english: "I enjoy participating in debates or speeches.", tamil: "நான் விவாதங்கள் அல்லது பேச்சுப்போட்டிகளில் பங்கேற்பதை விரும்புகிறேன்." },
+    { id: 4, domain: "linguistic", english: "I like learning new words and meanings.", tamil: "நான் புதிய சொற்களையும் அவற்றின் அர்த்தங்களையும் கற்றுக்கொள்ள விரும்புகிறேன்." },
+    { id: 5, domain: "linguistic", english: "I enjoy writing essays, poems, or stories.", tamil: "நான் கட்டுரைகள், கவிதைகள் அல்லது கதைகள் எழுதுவதை விரும்புகிறேன்." },
+    { id: 6, domain: "linguistic", english: "I enjoy storytelling.", tamil: "நான் கதைகள் சொல்வதை விரும்புகிறேன்." },
+    { id: 7, domain: "linguistic", english: "I enjoy language-based subjects.", tamil: "நான் மொழி சார்ந்த பாடங்களை விரும்புகிறேன்." },
+    { id: 8, domain: "linguistic", english: "I can learn multiple languages easily.", tamil: "என்னால் பல மொழிகளை எளிதாகக் கற்றுக்கொள்ள முடியும்." },
+    { id: 9, domain: "linguistic", english: "I enjoy giving presentations.", tamil: "நான் விளக்கக்காட்சிகளை (Presentations) வழங்குவதை விரும்புகிறேன்." },
+    { id: 10, domain: "linguistic", english: "I can convince others using words.", tamil: "வார்த்தைகளைப் பயன்படுத்தி என்னால் மற்றவர்களை சமாதானப்படுத்தவோ அல்லது நம்பவைக்கவோ முடியும்." },
+    
+    // SECTION B — LOGICAL–MATHEMATICAL INTELLIGENCE (Questions 11–20)
+    { id: 11, domain: "logical", english: "I enjoy solving puzzles and logical problems.", tamil: "புதிர்கள் மற்றும் தர்க்கரீதியான சிக்கல்களைத் தீர்ப்பதை நான் விரும்புகிறேன்." },
+    { id: 12, domain: "logical", english: "I like mathematics and numerical calculations.", tamil: "நான் கணிதம் மற்றும் எண்கணிதக் கணக்கீடுகளை விரும்புகிறேன்." },
+    { id: 13, domain: "logical", english: "I can identify patterns easily.", tamil: "என்னால் வடிவங்களை (Patterns) எளிதாகக் கண்டறிய முடியும்." },
+    { id: 14, domain: "logical", english: "I enjoy science experiments.", tamil: "நான் அறிவியல் சோதனைகளைச் செய்வதை விரும்புகிறேன்." },
+    { id: 15, domain: "logical", english: "I think step-by-step while solving problems.", tamil: "சிக்கல்களைத் தீர்க்கும்போது நான் படிப்படியாகச் சிந்திப்பேன்." },
+    { id: 16, domain: "logical", english: "I enjoy coding or computer-based problem solving.", tamil: "நான் கணினி நிரலாக்கம் (Coding) அல்லது கணினி சார்ந்த சிக்கல்களைத் தீர்ப்பதை விரும்புகிறேன்." },
+    { id: 17, domain: "logical", english: "I am curious about how machines or systems work.", tamil: "இயந்திரங்கள் அல்லது அமைப்புகள் எவ்வாறு செயல்படுகின்றன என்பதை அறிய நான் ஆர்வமாக உள்ளேன்." },
+    { id: 18, domain: "logical", english: "I enjoy analysing data and facts.", tamil: "தரவுகள் (Data) மற்றும் உண்மைகளைப் பகுப்பாய்வு செய்வதை நான் விரும்புகிறேன்." },
+    { id: 19, domain: "logical", english: "I ask 'why' and 'how' frequently.", tamil: "நான் அடிக்கடி 'ஏன்' மற்றும் 'எப்படி' என்று கேள்வி கேட்பேன்." },
+    { id: 20, domain: "logical", english: "I like finding solutions to difficult problems.", tamil: "கடினமான பிரச்சினைகளுக்கு தீர்வு காண்பதை நான் விரும்புகிறேன்." },
+    
+    // SECTION C — SPATIAL INTELLIGENCE (Questions 21–30)
+    { id: 21, domain: "spatial", english: "I enjoy drawing or sketching.", tamil: "நான் வரைவது அல்லது ஓவியம் தீட்டுவதை விரும்புகிறேன்." },
+    { id: 22, domain: "spatial", english: "I can imagine things visually in my mind.", tamil: "என்னால் விஷயங்களை என் மனதில் காட்சியாக கற்பனை செய்ய முடியும்." },
+    { id: 23, domain: "spatial", english: "I enjoy designing posters or models.", tamil: "நான் சுவரொட்டிகள் (Posters) அல்லது மாதிரிகளை வடிவமைப்பதை விரும்புகிறேன்." },
+    { id: 24, domain: "spatial", english: "I can read maps and directions easily.", tamil: "என்னால் வரைபடங்களையும் (Maps) வழிகளையும் எளிதாகப் புரிந்து கொள்ள முடியும்." },
+    { id: 25, domain: "spatial", english: "I notice colours, shapes, and patterns around me.", tamil: "என்னைச் சுற்றியுள்ள வண்ணங்கள், வடிவங்கள் மற்றும் அமைப்புகளை நான் எளிதில் கவனிப்பேன்." },
+    { id: 26, domain: "spatial", english: "I enjoy photography or videography.", tamil: "நான் புகைப்படம் அல்லது வீடியோ எடுப்பதை விரும்புகிறேன்." },
+    { id: 27, domain: "spatial", english: "I can assemble objects using diagrams.", tamil: "விளக்கப்படங்களைப் (Diagrams) பயன்படுத்தி என்னால் பொருட்களை ஒன்றிணைக்க முடியும்." },
+    { id: 28, domain: "spatial", english: "I like visual learning methods.", tamil: "நான் காட்சி வழி கற்றல் முறைகளை (Visual learning) விரும்புகிறேன்." },
+    { id: 29, domain: "spatial", english: "I can understand graphs and charts easily.", tamil: "என்னால் வரைபடங்கள் (Graphs) மற்றும் அட்டவணைகளை (Charts) எளிதாகப் புரிந்து கொள்ள முடியும்." },
+    { id: 30, domain: "spatial", english: "I enjoy creative design work.", tamil: "நான் ஆக்கப்பூர்வமான வடிவமைப்பு வேலைகளை விரும்புகிறேன்." },
+    
+    // SECTION D — BODILY–KINESTHETIC INTELLIGENCE (Questions 31–40)
+    { id: 31, domain: "bodily", english: "I enjoy sports and physical activities.", tamil: "நான் விளையாட்டுகள் மற்றும் உடல் செயல்பாடுகளை விரும்புகிறேன்." },
+    { id: 32, domain: "bodily", english: "I learn better through practical activities.", tamil: "செய்முறைச் செயல்பாடுகள் மூலம் நான் சிறப்பாகக் கற்றுக்கொள்கிறேன்." },
+    { id: 33, domain: "bodily", english: "I enjoy working with tools or equipment.", tamil: "நான் கருவிகள் அல்லது உபகரணங்களுடன் வேலை செய்வதை விரும்புகிறேன்." },
+    { id: 34, domain: "bodily", english: "I enjoy dance, acting, or stage performance.", tamil: "நான் நடனம், நடிப்பு அல்லது மேடை நிகழ்ச்சிகளை விரும்புகிறேன்." },
+    { id: 35, domain: "bodily", english: "I have good coordination and body control.", tamil: "நான் சிறந்த உடல் ஒருங்கிணைப்பு மற்றும் கட்டுப்பாட்டைக் கொண்டுள்ளேன்." },
+    { id: 36, domain: "bodily", english: "I enjoy field work and outdoor activities.", tamil: "நான் களப்பணி மற்றும் வெளிப்புற செயல்பாடுகளை விரும்புகிறேன்." },
+    { id: 37, domain: "bodily", english: "I like practical lab activities.", tamil: "நான் ஆய்வக செய்முறை செயல்பாடுகளை விரும்புகிறேன்." },
+    { id: 38, domain: "bodily", english: "I enjoy creating things with my hands.", tamil: "என் கைகளால் பொருட்களை உருவாக்குவதை நான் விரும்புகிறேன்." },
+    { id: 39, domain: "bodily", english: "I can learn physical skills quickly.", tamil: "உடல் சார்ந்த திறன்களை என்னால் விரைவாகக் கற்றுக்கொள்ள முடியும்." },
+    { id: 40, domain: "bodily", english: "I enjoy participating in competitions and activities.", tamil: "போட்டிகள் மற்றும் செயல்பாடுகளில் பங்கேற்பதை நான் விரும்புகிறேன்." },
+    
+    // SECTION E — MUSICAL INTELLIGENCE (Questions 41–50)
+    { id: 41, domain: "musical", english: "I enjoy listening to music regularly.", tamil: "நான் வழக்கமாக இசை கேட்பதை விரும்புகிறேன்." },
+    { id: 42, domain: "musical", english: "I can identify different tunes or rhythms.", tamil: "வெெவேறு மெட்டுகள் அல்லது தாளங்களை என்னால் அடையாளம் காண முடியும்." },
+    { id: 43, domain: "musical", english: "I enjoy singing or playing instruments.", tamil: "நான் பாடுவதை அல்லது இசைக் கருவிகளை இசைப்பதை விரும்புகிறேன்." },
+    { id: 44, domain: "musical", english: "I remember songs easily.", tamil: "பாடல்களை என்னால் எளிதில் நினைவில் வைத்துக் கொள்ள முடியும்." },
+    { id: 45, domain: "musical", english: "I feel emotionally connected to music.", tamil: "நான் இசையோடு உணர்வுப்பூர்வமாக இணைந்திருப்பதாக உணர்கிறேன்." },
+    { id: 46, domain: "musical", english: "I enjoy creating beats or rhythms.", tamil: "நான் புதிய தாளங்கள் அல்லது லயங்களை உருவாக்குவதை விரும்புகிறேன்." },
+    { id: 47, domain: "musical", english: "I notice sounds around me carefully.", tamil: "என்னைச் சுற்றியுள்ள ஒலிகளை நான் கவனமாகக் கவனிப்பேன்." },
+    { id: 48, domain: "musical", english: "I enjoy cultural or musical performances.", tamil: "நான் கலாச்சார அல்லது இசை நிகழ்ச்சிகளை விரும்புகிறேன்." },
+    { id: 49, domain: "musical", english: "I can focus better with music.", tamil: "இசை கேட்கும்போது என்னால் சிறப்பாகக் கவனம் செலுத்த முடிகிறது." },
+    { id: 50, domain: "musical", english: "I enjoy learning through rhythm or songs.", tamil: "நான் தாளம் அல்லது பாடல்கள் மூலம் கற்றுக்கொள்வதை விரும்புகிறேன்." },
+    
+    // SECTION F — INTERPERSONAL INTELLIGENCE (Questions 51–60)
+    { id: 51, domain: "interpersonal", english: "I enjoy working in teams.", tamil: "நான் குழுக்களாக இணைந்து பணியாற்றுவதை விரும்புகிறேன்." },
+    { id: 52, domain: "interpersonal", english: "My friends often seek my advice.", tamil: "என் நண்பர்கள் பெரும்பாலும் என்னிடம் ஆலோசனை அல்லது உதவி கேட்பார்கள்." },
+    { id: 53, domain: "interpersonal", english: "I can understand others’ emotions easily.", tamil: "மற்றவர்களின் உணர்வுகளை என்னால் எளிதாகப் புரிந்து கொள்ள முடியும்." },
+    { id: 54, domain: "interpersonal", english: "I enjoy helping people solve problems.", tamil: "மக்களின் பிரச்சினைகளைத் தீர்க்க உதவுவதில் நான் மகிழ்ச்சியடைகிறேன்." },
+    { id: 55, domain: "interpersonal", english: "I can lead group activities confidently.", tamil: "என்னால் குழு செயல்பாடுகளை நம்பிக்கையுடன் வழிநடத்த முடியும்." },
+    { id: 56, domain: "interpersonal", english: "I can communicate comfortably with different types of people.", tamil: "பல்வேறு வகையான மக்களுடன் என்னால் வசதியாகத் தொடர்பு கொள்ள முடியும்." },
+    { id: 57, domain: "interpersonal", english: "I enjoy organizing events or activities.", tamil: "நிகழ்ச்சிகள் அல்லது செயல்பாடுகளை ஏற்பாடு செய்வதை நான் விரும்புகிறேன்." },
+    { id: 58, domain: "interpersonal", english: "I can resolve conflicts between people.", tamil: "மக்களுக்கு இடையே ஏற்படும் கருத்து வேறுபாடுகளை என்னால் தீர்க்க முடியும்." },
+    { id: 59, domain: "interpersonal", english: "I enjoy teaching or guiding others.", tamil: "மற்றவர்களுக்குக் கற்பிப்பதை அல்லது வழிகாட்டுவதை நான் விரும்புகிறேன்." },
+    { id: 60, domain: "interpersonal", english: "I enjoy social service and community work.", tamil: "நான் சமூக சேவை மற்றும் சமூக நலப் பணிகளில் ஈடுபடுவதை விரும்புகிறேன்." },
+    
+    // SECTION G — INTRAPERSONAL INTELLIGENCE (Questions 61–70)
+    { id: 61, domain: "intrapersonal", english: "I understand my strengths and weaknesses clearly.", tamil: "எனது பலம் மற்றும் பலவீனங்களை நான் தெளிவாகப் புரிந்து வைத்துள்ளேன்." },
+    { id: 62, domain: "intrapersonal", english: "I spend time reflecting on my goals.", tamil: "எனது இலக்குகளைப் பற்றிச்சிந்திப்பதற்காக நான் நேரத்தைச் செலவிடுகிறேன்." },
+    { id: 63, domain: "intrapersonal", english: "I can work independently without supervision.", tamil: "கண்காணிப்பு இல்லாமலேயே என்னால் தனித்துச் செயல்பட முடியும்." },
+    { id: 64, domain: "intrapersonal", english: "I stay motivated even during difficulties.", tamil: "கடினமான சூழ்நிலைகளிலும் நான் ஊக்கத்துடன் இருப்பேன்." },
+    { id: 65, domain: "intrapersonal", english: "I make decisions carefully.", tamil: "நான் முடிவுகளை கவனமாக எடுப்பேன்." },
+    { id: 66, domain: "intrapersonal", english: "I know what interests me most.", tamil: "எனக்கு எது மிகவும் பிடிக்கும்/ஆர்வமூட்டும் என்பதை நான் அறிவேன்." },
+    { id: 67, domain: "intrapersonal", english: "I remain calm during stressful situations.", tamil: "மனஅழுத்தம் நிறைந்த சூழ்நிலைகளிலும் நான் அமைதியாக இருப்பேன்." },
+    { id: 68, domain: "intrapersonal", english: "I like planning my future.", tamil: "எனது எதிர்காலத்தைத் திட்டமிடுவதை நான் விரும்புகிறேன்." },
+    { id: 69, domain: "intrapersonal", english: "I am disciplined in completing tasks.", tamil: "பணிகளை முடிப்பதில் நான் ஒழுங்குமுறையுடன் செயல்படுவேன்." },
+    { id: 70, domain: "intrapersonal", english: "I learn from my mistakes.", tamil: "நான் செய்த தவறுகளில் இருந்து பாடம் கற்றுக்கொள்கிறேன்." },
+    
+    // SECTION H — NATURALISTIC INTELLIGENCE (Questions 71–80)
+    { id: 71, domain: "naturalistic", english: "I enjoy spending time in nature.", tamil: "இயற்கையோடு நேரத்தைக் கழிக்க நான் விரும்புகிறேன்." },
+    { id: 72, domain: "naturalistic", english: "I am interested in plants, animals, or farming.", tamil: "தாவரங்கள், விலங்குகள் அல்லது விவசாயத்தில் எனக்கு ஆர்வம் உண்டு." },
+    { id: 73, domain: "naturalistic", english: "I notice environmental changes around me.", tamil: "என்னைச் சுற்றியுள்ள சுற்றுச்சூழல் மாற்றங்களை நான் கவனிப்பேன்." },
+    { id: 74, domain: "naturalistic", english: "I enjoy gardening or agricultural activities.", tamil: "தோட்டம் வளர்ப்பது அல்லது விவசாயச் செயல்பாடுகளை நான் விரும்புகிறேன்." },
+    { id: 75, domain: "naturalistic", english: "I care about environmental protection.", tamil: "சுற்றுச்சூழலைப் பாதுகாப்பதில் நான் அக்கறை கொண்டுள்ளேன்." },
+    { id: 76, domain: "naturalistic", english: "I enjoy learning about weather and climate.", tamil: "வானிலை மற்றும் காலநிலை பற்றிக் கற்றுக்கொள்வதை நான் விரும்புகிறேன்." },
+    { id: 77, domain: "naturalistic", english: "I like observing living things closely.", tamil: "உயிரினங்களை உற்று நோக்குவதை நான் விரும்புகிறேன்." },
+    { id: 78, domain: "naturalistic", english: "I am curious about natural resources.", tamil: "இயற்கை வளங்களைப் பற்றி அறிய நான் ஆர்வமாக உள்ளேன்." },
+    { id: 79, domain: "naturalistic", english: "I enjoy science topics related to nature.", tamil: "இயற்கை தொடர்பான அறிவியல் தலைப்புகளை நான் விரும்புகிறேன்." },
+    { id: 80, domain: "naturalistic", english: "I enjoy rural development or community development activities.", tamil: "கிராமப்புற மேம்பாடு அல்லது சமூக மேம்பாட்டுச் செயல்பாடுகளை நான் விரும்புகிறேன்." }
 ];
-
-/* MAP IMAGES AUTOMATICALLY ON INIT */
-questions.forEach(q => {
-    q.image = `images/Q${q.id}.jpg`;
-});
 
 /* DOM TARGET BINDINGS */
 const studentEmis = document.getElementById("studentEmis");
@@ -547,7 +672,6 @@ function renderQuestion() {
     questionCard.className = "question-card";
     
     let compiledContent = `<h2 class="question-title-tamil">${currentLanguageMode === "tamil" ? question.tamil : question.english}</h2>`;
-
     let metaLabelText = currentLanguageMode === "tamil" ? `வினா ${currentQuestion + 1} (மொத்தம் ${questions.length})` : `Question ${currentQuestion + 1} of ${questions.length}`;
 
     questionCard.innerHTML = `
@@ -704,11 +828,9 @@ function calculateIntelligenceScoresFromSet(answersSet) {
 }
 
 function getStrengthLevel(score) {
-    if (score >= 85) return "Exceptional";
-    if (score >= 70) return "Very Strong";
-    if (score >= 55) return "Strong";
-    if (score >= 40) return "Moderate";
-    return "Emerging";
+    if (score >= 80) return "Very Strong";
+    if (score >= 60) return "Strong";
+    return "Moderate";
 }
 
 function getTopStrengths(scores) {
@@ -719,13 +841,34 @@ function getTopStrengths(scores) {
 }
 
 function calculateCareerMatches(intelligenceScores) {
-    const results = careerClusters.map(cluster => {
+    const streamMappers = [
+        { id: "engineering", name: "Engineering & Technology", icon: "⚙️", intelligences: { logical: 5, spatial: 4, bodily: 2 } },
+        { id: "computer_science", name: "Computer Science & Digital Technologies", icon: "💻", intelligences: { logical: 5, intrapersonal: 4, spatial: 3 } },
+        { id: "science_research", name: "Science & Research", icon: "🔬", intelligences: { logical: 5, naturalistic: 4, intrapersonal: 3 } },
+        { id: "medicine", name: "Medicine", icon: "🩺", intelligences: { naturalistic: 3, logical: 4, interpersonal: 5 } },
+        { id: "paramedical", name: "Paramedical & Allied Health Sciences", icon: "🏥", intelligences: { interpersonal: 5, bodily: 4, logical: 3 } },
+        { id: "agriculture", name: "Agriculture & Food Technology", icon: "🌾", intelligences: { naturalistic: 5, logical: 3, bodily: 4 } },
+        { id: "environment", name: "Environment & Sustainability", icon: "🌿", intelligences: { naturalistic: 5, logical: 4, intrapersonal: 3 } },
+        { id: "architecture", name: "Architecture & Planning", icon: "🏛️", intelligences: { spatial: 5, logical: 4, bodily: 2 } },
+        { id: "design", name: "Design", icon: "🎨", intelligences: { spatial: 5, intrapersonal: 3, bodily: 2 } },
+        { id: "commerce", name: "Commerce, Finance & Accounting", icon: "📊", intelligences: { logical: 5, intrapersonal: 3, linguistic: 2 } },
+        { id: "management", name: "Management", icon: "💼", intelligences: { interpersonal: 5, intrapersonal: 4, linguistic: 3 } },
+        { id: "economics", name: "Economics & Public Policy", icon: "📈", intelligences: { logical: 5, intrapersonal: 3, linguistic: 2 } },
+        { id: "law", name: "Law", icon: "⚖️", intelligences: { linguistic: 5, logical: 5, interpersonal: 4 } },
+        { id: "public_services", name: "Public Services", icon: "🏛️", intelligences: { intrapersonal: 5, interpersonal: 4, linguistic: 3 } },
+        { id: "education", name: "Education & Human Development", icon: "🎓", intelligences: { interpersonal: 5, linguistic: 4, intrapersonal: 3 } },
+        { id: "humanities", name: "Humanities & Liberal Arts", icon: "🎭", intelligences: { linguistic: 5, interpersonal: 4, intrapersonal: 4 } },
+        { id: "media", name: "Media & Communication", icon: "🎙️", intelligences: { linguistic: 5, interpersonal: 4, spatial: 2 } },
+        { id: "hospitality", name: "Hospitality, Tourism & Sports", icon: "🏨", intelligences: { interpersonal: 5, bodily: 4, linguistic: 3 } }
+    ];
+
+    const results = streamMappers.map(cluster => {
         let totalScore = 0; 
         let totalWeight = 0;
         let breakdownLog = [];
 
         Object.entries(cluster.intelligences).forEach(([domainId, weight]) => {
-            const domainScore = intelligenceScores.percentage[domainId] || 0;
+            const domainScore = intelligenceScores.percentage[domainId] || 50;
             totalScore += domainScore * weight; 
             totalWeight += weight;
             breakdownLog.push({
@@ -734,12 +877,6 @@ function calculateCareerMatches(intelligenceScores) {
                 weight: weight
             });
         });
-        if (cluster.id === "design" && intelligenceScores.percentage.spatial >= 75) {
-            totalScore += 50;
-        }
-        if (cluster.id === "media" && intelligenceScores.percentage.linguistic >= 75) {
-            totalScore += 50;
-        }
         
         const matchScore = totalWeight > 0 ? Math.min(Math.round(totalScore / totalWeight), 100) : 0;
         return { ...cluster, matchScore, breakdownLog, totalScore, totalWeight };
@@ -750,7 +887,7 @@ function calculateCareerMatches(intelligenceScores) {
 function buildReportDataFromSet(info, answersSet) {
     const intelligenceScores = calculateIntelligenceScoresFromSet(answersSet);
     const topStrengths = getTopStrengths(intelligenceScores);
-    const topStreams = calculateCareerMatches(intelligenceScores).slice(0,3);
+    const topStreams = calculateCareerMatches(intelligenceScores).slice(0, 3);
 
     return {
         student: info,
@@ -792,14 +929,14 @@ function commitRecordToAdminDatabase(info, answersSet) {
 
 function validateAssessment() {
     loadStudentInfo();
-    if (!studentInfo.name || !studentInfo.emis || !studentInfo.class || !studentInfo.medium || !studentInfo.school || !studentInfo.district) {
+    if (!studentInfo.name || !studentInfo.class || !studentInfo.medium || !studentInfo.school || !studentInfo.district) {
         const errorMsg = currentLanguageMode === "tamil" ? "அறிக்கையை உருவாக்குவதற்கு முன் அனைத்து சுயவிவரப் பதிவுப் புலங்களையும் பூர்த்தி செய்யவும்." : "Please complete all profile registration fields before generating the report.";
         alert(errorMsg);
         return false;
     }
     const answeredTotal = Object.keys(answers).length;
     if (answeredTotal < questions.length) {
-        const errorMsg = currentLanguageMode === "tamil" ? `மதிப்பீடு முழுமையடையவில்லை. நீங்கள் 100 வினாக்களில் ${answeredTotal} வினாக்களுக்கு மட்டுமே பதிலளித்துள்ளீர்கள்.` : `Evaluation incomplete. You have answered ${answeredTotal} out of ${questions.length} questions.`;
+        const errorMsg = currentLanguageMode === "tamil" ? `மதிப்பீடு முழுமையடையவில்லை. நீங்கள் 80 வினாக்களில் ${answeredTotal} வினாக்களுக்கு மட்டுமே பதிலளித்துள்ளீர்கள்.` : `Evaluation incomplete. You have answered ${answeredTotal} out of ${questions.length} questions.`;
         alert(errorMsg);
         return false;
     }
@@ -844,56 +981,349 @@ function displayReportHTML(reportData, targetContainer) {
     }).sort((a,b) => b.score - a.score);
 
     const primaryDomainId = reportData.topStrengths[0].id;
-    const secondaryDomainId = reportData.topStrengths[1].id;
 
-    const learnBestText = `${learnBestTranslations[primaryDomainId].english} As well as ${learnBestTranslations[secondaryDomainId].english}`;
-    const skillsText1 = skillsDevelopTranslations[primaryDomainId].english;
-    const skillsText2 = skillsDevelopTranslations[secondaryDomainId].english;
+    function getCustomAssociationText(domainId, score) {
+        let association = "";
+        let text = "";
+        
+        if (score >= 80) {
+            association = "Very Strong Association";
+        } else if (score >= 60) {
+            association = "Strong Association";
+        } else {
+            association = "Moderate Association";
+        }
+
+        const texts = {
+            linguistic: {
+                "Very Strong Association": "You enjoy expressing your ideas through speaking and writing. You like reading, learning new words, listening to others, and communicating your thoughts clearly.",
+                "Strong Association": "You communicate your ideas confidently and enjoy reading, writing, and learning new words. You are comfortable expressing yourself and can communicate effectively in most situations.",
+                "Moderate Association": "You can express your ideas and understand language-based activities when needed, but reading, writing, or speaking may not be your preferred interests. With regular practice, your communication skills can become stronger."
+            },
+            logical: {
+                "Very Strong Association": "You enjoy solving problems, identifying patterns, and thinking logically. You like analysing information, asking questions, and finding practical solutions.",
+                "Strong Association": "You enjoy solving problems and using logical thinking in different situations. You are comfortable analysing information, recognising patterns, and making well-reasoned decisions.",
+                "Moderate Association": "You can solve problems and think logically when needed, but analytical tasks may not always be your preferred choice. With regular practice, you can strengthen your reasoning and problem-solving skills."
+            },
+            spatial: {
+                "Very Strong Association": "You enjoy thinking visually and imagining how things look or fit together. You may like drawing, designing, building, or understanding maps and diagrams.",
+                "Strong Association": "You are comfortable using visual thinking to understand ideas and solve problems. You enjoy activities such as drawing, designing, creating, or working with maps and diagrams.",
+                "Moderate Association": "You can understand and use visual information when needed, but creative and design-based activities may not always be your preferred choice. With practice, you can develop stronger visual thinking and design skills."
+            },
+            bodily: {
+                "Very Strong Association": "You enjoy learning by doing and using your hands to complete tasks. You like building, creating, experimenting, playing sports, or participating in physical activities.",
+                "Strong Association": "You are comfortable using hands-on methods to learn and solve problems. You enjoy practical activities, movement, and working with tools or materials.",
+                "Moderate Association": "You can perform practical and physical tasks when needed, but hands-on activities may not always be your preferred way of learning. With practice, you can improve your coordination and practical skills."
+            },
+            musical: {
+                "Very Strong Association": "You enjoy music and easily recognise rhythms, melodies, and sounds. You may like singing, playing musical instruments, listening to music, or creating your own tunes.",
+                "Strong Association": "You enjoy music and appreciate different rhythms and melodies. You are comfortable participating in musical activities such as singing, listening, or learning an instrument.",
+                "Moderate Association": "You enjoy music occasionally and can recognise basic rhythms and melodies, but musical activities may not always be your preferred interest. With practice, you can develop stronger musical skills and appreciation."
+            },
+            interpersonal: {
+                "Very Strong Association": "You enjoy working with others and understand their thoughts and feelings. You like helping people, collaborating in teams, and communicating effectively in different situations.",
+                "Strong Association": "You work well with others and are comfortable communicating, cooperating, and building positive relationships. You enjoy participating in group activities and supporting those around you.",
+                "Moderate Association": "You can work with others and communicate when needed, but group interactions may not always be your preferred choice. With practice, you can develop stronger teamwork and communication skills."
+            },
+            intrapersonal: {
+                "Very Strong Association": "You have a good understanding of your thoughts, feelings, strengths, and goals. You enjoy reflecting on your experiences and making decisions that match your values and interests.",
+                "Strong Association": "You are aware of your strengths and areas for improvement. You can reflect on your experiences and make thoughtful decisions about your learning and personal growth.",
+                "Moderate Association": "You understand yourself in many situations, but self-reflection may not always come naturally. With regular reflection and goal setting, you can strengthen your self-awareness and personal development."
+            },
+            naturalistic: {
+                "Very Strong Association": "You enjoy exploring nature and learning about plants, animals, and the environment. You like observing the natural world, recognising patterns in nature, and caring for living things.",
+                "Strong Association": "You appreciate nature and enjoy learning about the environment. You are interested in observing plants, animals, and natural surroundings, and you care about protecting them.",
+                "Moderate Association": "You understand and appreciate nature when needed, but activities related to the environment may not always be your preferred interest. With more exposure, you can develop a stronger connection with the natural world."
+            }
+        };
+
+        text = texts[domainId] ? texts[domainId][association] : "";
+        return { association, text };
+    }
+
+    function getLearningStyleNotes(domainId) {
+        const styles = {
+            linguistic: "You learn best when you read, write, listen, discuss, and express your ideas. Activities such as reading books, storytelling, presentations, debates, and writing can help you understand and remember new concepts.",
+            logical: "You learn best when you solve problems, analyse information, identify patterns, and understand how things work. Puzzles, experiments, mathematical activities, and logical reasoning help you learn effectively.",
+            spatial: "You learn best through pictures, diagrams, models, maps, videos, and visual demonstrations. Drawing, designing, and using visual aids can make learning easier and more enjoyable.",
+            bodily: "You learn best through hands-on activities, practical experiences, movement, and doing things yourself. Projects, experiments, sports, role plays, and model building help you understand concepts better.",
+            musical: "You learn best when lessons include music, rhythm, sounds, or patterns. Songs, rhymes, musical activities, and listening can help you remember and understand new information.",
+            interpersonal: "You learn best when you work with others, share ideas, and participate in group activities. Discussions, teamwork, peer learning, and collaborative projects help you learn effectively.",
+            intrapersonal: "You learn best when you have time to think, reflect, and work independently. Setting personal goals, self-study, and quiet reflection help you understand and apply new knowledge.",
+            naturalistic: "You learn best by exploring nature and connecting what you learn to the world around you. Activities such as observing plants and animals, outdoor learning, field visits, environmental projects, and hands-on experiences help you understand and remember concepts more effectively."
+        };
+        return styles[domainId] || "";
+    }
+
+    const extendedCareerMaster = {
+        "engineering": {
+            description: "Based on your responses, you show strengths that are well suited to this career field. You may enjoy solving problems, understanding how things work, and creating practical solutions.",
+            subDescription: "This career field offers opportunities to design, build, improve, and innovate across areas such as engineering, manufacturing, robotics, electronics, and new technologies.",
+            careers: ["Mechanical Engineer", "Civil Engineer", "Electrical Engineer", "Electronics Engineer", "Robotics Engineer", "Aerospace Engineer", "Mechatronics Engineer", "Manufacturing Engineer", "Renewable Energy Engineer", "Industrial Engineer"],
+            group: "Mathematics, Physics, Chemistry (MPC) or Mathematics, Physics, Chemistry, Computer Science (MPCS)",
+            exams: ["JEE Main", "JEE Advanced", "State Engineering Entrance Examinations", "CUET (for participating universities)", "Tamil Nadu Engineering Admissions Counseling with XII Board Exam Marks"],
+            degrees: ["B.E.", "B.Tech.", "Integrated M.Tech.", "Dual Degree Programmes"],
+            parentGuidance: "Encourage your child to develop problem-solving and analytical skills through science, mathematics, and hands-on activities. Support participation in science exhibitions, robotics clubs, innovation challenges, and STEM competitions to build curiosity and confidence."
+        },
+        "computer_science": {
+            description: "Your responses suggest that you enjoy logical thinking, technology, and solving problems in a systematic way.",
+            subDescription: "This career field offers opportunities to create software, develop apps, build websites, analyse data, work with artificial intelligence, and develop digital solutions.",
+            careers: ["Software Developer", "Artificial Intelligence Engineer", "Data Scientist", "Cybersecurity Analyst", "Cloud Engineer", "Machine Learning Engineer", "Mobile App Developer", "Full Stack Developer", "UI/UX Designer", "Blockchain Developer"],
+            group: "Mathematics, Physics, Chemistry, Computer Science or Mathematics, Physics, Chemistry",
+            exams: ["JEE Main", "JEE Advanced", "CUET", "State Engineering Entrance Examinations"],
+            degrees: ["B.Tech. Computer Science & Engineering", "B.Tech. Artificial Intelligence & Data Science", "B.Tech. Information Technology", "B.Sc. Computer Science", "Bachelor of Computer Applications (BCA)"],
+            parentGuidance: "Encourage your child to explore coding, digital tools, and technology-based learning. Support participation in coding competitions, hackathons, robotics clubs, and online learning platforms to build confidence and practical skills."
+        },
+        "science_research": {
+            description: "Your responses show curiosity and a desire to understand how things work. You may enjoy asking questions, exploring ideas, and discovering new knowledge.",
+            subDescription: "This career field offers opportunities to conduct research, perform experiments, develop new technologies, and contribute to scientific discoveries.",
+            careers: ["Research Scientist", "Physicist", "Chemist", "Biotechnologist", "Microbiologist", "Environmental Scientist", "Food Scientist", "Clinical Research Associate", "Space Scientist", "Materials Scientist"],
+            group: "Mathematics, Physics, Chemistry, Biology or Mathematics, Physics, Chemistry or Biology, Physics, Chemistry",
+            exams: ["IISER Aptitude Test (IAT)", "NEST", "CUET", "JEE Main (for selected programmes)"],
+            degrees: ["B.Sc.", "BS-MS Integrated Programme", "Integrated M.Sc.", "B.Tech. (Research Programmes)"],
+            parentGuidance: "Encourage your child's curiosity by supporting science projects, experiments, exhibitions, and reading beyond textbooks. Appreciate questions and encourage independent thinking."
+        },
+        "medicine": {
+            description: "Based on your responses, you may enjoy learning about science while helping others lead healthier lives.",
+            subDescription: "This career field offers opportunities to diagnose illnesses, treat patients, promote good health, and improve the well-being of individuals and communities.",
+            careers: ["Doctor", "Surgeon", "Paediatrician", "Psychiatrist", "Cardiologist", "Radiologist", "Dermatologist", "Anaesthesiologist", "Public Health Specialist", "Medical Researcher"],
+            group: "Biology, Physics, Chemistry (PCB)",
+            exams: ["NEET-UG"],
+            degrees: ["MBBS", "BDS", "BAMS", "BHMS", "BSMS"],
+            parentGuidance: "Support your child in developing strong study habits, compassion, and perseverance. Encourage healthy routines, scientific curiosity, and a commitment to helping others."
+        },
+        "paramedical": {
+            description: "Your responses suggest that you enjoy supporting and caring for others. You may enjoy practical work that makes a positive difference in people's lives.",
+            subDescription: "This career field offers opportunities in healthcare services such as medical laboratories, physiotherapy, radiology, emergency care, and rehabilitation.",
+            careers: ["Physiotherapist", "Medical Laboratory Technologist", "Radiographer", "Occupational Therapist", "Optometrist", "Audiologist", "Dialysis Technologist", "Emergency Medical Technician", "Operation Theatre Technologist", "Nutritionist"],
+            group: "Biology, Physics, Chemistry (PCB)",
+            exams: ["NEET (for selected programmes)", "AIIMS Nursing", "AIIMS Paramedical", "NIMHANS Paramedical", "CUET", "State Entrance Examinations", "Institution-specific Entrance Tests", "Tamil Nadu Paramedical Counseling with XII Board Exam marks"],
+            degrees: ["B.Sc. Allied Health Sciences", "Bachelor of Physiotherapy (BPT)", "B.Sc. Medical Laboratory Technology", "B.Sc. Radiography", "B.Optom"],
+            parentGuidance: "Help your child understand the many career opportunities available in healthcare beyond medicine. Encourage empathy, discipline, and participation in health awareness programmes."
+        },
+        "agriculture": {
+            description: "Your responses suggest an interest in nature, farming, food, and sustainable living.",
+            subDescription: "This career field offers opportunities to improve agriculture, develop better food products, increase food production, and support rural development.",
+            careers: ["Agricultural Officer", "Agricultural Scientist", "Food Technologist", "Horticulturist", "Dairy Technologist", "Agribusiness Manager", "Soil Scientist", "Seed Technologist", "Fisheries Officer", "Farm Manager"],
+            group: "Biology, Physics, Chemistry or Mathematics, Physics, Chemistry or Agriculture (where offered)",
+            exams: ["ICAR AIEEA", "CUET", "State Agricultural University Entrance Examinations", "Tamil Nadu Agriculture Counseling with XII Board Exam marks"],
+            degrees: ["B.Sc. Agriculture", "B.Tech. Food Technology", "B.Sc. Horticulture", "B.Sc. Forestry", "B.F.Sc."],
+            parentGuidance: "Encourage your child to appreciate agriculture, sustainability, and food systems. Exposure to farming, gardening, and environmental activities can help build lasting interest."
+        },
+        "environment": {
+            description: "Based on your responses, you care about nature and protecting the environment. You may enjoy finding solutions to environmental challenges and promoting sustainable living.",
+            subDescription: "This career field offers engineering and diagnostic structural spaces tailored to environmental assessment pathways.",
+            careers: ["Environmental Engineer", "Sustainability Consultant", "Wildlife Biologist", "Forest Officer", "Climate Change Analyst", "Conservation Scientist", "Environmental Planner", "GIS Specialist", "Renewable Energy Consultant", "Waste Management Specialist"],
+            group: "Biology, Physics, Chemistry or Mathematics, Physics, Chemistry",
+            exams: ["CUET", "ICAR AIEEA", "JEE Main (for Environmental Engineering)"],
+            degrees: ["B.Sc. Environmental Science", "B.Tech. Environmental Engineering", "B.Sc. Forestry", "B.Sc. Wildlife Science", "B.Sc. Earth Sciences"],
+            parentGuidance: "Support your child's interest in nature through eco-clubs, field visits, environmental campaigns, and outdoor activities that promote conservation and sustainability."
+        },
+        "architecture": {
+            description: "Based on your responses, you may enjoy visualising ideas, designing spaces, and combining creativity with practical thinking. This field offers opportunities to shape the places where people live and work.",
+            subDescription: "This field includes highly structured architectural layouts, urban master-planning systems, and internal structural design metrics.",
+            careers: ["Architect", "Urban Planner", "Interior Designer", "Landscape Architect", "Town Planner", "Urban Designer", "Construction Manager", "BIM Specialist", "Quantity Surveyor", "Sustainable Building Consultant"],
+            group: "Mathematics, Physics, Chemistry",
+            exams: ["NATA", "JEE Main (Paper 2)"],
+            degrees: ["Bachelor of Architecture (B.Arch.)", "Bachelor of Planning (B.Plan.)"],
+            parentGuidance: "Encourage your child's creativity through drawing, model making, design activities, and observation of buildings and public spaces. Appreciate both creativity and practical thinking."
+        },
+        "design": {
+            description: "Based on your responses, you show creativity and enjoy expressing ideas in new and innovative ways. You may enjoy creating designs that are both attractive and useful.",
+            subDescription: "This field offers opportunities across industrial branding systems, visual UI/UX templates, and structural fine arts specialization.",
+            careers: ["Graphic Designer", "Product Designer", "Fashion Designer", "Interior Designer", "UX/UI Designer", "Animation Artist", "Game Designer", "Industrial Designer", "Jewellery Designer", "Visual Communication Designer"],
+            group: "Any Higher Secondary Group (depending on the institution and specialization). Mathematics is recommended for certain design programmes.",
+            exams: ["UCEED", "NID DAT", "NIFT Entrance Examination", "CUET (for selected institutions)", "Institution-specific Entrance Examinations"],
+            degrees: ["Bachelor of Design (B.Des.)", "Bachelor of Fine Arts (BFA)", "Bachelor of Fashion Technology (BFTech)", "Bachelor of Interior Design", "Bachelor of Visual Communication"],
+            parentGuidance: "Encourage your child's creativity through art, design, photography, digital tools, and creative projects. Appreciate original ideas and provide opportunities to participate in exhibitions, competitions, and workshops."
+        },
+        "commerce": {
+            description: "Based on your responses, you may enjoy working with numbers, understanding business, and making informed decisions. This field offers opportunities to manage finances and support the growth of organisations.",
+            subDescription: "This path maps professional finance operations across corporate accounting frameworks, audit structures, and global banking setups.",
+            careers: ["Chartered Accountant", "Financial Analyst", "Investment Banker", "Auditor", "Banking Officer", "Tax Consultant", "Cost Accountant", "Financial Planner", "Risk Analyst", "Accountant"],
+            group: "Commerce or Commerce with Mathematics or Mathematics, Physics, Chemistry",
+            exams: ["CUET", "CA Foundation", "CMA Foundation", "CS Executive Entrance Test (CSEET)"],
+            degrees: ["B.Com.", "B.Com. (Accounting & Finance)", "Bachelor of Business Administration (BBA)", "Bachelor of Economics", "Integrated CA/CMA/CS Pathways"],
+            parentGuidance: "Help your child develop financial awareness and business understanding. Encourage responsible money management, logical thinking, and participation in business and entrepreneurship activities."
+        },
+        "management": {
+            description: "Based on your responses, you may enjoy organising activities, leading teams, and working with people. You may also enjoy planning, decision-making, and solving business challenges.",
+            subDescription: "This standard operations workspace maps executive leadership parameters across retail management, corporate governance, and entrepreneurial systems.",
+            careers: ["Business Manager", "Marketing Manager", "Human Resource Manager", "Operations Manager", "Project Manager", "Product Manager", "Business Analyst", "Entrepreneur", "Retail Manager", "Supply Chain Manager"],
+            group: "Commerce or Commerce with Mathematics or Mathematics, Physics, Chemistry or Any stream",
+            exams: ["CUET", "IPMAT (Integrated Programme in Management)", "JIPMAT", "Institution-specific Entrance Examinations"],
+            degrees: ["Bachelor of Business Administration (BBA)", "Bachelor of Management Studies (BMS)", "Integrated Programme in Management (IPM)", "B.Com.", "Bachelor of Entrepreneurship"],
+            parentGuidance: "Encourage leadership, teamwork, communication, and decision-making. Give your child opportunities to organise events, take responsibility, and develop confidence."
+        },
+        "economics": {
+            description: "Based on your responses, you may enjoy understanding society, the economy, and how decisions affect people's lives. You may be interested in solving social and economic challenges.",
+            subDescription: "This pipeline covers structured economic evaluation models, policy design criteria, and socio-economic developmental strategies.",
+            careers: ["Economist", "Policy Analyst", "Development Consultant", "Economic Researcher", "Public Policy Consultant", "CSR Manager", "Programme Officer", "Social Impact Analyst", "Urban Policy Planner", "Development Officer"],
+            group: "Commerce or Commerce with Mathematics or Humanities or Mathematics, Physics, Chemistry",
+            exams: ["CUET", "Institution-specific Entrance Examinations"],
+            degrees: ["B.A. Economics", "B.Sc. Economics", "B.A. Public Policy", "B.A. Development Studies", "BBA"],
+            parentGuidance: "Encourage your child to read newspapers, discuss current affairs, and understand social and economic issues. Help them develop analytical thinking and awareness of the world around them."
+        },
+        "law": {
+            description: "Based on your responses, you may enjoy communication, logical reasoning, and understanding different viewpoints. You may also enjoy solving problems fairly and standing up for justice.",
+            subDescription: "This maps modern judicial paths across regulatory systems, compliance logic fields, and dynamic defense representation options.",
+            careers: ["Advocate", "Corporate Lawyer", "Judge", "Legal Advisor", "Public Prosecutor", "Legal Officer", "Compliance Officer", "Cyber Law Specialist", "Intellectual Property Lawyer", "Legal Researcher"],
+            group: "Any Higher Secondary Group",
+            exams: ["CLAT", "AILET", "SLAT", "LSAT (where applicable)", "CUET (for selected universities)"],
+            degrees: ["B.A. LL.B.", "B.B.A. LL.B.", "B.Com. LL.B.", "B.Sc. LL.B.", "LL.B."],
+            parentGuidance: "Encourage your child to read widely, express ideas confidently, and participate in debates, discussions, and public speaking activities. Help them develop confidence, fairness, and critical thinking."
+        },
+        "public_services": {
+            description: "Based on your responses, you may enjoy serving society, taking responsibility, and making a positive difference in people's lives. This field offers opportunities to contribute to the nation through public service.",
+            subDescription: "This domain offers paths within defense forces, civilian administration boards, and administrative disaster management networks.",
+            careers: ["IAS Officer", "IPS Officer", "Indian Forest Service Officer", "Defence Officer", "Police Officer", "Fire & Rescue Officer", "Revenue Officer", "Panchayat Development Officer", "Government Administrative Officer", "Disaster Management Officer"],
+            group: "Any Higher Secondary Group",
+            exams: ["NDA (after Class XII)", "CDS (after graduation)", "UPSC Civil Services Examination (after graduation)", "State Public Service Commission Examinations (after graduation)"],
+            degrees: ["Any Bachelor's Degree (eligible for most Civil Services)", "B.A. Public Administration", "B.A. Political Science", "B.A. History", "B.Com./B.Sc./B.Tech. (all are eligible)"],
+            parentGuidance: "Encourage discipline, leadership, honesty, and a sense of responsibility. Motivate your child to participate in community service, leadership activities, and discussions on national and social issues."
+        },
+        "education": {
+            description: "Based on your responses, you may enjoy helping others learn, grow, and achieve their potential. You may find satisfaction in guiding, teaching, and supporting people.",
+            subDescription: "This sector handles active teaching frameworks, standard institutional curriculum architecture, and corporate psychological coaching models.",
+            careers: ["School Teacher", "College Professor", "Special Educator", "School Counsellor", "Educational Psychologist", "Curriculum Developer", "Corporate Trainer", "Instructional Designer", "Child Development Specialist", "Education Administrator"],
+            group: "Any Higher Secondary Group",
+            exams: ["NCET", "NCERT - CEE", "CUET", "Institution-specific Entrance Examinations"],
+            degrees: ["B.A.B.Ed.", "B.Sc.B.Ed.", "B.El.Ed.", "B.A. Psychology"],
+            parentGuidance: "Encourage your child to help others, communicate confidently, and enjoy learning. Appreciate patience, empathy, and leadership qualities that will help them grow in this field."
+        },
+        "humanities": {
+            description: "Based on your responses, you may enjoy understanding people, society, culture, languages, and history. You may like exploring ideas and thinking about the world from different perspectives.",
+            subDescription: "This features deep social research streams, archaeological exploration paradigms, and active community social assistance operations.",
+            careers: ["Historian", "Archaeologist", "Sociologist", "Political Scientist", "Anthropologist", "Psychologist", "Writer", "Editor", "Social Researcher", "Social Worker"],
+            group: "Humanities or Commerce or Any Higher Secondary Group",
+            exams: ["CUET", "Institution-specific Entrance Examinations"],
+            degrees: ["B.A.", "B.A. History", "B.A. Sociology", "B.A. Political Science", "B.A. Psychology", "B. Social Work"],
+            parentGuidance: "Encourage reading, writing, discussions, and curiosity about society, culture, and history. Support participation in literary, cultural, and social activities."
+        },
+        "media": {
+            description: "Based on your responses, you may enjoy expressing ideas, telling stories, and connecting with people. You may be creative and confident in sharing information through different forms of communication.",
+            subDescription: "This covers digital layout communication platforms, multi-channel editorial coordination operations, and public broadcast operations.",
+            careers: ["Journalist", "News Anchor", "Content Creator", "Public Relations Officer", "Film Director", "Script Writer", "Video Producer", "Advertising Executive", "Social Media Manager", "Corporate Communications Specialist"],
+            group: "Any Higher Secondary Group",
+            exams: ["CUET", "IIMC Entrance Examination (when applicable)", "Institution-specific Entrance Examinations"],
+            degrees: ["B.A. Journalism", "B.A. Mass Communication", "B.A. Visual Communication", "Bachelor of Multimedia", "Bachelor of Film Studies"],
+            parentGuidance: "Encourage your child to develop communication, creativity, and presentation skills. Support opportunities in writing, public speaking, photography, theatre, filmmaking, and digital media."
+        },
+        "hospitality": {
+            description: "Based on your responses, you may enjoy working with people, creating memorable experiences, and working in dynamic environments. You may also enjoy teamwork, communication, and service.",
+            subDescription: "This space features highly globalized tourist support operations, culinary operational centers, and commercial athletics administration layouts.",
+            careers: ["Hotel Manager", "Chef", "Tourism Manager", "Travel Consultant", "Event Manager", "Sports Manager", "Fitness Trainer", "Sports Coach", "Airline Cabin Crew", "Resort Manager"],
+            group: "Any Higher Secondary Group",
+            exams: ["NCHM JEE", "CUET", "IGNTU-ICI Joint Entrance Examination", "IITTM Admission Test (IIAT)", "Institution-specific Entrance Examinations"],
+            degrees: ["B.Sc. Hospitality & Hotel Administration", "Bachelor of Hotel Management (BHM)", "BBA Tourism & Travel Management", "BBA in Culinary Arts", "Bachelor of Physical Education (B.P.Ed.)", "Bachelor of Sports Management"],
+            parentGuidance: "Encourage your child to build communication, teamwork, leadership, and customer service skills. Participation in sports, cultural programmes, volunteering, and event management activities can help them gain valuable experience."
+        }
+    };
+
+    const domainImageIndexMap = {
+        linguistic: 1, logical: 2, spatial: 3, bodily: 4,
+        musical: 5, interpersonal: 6, intrapersonal: 7, naturalistic: 8
+    };
+    const primaryImgNumber = domainImageIndexMap[primaryDomainId] || 1;
+
+    // Helper functions to calculate radar chart points inside an inline vector space layout framework
+    const labels = ["Linguistic", "Logical", "Spatial", "Bodily", "Musical", "Interpersonal", "Intrapersonal", "Naturalistic"];
+    const keys = ["linguistic", "logical", "spatial", "bodily", "musical", "interpersonal", "intrapersonal", "naturalistic"];
+    const center = 150;
+    const radius = 100;
+    const angles = keys.map((_, idx) => (idx * 2 * Math.PI) / 8 - Math.PI / 2);
+
+    let gridCircles = "";
+    for (let r = 20; r <= 100; r += 20) {
+        gridCircles += `<circle cx="${center}" cy="${center}" r="${r}" fill="none" stroke="#e2e8f0" stroke-width="1" />`;
+    }
+
+    let webLines = "";
+    angles.forEach(angle => {
+        const x = center + radius * Math.cos(angle);
+        const y = center + radius * Math.sin(angle);
+        webLines += `<line x1="${center}" y1="${center}" x2="${x}" y2="${y}" stroke="#cbd5e1" stroke-width="1" />`;
+    });
+
+    const pointCoordinates = keys.map((key, idx) => {
+        const scorePct = intelligenceScores.percentage[key] || 0;
+        const currentRadius = (scorePct / 100) * radius;
+        const x = center + currentRadius * Math.cos(angles[idx]);
+        const y = center + currentRadius * Math.sin(angles[idx]);
+        return `${x},${y}`;
+    }).join(" ");
+
+    let textLabels = "";
+    labels.forEach((label, idx) => {
+        const offsetRadius = radius + 22;
+        const x = center + offsetRadius * Math.cos(angles[idx]);
+        const y = center + offsetRadius * Math.sin(angles[idx]);
+        let textAnchor = "middle";
+        if (Math.cos(angles[idx]) > 0.1) textAnchor = "start";
+        else if (Math.cos(angles[idx]) < -0.1) textAnchor = "end";
+        textLabels += `<text x="${x}" y="${y + 4}" text-anchor="${textAnchor}" fill="#475569" font-size="11" font-weight="700">${label}</text>`;
+    });
 
     let html = `
-        <div class="report-header">
-            <div class="profile-card">
-                <h2>Student Profile</h2>
-                <div class="profile-grid">
-                    <div class="profile-item">
-                        <div class="profile-label">Name</div>
-                        <div class="profile-value">${reportData.student.name}</div>
-                    </div>
-                    <div class="profile-item">
-                        <div class="profile-label">EMIS No</div>
-                        <div class="profile-value">${reportData.student.emis || "N/A"}</div>
-                    </div>
-                    <div class="profile-item">
-                        <div class="profile-label">Standard</div>
-                        <div class="profile-value">${reportData.student.class}</div>
-                    </div>
-                    <div class="profile-item">
-                        <div class="profile-label">Medium</div>
-                        <div class="profile-value">${reportData.student.medium || "N/A"}</div>
-                    </div>
-                    <div class="profile-item">
-                        <div class="profile-label">School</div>
-                        <div class="profile-value">${reportData.student.school}</div>
-                    </div>
-                    <div class="profile-item">
-                        <div class="profile-label">District</div>
-                        <div class="profile-value">${reportData.student.district}</div>
-                    </div>
-                    <div class="profile-item">
-                        <div class="profile-label">Assessment Date</div>
-                        <div class="profile-value">${new Date().toLocaleDateString()}</div>
-                    </div>
+        <div class="report-section" style="padding: 24px; margin-bottom: 24px;">
+            <h2 style="color:var(--primary-dark); margin-bottom: 18px; font-size:22px; font-weight:800;">Student Profile</h2>
+            <div class="profile-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 14px;">
+                <div class="profile-item">
+                    <div class="profile-label">Name</div>
+                    <div class="profile-value">${reportData.student.name}</div>
+                </div>
+                <div class="profile-item">
+                    <div class="profile-label">EMIS No</div>
+                    <div class="profile-value">${reportData.student.emis || "N/A"}</div>
+                </div>
+                <div class="profile-item">
+                    <div class="profile-label">Standard</div>
+                    <div class="profile-value">${reportData.student.class}</div>
+                </div>
+                <div class="profile-item">
+                    <div class="profile-label">Medium</div>
+                    <div class="profile-value">${reportData.student.medium || "N/A"}</div>
+                </div>
+                <div class="profile-item">
+                    <div class="profile-label">School</div>
+                    <div class="profile-value">${reportData.student.school}</div>
+                </div>
+                <div class="profile-item">
+                    <div class="profile-label">District</div>
+                    <div class="profile-value">${reportData.student.district}</div>
+                </div>
+                <div class="profile-item">
+                    <div class="profile-label">Assessment Date</div>
+                    <div class="profile-value">${new Date().toLocaleDateString()}</div>
                 </div>
             </div>
-            <div class="about-card">
-                <h2>About This Report</h2>
-                <p>This automated verification dossier charts multi-tier intelligence scoring criteria based upon Howard Gardner's cognitive framework metrics to evaluate individual aptitudes across key vocational clusters.</p>
+        </div>
+
+        <div class="report-section" style="padding: 24px; margin-bottom: 24px;">
+            <h2 style="color:var(--primary-dark); margin-bottom: 14px; font-size:22px; font-weight:800;">About This Report</h2>
+            <p style="font-size: 14.5px; color: #475569; line-height: 1.6; margin-bottom: 10px;">This report is based on your responses to the Career Exploration Assessment. It helps you understand your strengths, how you learn best, and the career fields that may suit your abilities and interests.</p>
+            <p style="font-size: 14.5px; color: #475569; line-height: 1.6; margin-bottom: 10px;">This report is based on Howard Gardner's Multiple Intelligences Framework, which recognises that every student has unique strengths and talents. It highlights your strongest areas and suggests career clusters that best align with your overall profile.</p>
+            <p style="font-size: 14.5px; color: #475569; line-height: 1.6;">This report is intended to guide and support you in exploring educational and career opportunities.</p>
+        </div>
+
+        <div class="report-section" style="padding: 24px; margin-bottom: 24px;">
+            <h2 style="color:var(--primary-dark); margin-bottom: 14px; font-size:22px; font-weight:800;">How to Use This Report</h2>
+            <ul class="report-list-bullets" style="list-style-type: square; padding-left: 20px;">
+                <li>Use this report as a guide to understand yourself better and explore different career possibilities.</li>
+                <li>Reflect on your strengths and learning preferences.</li>
+                <li>Explore the recommended career clusters and educational pathways.</li>
+                <li>Discuss your report with your parents, teachers, or career counsellor.</li>
+                <li>Take part in activities and learning opportunities that help you build your interests and skills.</li>
+            </ul>
+            <div class="summary-box" style="margin-top:15px; background:#f0fdf4; border-left:5px solid #16a34a; color:#14532d;">
+                <strong>Remember:</strong> Your interests, effort, learning experiences, and opportunities will continue to shape your future. This report is a guide to help you make informed choices and confidently explore the possibilities ahead.
             </div>
         </div>
 
         <div class="report-section">
             <h2>Intelligence Profile Summary</h2>
-            <div class="intelligence-list">
+            <div style="display: flex; flex-direction: row; flex-wrap: wrap; align-items: center; justify-content: center; gap: 40px; margin-top: 15px;">
+                <div class="intelligence-list" style="flex: 1; min-width: 300px;">
     `;
 
     profileSorted.forEach(item => {
@@ -909,48 +1339,66 @@ function displayReportHTML(reportData, targetContainer) {
     });
 
     html += `
+                </div>
+                <div style="flex: 0 0 320px; display: flex; align-items: center; justify-content: center; background: #f8fafc; padding: 15px; border-radius: 16px; border: 1px solid #e2e8f0;">
+                    <svg width="320" height="300" viewBox="0 0 320 300">
+                        ${gridCircles}
+                        ${webLines}
+                        <polygon points="${pointCoordinates}" fill="rgba(37, 99, 235, 0.25)" stroke="#2563eb" stroke-width="2.5" />
+                        ${textLabels}
+                    </svg>
+                </div>
+            </div>
+        </div>
+
+        <div class="report-section">
+            <h2>Learning Style Summary</h2>
+            <div style="display: flex; flex-direction: row; justify-content: space-between; align-items: stretch; gap: 24px;">
+                <div style="flex: 1; display: flex; flex-direction: column; gap: 16px;">
+                    <div class="summary-box" style="margin: 0; background:#eff6ff; border-left:5px solid #2563eb; padding:16px; border-radius:12px; font-size:14.5px; color:#1e40af; font-weight:500;">
+                        Based upon your top psychometric results, you absorb complex information best using mechanisms related to <strong>${domains.find(x => x.id === primaryDomainId).englishName}</strong>.
+                    </div>
+                    <div>
+                        <div class="report-subsection-title" style="margin-top:0; font-weight:700; color:var(--primary-dark); margin-bottom: 8px;">How you learn best:</div>
+                        <div style="background:#ffffff; padding:16px; border-radius:12px; border:1px solid #e2e8f0; font-size:14.5px; color:#334155; line-height:1.6; border-left: 4px solid #cbd5e1;">
+                            ${getLearningStyleNotes(primaryDomainId)}
+                        </div>
+                    </div>
+                </div>
+                <div style="flex: 0 0 260px; display: flex; align-items: center; justify-content: center;">
+                    <img src="images/Int${primaryImgNumber}.jpg" alt="Learning Style Graphic" style="width: 100%; height: 100%; min-height: 200px; object-fit: cover; border-radius: 16px; border: 2px solid #cbd5e1; box-shadow: 0 4px 12px rgba(0,0,0,0.06);" onerror="this.src='images/default.jpg'">
+                </div>
             </div>
         </div>
 
         <div class="report-section">
             <h2>Top 3 Core Areas and Strengths</h2>
-            <div class="strength-grid">
+            <div class="strength-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px;">
     `;
 
     reportData.topStrengths.forEach((strength, index) => {
         const d = domains.find(x => x.id === strength.id);
         const englishStrengthName = d ? d.englishName : strength.name;
+        const assocData = getCustomAssociationText(strength.id, strength.score);
         
         html += `
-            <div class="strength-card">
-                <div class="strength-rank">${index + 1}</div>
-                <div class="strength-title">${strength.icon} ${englishStrengthName}</div>
-                <div class="strength-percent">${strength.score}%</div>
-                <div style="font-size:12px; margin-top:5px; color:var(--muted); font-weight:600; text-transform: uppercase;">${strength.level} Capacity</div>
+            <div class="strength-card" style="display: flex; flex-direction: column; justify-content: space-between; height: 100%;">
+                <div>
+                    <div class="strength-rank">${index + 1}</div>
+                    <div class="strength-title" style="font-weight:700; font-size:16px;">${strength.icon} ${englishStrengthName}</div>
+                    <div class="strength-percent" style="margin: 8px 0; font-size:24px; font-weight:800; color:var(--primary);">${strength.score}%</div>
+                    <div style="font-size:11px; margin-bottom:10px; color:#1e40af; font-weight:700; text-transform: uppercase; letter-spacing:0.5px;">${assocData.association}</div>
+                </div>
+                <p style="font-size:13px; color:#475569; line-height:1.5; text-align:left; background:#f8fafc; padding:10px; border-radius:8px; border:1px solid #e2e8f0;">${assocData.text}</p>
             </div>
         `;
     });
 
     html += `
             </div>
-        </div>
-
-        <div class="report-section">
-            <h2>Learning Style Summary</h2>
-            <div class="summary-box">
-                Based upon your top psychometric results, you absorb complex information best using mechanisms related to <strong>${domains.find(x => x.id === primaryDomainId).englishName}</strong> and <strong>${domains.find(x => x.id === secondaryDomainId).englishName}</strong> frameworks.
-            </div>
-            
-            <div class="report-subsection-title">1. How you learn best:</div>
-            <ul class="report-list-bullets">
-                <li>${learnBestText}</li>
-            </ul>
-
-            <div class="report-subsection-title">2. The skills you develop:</div>
-            <ul class="report-list-bullets">
-                <li>${skillsText1}</li>
-                <li>${skillsText2}</li>
-            </ul>
+            <p style="font-size:12.5px; color:var(--muted); font-style:italic; margin-top:20px; text-align:center;">
+                <strong>End note:</strong> Everyone has strengths in all eight areas. This report highlights the areas where your strengths are most evident based on your responses. These strengths can continue to grow with learning and experience.
+            </p>
         </div>
 
         <div class="report-section">
@@ -959,43 +1407,53 @@ function displayReportHTML(reportData, targetContainer) {
     `;
 
     reportData.recommendedStreams.forEach((stream, index) => {
-        const streamDescriptionText = stream.description;
+        const metaProfile = extendedCareerMaster[stream.id] || {
+            description: "Based on your responses, you show strengths that are well suited to this career field.",
+            subDescription: stream.description,
+            careers: stream.careers,
+            group: getSecondaryChoice(stream),
+            exams: stream.entranceExams,
+            degrees: stream.degreePrograms,
+            parentGuidance: "Encourage independent exploration inside the student's highest-scoring talent areas."
+        };
+
         html += `
-            <div class="career-card">
+            <div class="career-card" style="margin-bottom: 20px;">
                 <div class="career-title">
                     <h3>${index + 1}. ${stream.icon} ${stream.name}</h3>
                     <span class="match-score">Score: ${stream.matchScore}%</span>
                 </div>
-                <div class="career-description">${streamDescriptionText}</div>
+                
+                <div class="career-description" style="margin-bottom: 12px;">
+                    <p style="font-weight: 600; color: #1e293b; margin-bottom: 4px;">${metaProfile.description}</p>
+                    <p style="color: #475569; font-size:14px;">${metaProfile.subDescription}</p>
+                </div>
                 
                 <div class="pathway-layout">
                     <div class="pathway-left">
-                        <strong>Job roles</strong>
-                        <ul>
-                            ${stream.careers.map(c => `<li>${c}</li>`).join("")}
+                        <strong>Career Opportunities</strong>
+                        <ul style="display: grid; grid-template-columns: 1fr 1fr; gap: 4px; padding-left: 15px;">
+                            ${metaProfile.careers.map(c => `<li style="font-size:13px; color:#334155;">${c}</li>`).join("")}
                         </ul>
                     </div>
-                    <div class="pathway-right">
-                        <h4>Educational Pathways</h4>
-                        <ul>
-                            <li><strong>Higher Secondary Group:</strong> ${getSecondaryChoice(stream)}</li>
-                            <li><strong>Entrance Exams:</strong> ${stream.entranceExams.join(", ")}</li>
-                            <li><strong>Degrees:</strong> ${stream.degreePrograms.join(", ")}</li>
+                    <div class="pathway-right" style="font-size:13px;">
+                        <h4>Educational Pathway</h4>
+                        <ul style="list-style:none; padding:0;">
+                            <li style="padding:4px 0;"><strong>Recommended Higher Secondary Group(s):</strong> ${metaProfile.group}</li>
+                            <li style="padding:4px 0;"><strong>Entrance Examinations:</strong> ${Array.isArray(metaProfile.exams) ? metaProfile.exams.join(", ") : metaProfile.exams}</li>
+                            <li style="padding:4px 0;"><strong>Degree Programmes:</strong> ${Array.isArray(metaProfile.degrees) ? metaProfile.degrees.join(", ") : metaProfile.degrees}</li>
                         </ul>
                     </div>
+                </div>
+
+                <div style="margin-top:15px; padding:12px 16px; background:#fffdf5; border-left:4px solid #eab308; border-radius:8px; font-size:13px; color:#713f12;">
+                    <strong>Guidance for Parents:</strong> ${metaProfile.parentGuidance}
                 </div>
             </div>
         `;
     });
 
     html += `
-            </div>
-        </div>
-
-        <div class="report-section">
-            <h2>Parent Guidance Matrix</h2>
-            <div class="guidance-box">
-                Encourage continuous independent experimentation inside the student's highest-scoring talent areas. Educational decisions should incorporate these structural parameters alongside personal academic interest trends.
             </div>
         </div>
     `;
@@ -1012,7 +1470,7 @@ function enterAdminView() {
 }
 
 function exitAdminView() {
-    if(adminSection) adminSection.classList.add("hidden");
+    if(adminSection) adminSection.style.display = "none";
     if(studentWorkflowContainer) studentWorkflowContainer.classList.remove("hidden");
 }
 
@@ -1208,25 +1666,25 @@ window.downloadAdminExcel = function() {
         ]))
     ];
 
-    const workbook = `<?xml version="1.0"?>
-<?mso-application progid="Excel.Sheet"?>
-<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+    const workbook = `xml version="1.0"
+?mso-application progid="Excel.Sheet"
+Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
  xmlns:o="urn:schemas-microsoft-com:office:office"
  xmlns:x="urn:schemas-microsoft-com:office:excel"
  xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
- xmlns:html="http://www.w3.org/TR/REC-html40">
-    ${buildExcelWorksheet("Student Records", studentRows)}
-    ${buildExcelWorksheet("Top Recommendations", recommendationRows)}
-    ${buildExcelWorksheet("District Split", districtRows)}
-    ${buildExcelWorksheet("Domain Scores", domainRows)}
-    ${buildExcelWorksheet("Question Responses", responseRows)}
-</Workbook>`;
+ xmlns:html="http://www.w3.org/TR/REC-html40"
+    \${buildExcelWorksheet("Student Records", studentRows)}
+    \${buildExcelWorksheet("Top Recommendations", recommendationRows)}
+    \${buildExcelWorksheet("District Split", districtRows)}
+    \${buildExcelWorksheet("Domain Scores", domainRows)}
+    \${buildExcelWorksheet("Question Responses", responseRows)}
+/Workbook`;
 
     const blob = new Blob([workbook], { type: "application/vnd.ms-excel;charset=utf-8" });
     const url = URL.createObjectURL(blob);
     const link = document.createElement("a");
     link.href = url;
-    link.download = `Career_Assessment_Admin_Data_${new Date().toISOString().slice(0, 10)}.xls`;
+    link.download = `Career_Assessment_Admin_Data_\${new Date().toISOString().slice(0, 10)}.xls`;
     document.body.appendChild(link);
     link.click();
     link.remove();
@@ -1292,7 +1750,7 @@ window.inspectStudentFile = function(index) {
     let scoreRowsHTML = "";
     Object.keys(record.scoresBreakdown.raw).forEach(domain => {
         const raw = record.scoresBreakdown.raw[domain];
-        const max = record.scoresBreakdown.max[domain] || 52;
+        const max = record.scoresBreakdown.max[domain] || 40; 
         const pct = record.scoresBreakdown.percentage[domain];
         scoreRowsHTML += `
             <tr>
@@ -1411,11 +1869,6 @@ function showRegistration() {
 
 function handleStartWorkflow() {
     loadStudentInfo();
-    if(!/^\d{11}$/.test(studentInfo.emis)){
-        const errorEmis = currentLanguageMode === "tamil" ? "சரியான 11-இலக்க EMIS எண்ணை உள்ளிடவும்" : "Please enter a valid 11-digit EMIS No";
-        alert(errorEmis);
-        return;
-    }
     if (!studentInfo.name || !studentInfo.class || !studentInfo.medium || !studentInfo.school || !studentInfo.district) {
         const errorFields = currentLanguageMode === "tamil" ? "தொடர்வதற்கு முன் அனைத்து மாணவர் பதிவு புலங்களையும் பூர்த்தி செய்யவும்." : "Please complete all Student Registration fields before continuing.";
         alert(errorFields);
@@ -1442,7 +1895,9 @@ function executePremiumPDFDownload() {
         return;
     }
     
-    const formattedFilename = `${studentInfo.name.replace(/\s+/g, '_')}_Report.pdf`;
+    // Clean and generate file name using student's name value parameters
+    const safeStudentName = studentInfo.name ? studentInfo.name.trim().replace(/[^a-zA-Z0-9]/g, '_') : 'Student';
+    const formattedFilename = `${safeStudentName}_Report.pdf`;
     
     const optimalOptions = {
         margin:       [10, 10, 10, 10],

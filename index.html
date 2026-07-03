@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title data-localize="page_title">Career Discovery Assessment System</title>
+    <title data-localize="page_title">Career Exploration Assessment</title>
     <link rel="stylesheet" href="style.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
 </head>
@@ -36,39 +36,91 @@
         </div>
         <div class="hero-content">
             <h1 id="heroTitle" data-localize="hero_title">Career Exploration Assessment</h1>
-            <p id="heroSubtitle" data-localize="hero_subtitle">Discover your strengths, understand your learning profile, and Explore you career Pathways</p>
+            <p id="heroSubtitle" data-localize="hero_subtitle">Discover your strengths, understand your learning profile, and Explore your career Pathways</p>
         </div>
     </header>
 
     <div id="studentWorkflowContainer">
         <section id="assessmentSection">
+            <!-- NEW HOME PAGE CONTAINER -->
             <div id="welcomeCard" class="welcome-card">
-                <h2 class="welcome-title-large" id="welcomeTitleMain">
-                    <span data-localize="welcome_title_main">Discover Your Strengths. Shape Your Future.</span>
+                <h2 class="welcome-title-large" id="welcomeTitleMain" data-localize="welcome_title_main">
+                    Welcome to the Career Exploration Assessment
                 </h2>
-                <p class="welcome-p-text" data-localize="welcome_desc">Understand your abilities, explore careers, and plan your future journey.</p>
                 
-                <div class="welcome-features-grid">
+                <p class="welcome-p-text" data-localize="welcome_desc_1">
+                    Every student is unique. Each one of us has different strengths, talents, and interests. Some students enjoy solving problems, some enjoy working with people, some are creative, while others enjoy nature, sports, music, or communication.
+                </p>
+                
+                <p class="welcome-p-text" data-localize="welcome_desc_2" style="margin-top: -20px; font-weight: 600;">
+                    This assessment is based on the idea that everyone is intelligent in different ways. It helps you discover your strengths across eight primary and different types of intelligence:
+                </p>
+
+                <hr style="border: 0; border-top: 1px dashed var(--border); margin: 30px 0;">
+
+                <h3 style="color: var(--primary-dark); font-size: 20px; font-weight: 700; margin-bottom: 20px;" data-localize="how_it_works_title">How Does This Assessment Work?</h3>
+                <div class="welcome-features-grid" style="max-width: 1000px; text-align: left;">
                     <div class="feat-card">
                         <span class="feat-icon">📋</span>
-                        <h4 data-localize="feat_1_title">100 Questions</h4>
+                        <h4 data-localize="feat_1_title">80 Simple Statements</h4>
+                        <p data-localize="feat_1_desc">You will answer 80 simple statements about yourself.</p>
                     </div>
                     <div class="feat-card">
                         <span class="feat-icon">🧠</span>
-                        <h4 data-localize="feat_2_title">Intelligence Analysis</h4>
+                        <h4 data-localize="feat_2_title">Your Strengths</h4>
+                        <p data-localize="feat_2_desc">Your responses will help us understand your strengths in each of the eight intelligence areas.</p>
                     </div>
                     <div class="feat-card">
                         <span class="feat-icon">🚀</span>
-                        <h4 data-localize="feat_3_title">Career Matches</h4>
-                    </div>
-                    <div class="feat-card">
-                        <span class="feat-icon">📄</span>
-                        <h4 data-localize="feat_4_title">PDF Report</h4>
+                        <h4 data-localize="feat_3_title">18 Career Clusters</h4>
+                        <p data-localize="feat_3_desc">These strengths are then matched with 18 career clusters such as Engineering, Medicine, Computer Science, Agriculture, Law, Design, Commerce, and more.</p>
                     </div>
                 </div>
 
+                <div style="background: var(--accent-light); border: 1px solid var(--border); border-radius: 16px; padding: 24px; text-align: left; margin-bottom: 30px; max-width: 800px; margin-left: auto; margin-right: auto;">
+                    <h4 style="color: var(--primary-dark); margin-bottom: 12px; font-weight: 700;" data-localize="report_includes_title">Based on this, you will receive a Career Exploration Report that includes:</h4>
+                    <ul style="padding-left: 20px; font-size: 14.5px; color: var(--text); line-height: 1.6; list-style-type: none;">
+                        <li data-localize="report_item_1">✨ Your strongest intelligence areas</li>
+                        <li data-localize="report_item_2">📖 Your preferred learning style</li>
+                        <li data-localize="report_item_3">💼 Career clusters that best match your strengths</li>
+                        <li data-localize="report_item_4">🎓 Educational pathways you can explore</li>
+                        <li data-localize="report_item_5">🌱 Suggestions to help you learn and grow</li>
+                    </ul>
+                </div>
+
+                <hr style="border: 0; border-top: 1px dashed var(--border); margin: 30px 0;">
+
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 24px; text-align: left; max-width: 900px; margin: 0 auto 36px;">
+                    <div style="background: #f8fafc; border: 1px solid var(--border); padding: 20px; border-radius: 12px;">
+                        <h4 style="color: #334155; margin-bottom: 10px; font-weight: 700; border-bottom: 2px solid #cbd5e1; padding-bottom: 4px;" data-localize="before_begin_title">Before You Begin</h4>
+                        <ul style="padding-left: 18px; font-size: 13.5px; color: var(--muted); line-height: 1.6; list-style-type: square;">
+                            <li data-localize="begin_item_1">This assessment contains 80 statements.</li>
+                            <li data-localize="begin_item_2">It will take about 20–25 minutes to complete.</li>
+                            <li data-localize="begin_item_3">Read each statement carefully.</li>
+                            <li data-localize="begin_item_4">Choose the answer that best describes you.</li>
+                            <li data-localize="begin_item_5">Complete the assessment on your own.</li>
+                            <li data-localize="begin_item_6">There are no marks or pass/fail results.</li>
+                            <li data-localize="begin_item_7">There are no right or wrong answers, and this is not an exam.</li>
+                        </ul>
+                    </div>
+                    
+                    <div style="background: #fffdf5; border: 1px solid #fef08a; padding: 20px; border-radius: 12px;">
+                        <h4 style="color: #854d0e; margin-bottom: 10px; font-weight: 700; border-bottom: 2px solid #fef08a; padding-bottom: 4px;" data-localize="remember_title">Remember</h4>
+                        <ul style="padding-left: 5px; font-size: 13.5px; color: #713f12; line-height: 1.7; list-style: none;">
+                            <li data-localize="remember_item_1">✔ Answer honestly.</li>
+                            <li data-localize="remember_item_2">✔ Choose the option that best describes you.</li>
+                            <li data-localize="remember_item_4">✔ The more honest your answers, the better your Career Exploration Report will reflect your strengths.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <p style="font-size: 16px; font-weight: 700; color: var(--text); margin-bottom: 20px;" data-localize="wish_luck_text">
+                    We wish you all the very best!<br>
+                    <span style="font-size: 14px; font-weight: 500; color: var(--muted);">Click "Start Assessment" when you are ready.</span>
+                </p>
+
                 <button id="openRegistrationBtn" class="btn primary-btn start-journey-btn" data-localize="start_journey_btn">
-                    Click for registration →
+                    Start Assessment
                 </button>
             </div>
 
@@ -111,7 +163,7 @@
                     </div>
                 </div>
                 <div class="registration-actions">
-                    <button id="startAssessmentBtn" class="btn success-btn btn-lg" data-localize="start_assessment_btn">Start Assessment</button>
+                    <button id="startAssessmentBtn" class="btn success-btn btn-lg" data-localize="start_assessment_btn">Next →</button>
                 </div>
             </div>
 
@@ -119,7 +171,7 @@
                 <div class="card progress-card-container">
                     <div class="progress-header">
                         <div id="answeredCountLabel">
-                            <span data-localize="answered_txt">Answered</span>: <span id="answeredCount" class="counter-highlight">0</span> / <span id="totalQuestions">100</span>
+                            <span data-localize="answered_txt">Answered</span>: <span id="answeredCount" class="counter-highlight">0</span> / <span id="totalQuestions">80</span>
                         </div>
                         <div id="progressPercentage" class="percentage-badge">0%</div>
                     </div>

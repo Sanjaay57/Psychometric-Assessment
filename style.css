@@ -47,22 +47,22 @@ body{
 .hero {
     background: linear-gradient(135deg, #1e3a8a, #3b82f6);
     color: white;
-    padding: 24px 28px;       /* Change padding to be perfectly balanced top and bottom */
+    padding: 24px 28px;       
     border-radius: 16px;
     margin-bottom: 20px;
     box-shadow: var(--shadow);
     display: flex;
     flex-direction: column;
-    justify-content: center;  /* Centers elements vertically */
-    align-items: center;      /* Centers elements horizontally */
-    position: relative;       /* Anchor for the language switcher positioning */
-    min-height: 110px;        /* Guarantees standard space framework sizing */
+    justify-content: center;  
+    align-items: center;      
+    position: relative;       
+    min-height: 110px;        
 }
 
 .hero-header-top {
-    position: absolute;       /* Takes the button element out of the flow */
-    top: 12px;                /* Pins it cleanly near the top edge */
-    right: 20px;              /* Pins it near the right edge */
+    position: absolute;       
+    top: 12px;                
+    right: 20px;              
     width: auto;
 }
 
@@ -104,7 +104,7 @@ body{
 }
 
 .hero h1{ 
-    font-size:26px; /* FIXED: Slightly downscaled header text to balance the shorter banner */
+    font-size:26px; 
     margin-bottom:2px; 
     letter-spacing: -0.5px; 
 }
@@ -128,7 +128,6 @@ body{
     overflow: hidden;
 }
 
-/* Subtle abstract light flare inside the card */
 .welcome-card::before {
     content: "";
     position: absolute;
@@ -175,7 +174,6 @@ body{
     line-height: 1.65;
 }
 
-/* Modern Card Layout Grid */
 .welcome-features-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
@@ -228,7 +226,6 @@ body{
     line-height: 1.5;
 }
 
-/* Informative Report Preview Box */
 .welcome-card div[style*="background: var(--accent-light)"] {
     background: linear-gradient(135deg, #f0f6ff 0%, #eff6ff 100%) !important;
     border: 1px solid #dbeafe !important;
@@ -251,28 +248,17 @@ body{
     color: #334155 !important;
 }
 
-/* Beautiful Two-Column Panel Adaptation */
-.welcome-card div[style*="display: grid"] > div {
-    transition: transform 0.2s ease;
-}
-
-.welcome-card div[style*="display: grid"] > div:hover {
-    transform: scale(1.01);
-}
-
-/* Left panel customization: "Before You Begin" */
 .welcome-card div[style*="background: #f8fafc"] {
     background: #ffffff !important;
     border: 1px solid #e2e8f0 !important;
-    border-left: 5px solid #64748b !important; /* Elegant slate side bar */
+    border-left: 5px solid #64748b !important; 
     box-shadow: 0 4px 10px rgba(0,0,0,0.01);
 }
 
-/* Right panel customization: "Remember" */
 .welcome-card div[style*="background: #fffdf5"] {
     background: #fffdf6 !important;
     border: 1px solid #fef08a !important;
-    border-left: 5px solid #eab308 !important; /* Warm gold side bar */
+    border-left: 5px solid #eab308 !important; 
     box-shadow: 0 4px 10px rgba(234, 179, 8, 0.02);
 }
 
@@ -281,7 +267,6 @@ body{
     letter-spacing: 0.25px;
 }
 
-/* Premium Animated Call-To-Action Button */
 .start-journey-btn {
     font-size: 18px !important;
     padding: 18px 44px !important;
@@ -302,25 +287,14 @@ body{
     transform: translateY(0) !important;
 }
 
-/* Responsive Fixes for Small Screen Elements */
 @media (max-width: 768px) {
-    .welcome-card {
-        padding: 32px 20px;
-    }
-    .welcome-title-large {
-        font-size: 28px;
-    }
-    .welcome-p-text {
-        font-size: 15px;
-    }
-    .welcome-features-grid {
-        grid-template-columns: 1fr;
-    }
-    .welcome-card div[style*="display: grid"] {
-        grid-template-columns: 1fr !important;
-        gap: 20px !important;
-    }
+    .welcome-card { padding: 32px 20px; }
+    .welcome-title-large { font-size: 28px; }
+    .welcome-p-text { font-size: 15px; }
+    .welcome-features-grid { grid-template-columns: 1fr; }
+    .welcome-card div[style*="display: grid"] { grid-template-columns: 1fr !important; gap: 20px !important; }
 }
+
 /* =====================================
    REGISTRATION FORMS
 ===================================== */
@@ -559,8 +533,32 @@ body{
 .profile-label{ font-size:11px; color:#64748b; text-transform:uppercase; margin-bottom:4px; font-weight: 700; letter-spacing: 0.5px; }
 .profile-value{ font-size:15px; font-weight:700; color: var(--text); }
 .about-card p { font-size: 14px; color: #475569; line-height: 1.6; }
+.report-section-profile, .report-section-about, .report-section-how-to {
+    padding: 24px;
+    margin-bottom: 24px;
+}
+.report-main-title {
+    color: var(--primary-dark);
+    margin-bottom: 18px;
+    font-size: 22px;
+    font-weight: 800;
+}
+.report-paragraph {
+    font-size: 14.5px;
+    color: #475569;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+.summary-box-success {
+    margin-top: 15px;
+    background: #f0fdf4;
+    border-left: 5px solid #16a34a;
+    color: #14532d;
+    padding: 20px;
+    border-radius: 12px;
+}
 
-.report-section{ background:#ffffff; border-radius:20px; padding:28px; margin-bottom:28px; border:1px solid #e2e8f0; }
+.report-section { background:#ffffff; border-radius:20px; padding:28px; margin-bottom:28px; border:1px solid #e2e8f0; }
 
 .report-section h2{ 
     color:var(--primary-dark); 
@@ -581,18 +579,59 @@ body{
     border-radius: 2px;
 }
 
-.intelligence-list{ display:flex; flex-direction:column; gap:16px; }
+/* MODIFIED: Display configured as block format to allow 100% full wide bar container alignment expansion */
+.profile-summary-layout {
+    display: block; 
+    margin-top: 15px;
+}
+.intelligence-list{ display:flex; flex-direction:column; gap:16px; width: 100%; }
 .intelligence-row{ display:grid; grid-template-columns: 220px 1fr 60px; align-items:center; gap:20px; }
 .intelligence-name{ font-weight:700; font-size: 15px; color: #334155; }
 .bar-track{ width:100%; height:12px; background:#e2e8f0; border-radius:999px; overflow:hidden; }
 .bar-fill{ height:100%; border-radius:999px; background: linear-gradient(90deg, #2563eb, #10b981); }
 .intelligence-score{ font-weight:800; color:var(--primary-dark); font-size: 15px; text-align: right; }
 
-.strength-grid{ display:grid; grid-template-columns: repeat(3, 1fr); gap:20px; }
-.strength-card{ background:#f8fafc; border:1px solid #e2e8f0; border-radius:16px; padding:24px; text-align:center; position: relative; }
+.learning-style-layout {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+    gap: 24px;
+}
+.learning-style-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.summary-box-info {
+    margin: 0;
+    background: #eff6ff;
+    border-left: 5px solid #2563eb;
+    padding: 16px;
+    border-radius: 12px;
+    font-size: 14.5px;
+    color: #1e40af;
+    font-weight: 500;
+}
+.learning-notes-box {
+    background: #ffffff;
+    padding: 16px;
+    border-radius: 12px;
+    border: 1px solid #e2e8f0;
+    font-size: 14.5px;
+    color: #334155;
+    line-height: 1.6;
+    border-left: 4px solid #cbd5e1;
+}
+
+.strength-grid{ display:grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap:20px; }
+.strength-card{ background:#f8fafc; border:1px solid #e2e8f0; border-radius:16px; padding:24px; text-align:center; position: relative; display: flex; flex-direction: column; justify-content: flex-start; height: 100%; }
 .strength-rank{ width:38px; height:38px; margin:auto; border-radius:50%; background:#2563eb; color:white; display:flex; align-items:center; justify-content:center; font-weight:800; margin-bottom:14px; font-size: 15px; box-shadow: 0 4px 10px rgba(37,99,235,0.2); }
-.strength-card h3{ font-size:16px; font-weight:700; margin-bottom:6px; color: #0f172a; }
-.strength-percent{ color:#2563eb; font-size:22px; font-weight:800; }
+.strength-title{ font-weight:700; font-size:16px; }
+.strength-percent{ margin: 8px 0; font-size:24px; font-weight:800; color:var(--primary); }
+.strength-association { font-size:11px; margin-bottom:10px; color:#1e40af; font-weight:700; text-transform: uppercase; letter-spacing:0.5px; }
+.strength-description { font-size:13px; color:#475569; line-height:1.5; text-align:left; background:#f8fafc; padding:10px; border-radius:8px; border:1px solid #e2e8f0; flex-grow:1; }
 .summary-box{ background:#eff6ff; border-left:5px solid #2563eb; padding:20px; border-radius:12px; line-height:1.7; font-size: 15px; color: #1e40af; font-weight: 500; margin-bottom: 16px; }
 
 .report-subsection-title {
@@ -602,6 +641,8 @@ body{
     margin-top: 18px;
     margin-bottom: 8px;
     text-transform: uppercase;
+    font-weight: 700;
+    color: var(--primary-dark);
     letter-spacing: 0.3px;
 }
 .report-list-bullets {
@@ -615,23 +656,106 @@ body{
     line-height: 1.5;
 }
 
+.report-end-note {
+    font-size: 12.5px;
+    color: var(--muted);
+    font-style: italic;
+    margin-top: 20px;
+    text-align: center;
+}
+
 .career-grid{ display:flex; flex-direction: column; gap:28px; }
-.career-card{ border:1px solid #e2e8f0; border-radius:20px; padding:26px; background:#ffffff; box-shadow: 0 4px 12px rgba(0,0,0,0.01); }
+.career-card{ border:1px solid #e2e8f0; border-radius:20px; padding:26px; background:#ffffff; box-shadow: 0 4px 12px rgba(0,0,0,0.01); margin-bottom: 20px; }
 .career-title{ display:flex; justify-content:space-between; align-items:center; margin-bottom:14px; }
 .career-title h3{ font-size:20px; color:var(--primary-dark); font-weight: 800; }
 .match-score{ background:#dcfce7; color:#166534; padding:6px 16px; border-radius:999px; font-weight:800; font-size: 14px; }
-.career-description{ font-size: 15px; color:#475569; line-height:1.6; margin-bottom:18px; font-style: italic; background: #f8fafc; padding: 12px 16px; border-radius: 8px; border-left: 3px solid #cbd5e1; }
+.career-description{ margin-bottom: 12px; }
+.career-description-main { font-weight: 600; color: #1e293b; margin-bottom: 4px; }
+.career-description-sub { color: #475569; font-size:14px; }
 .pathway-layout{ display:grid; grid-template-columns: 1.2fr 0.8fr; gap:24px; border-top: 1px dashed #e2e8f0; padding-top: 18px; }
 .pathway-left{ background:#f8fafc; padding:18px; border-radius:14px; border: 1px solid #f1f5f9; }
 .pathway-left strong { font-size: 13px; color: #334155; display: block; margin-bottom: 10px; text-transform: uppercase; letter-spacing: 0.5px; font-weight: 700; }
-.pathway-left ul { padding-left: 20px; font-size: 14px; line-height: 1.6; }
-.pathway-left li { font-size: 14px; color: #475569; margin-bottom: 6px; font-weight: 500; }
-.pathway-right{ background:#f1f5f9; padding:18px; border-radius:14px; }
+.career-opportunity-list { display: grid; grid-template-columns: 1fr 1fr; column-gap: 18px; row-gap: 6px; padding-left: 15px; }
+.career-opportunity-list li { font-size:13px; color:#334155; line-height: 1.4; }
+.pathway-right{ background:#f1f5f9; padding:18px; border-radius:14px; font-size:13px; }
 .pathway-right h4{ margin-bottom:12px; color:var(--primary-dark); font-size: 15px; font-weight: 700; }
-.pathway-right ul{ list-style:none; }
-.pathway-right li{ padding:8px 0; border-bottom: 1px solid #e2e8f0; font-size:13px; color: #334155; font-weight: 500; }
-.pathway-right li:last-child { border-bottom: none; }
+.educational-pathway-list { list-style:none; padding:0; }
+.educational-pathway-list li{ padding:4px 0; }
 .guidance-box{ background:#fefce8; border-left:5px solid #ca8a04; padding:20px; border-radius:12px; line-height:1.7; font-size: 15px; color: #713f12; font-weight: 500; }
+.parent-guidance-box {
+    margin-top:15px;
+    padding:12px 16px;
+    background:#fffdf5;
+    border-left:4px solid #eab308;
+    border-radius:8px;
+    font-size:13px;
+    color:#713f12;
+}
+.learning-style-image-container {
+    flex: 0 0 260px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.learning-style-image {
+    width: 100%;
+    height: 100%;
+    min-height: 200px;
+    object-fit: cover;
+    border-radius: 16px;
+    border: 2px solid #cbd5e1;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+}
+
+/* =====================================
+   PDF GENERATION & PRINT STYLING
+===================================== */
+.strength-card,
+.pathway-layout,
+.pathway-left,
+.pathway-right,
+.parent-guidance-box,
+.profile-item,
+.profile-card,
+.about-card,
+.report-section-profile,
+.report-section-about,
+.report-section-how-to,
+.summary-box,
+.learning-style-layout,
+.career-description,
+.career-title,
+table {
+    break-inside: avoid;
+    page-break-inside: avoid;
+}
+
+/* .career-card and .pdf-section are intentionally NOT break-avoided:
+   they can be taller than a single A4 page (career-card holds description +
+   10 careers + exams + degrees + parent guidance; pdf-section wraps all 3
+   career cards together). Marking a block taller than one page as "avoid"
+   doesn't move it to fit - it just gets its overflow clipped off by
+   html2pdf, silently dropping content from the PDF.
+   Instead, every smaller piece INSIDE a card (the title, the description
+   paragraphs, the pathway grid, the parent guidance box) is individually
+   break-avoided above, so a break can only ever land in the gap BETWEEN
+   two of those pieces - never mid-sentence or mid-list - while the card
+   as a whole is still free to span a page boundary when it has to. */
+
+.career-title {
+    break-after: avoid;
+    page-break-after: avoid;
+}
+
+.report-section h2,
+.report-main-title {
+    break-after: avoid;
+    page-break-after: avoid;
+}
+
+.report-section {
+    margin-bottom: 28px;
+}
 
 /* =====================================
    ADMIN VIEW RE-DESIGN WORKING MODULE
@@ -713,6 +837,51 @@ body{
         box-shadow: none;
         border: none;
     }
+
+    /* NOTE: .pdf-section, .career-card and the generic .report-section are
+       deliberately NOT break-avoided here. Each can wrap an entire group of
+       cards (e.g. all 3 recommended career clusters together), which is
+       routinely taller than one A4 page. Avoiding a break inside a block
+       taller than the page doesn't reflow it - the overflow just gets
+       clipped, silently dropping content from the PDF/print output.
+       Instead, every smaller piece inside a card is individually
+       break-avoided below, so a break can only land in the gap BETWEEN
+       pieces, never mid-sentence or mid-list. */
+
+    .strength-card,
+    .profile-card,
+    .about-card,
+    .report-section-profile,
+    .report-section-about,
+    .report-section-how-to,
+    .pathway-layout,
+    .pathway-left,
+    .pathway-right,
+    .parent-guidance-box,
+    .summary-box,
+    .learning-style-layout,
+    .career-description,
+    table {
+        break-inside: avoid;
+        page-break-inside: avoid;
+    }
+
+    .career-title {
+        break-after: avoid;
+        page-break-after: avoid;
+    }
+
+    .report-section h2,
+    .report-main-title {
+        break-after: avoid;
+        page-break-after: avoid;
+    }
+
+    .report-section {
+        margin-bottom: 20px; 
+        padding: 20px;       
+        box-shadow: none;    
+    }
 }
 
 /* =====================================
@@ -720,7 +889,7 @@ body{
 ===================================== */
 @media(max-width:980px){
     .container{ width:min(100%, 900px); }
-    .question-layout{ grid-template-columns:1fr; gap:18px; min-height:0; }
+    .question-layout{ grid-template-columns:1fr; gap:18px; min-height:0; margin-bottom:16px; }
     .question-content{ min-height:0; padding:8px 0; }
     .question-title-tamil{ font-size: 23px; }
     .question-image{ text-align:center; }

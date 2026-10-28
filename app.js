@@ -27,10 +27,10 @@ const uiLocalizationMap = {
         admin_cancel_btn: "ரத்துசெய்",
         hero_title: "தொழில் வழிகாட்டல் திறன் கண்டறிதல் மதிப்பீட்டு அமைப்பு",
         hero_subtitle: "உங்கள் திறன்களை கண்டறியுங்கள், உங்கள் கற்றல் சுயவிவரத்தைப் புரிந்துகொள்ளுங்கள், மற்றும் உங்களுக்கு ஏற்ற தொழில் வாய்ப்புகளை ஆராயுங்கள்.",
-        welcome_badge: "🎯 உங்களை அறிந்துகொள்ளுங்கள். உங்கள் எதிர்காலத்தை வடிவமைக்கவும்.",
-        welcome_title_main: "தொழில்நெறி கண்டறியும் மதிப்பீட்டு முறைமைக்கு வரவேர்கிறோம்",
+        welcome_badge: "🎯 உங்களை அறிந்துகொள்ளுங்கள். உங்கள் எதிர்காலத்தை வடிவமையுங்கள்.",
+        welcome_title_main: "தொழில்நெறி கண்டறியும் மதிப்பீட்டு முறைமைக்கு வரவேற்கிறோம்",
         welcome_desc_1: "ஒவ்வொரு மாணவரும் தனித்துவமானவர்கள். நம் ஒவ்வொருவருக்கும் வெவ்வேறு பலங்கள், திறமைகள் மற்றும் ஆர்வங்கள் உள்ளன. சில மாணவர்கள் சிக்கல்களைத் தீர்ப்பதில் மகிழ்ச்சியடைகிறார்கள், சிலர் மனிதர்களுடன் இணைந்து பணியாற்றுவதை விரும்புகிறார்கள், சிலர் ஆக்கப்பூர்வமாக இருக்கிறார்கள், மற்றவர்கள் இயற்கை, விளையாட்டு, இசை அல்லது தகவல் தொடர்புகளை விரும்புகிறார்கள்.",
-        welcome_desc_2: "இந்த மதிப்பீடு ஒவ்வொருவரும் வெவ்வேறு வழிகளில் புத்திசாலிகள் என்ற கருத்தின் அடிப்படையில் அமைந்துள்ளது. எட்டு முதன்மையான மற்றும் வெவ்வேறு வகையான நுண்ணறிவுகளில் உங்கள் பலங்களைக் கண்டறிய இது உதவுகிறது:",
+        welcome_desc_2: "இந்த மதிப்பீடு ஒவ்வொருவரும் வெவ்வேறு வழிகளில் பற்பல வழிகளில் புத்திசாலிகள் என்ற கருத்தின் அடிப்படையில் அமைந்துள்ளது. எட்டு முதன்மையான மற்றும் வெவ்வேறு வகையான நுண்ணறிவுகளில் உங்கள் பலங்களைக் கண்டறிய இது உதவுகிறது:",
         how_it_works_title: "இந்த மதிப்பீடு எவ்வாறு செயல்படுகிறது?",
         feat_1_title: "80 எளிய கூற்றுகள்", feat_1_desc: "உங்களைப் பற்றிய 80 எளிய கூற்றுகளுக்கு நீங்கள் பதிலளிப்பீர்கள்.",
         feat_2_title: "உங்கள் பலங்கள்", feat_2_desc: "எட்டு நுண்ணறிவுத் துறைகளிலும் உங்கள் பலங்களைப் புரிந்துகொள்ள உங்கள் பதில்கள் எங்களுக்கு உதவும்.",
@@ -171,10 +171,10 @@ const skillsDevelopTranslations = {
     logical: { english: "Algorithmic Debugging Computations, Quantative Statistical Analytics, Deductive Proof Verification.", tamil: "நிரலாக்க பிழைதிருத்த கணக்கீடுகள், புள்ளிவிவர பகுப்பாய்வு, அனுமான சரிபார்ப்பு." },
     spatial: { english: "Architectural Drafting Blueprinting, Dynamic Layout Interface Modeling, Spatial Prototyping.", tamil: "கட்டிடக்கலை வரைவு வரைபடங்கள், இடைமுக வடிவமைப்பு மாதிரியாக்கம், முப்பரிமாண முன்மாதிரி உருவாக்கம்." },
     bodily: { english: "Tactile Structural Craftsmanship, Precision Kinesthetic Dexterity, Instrumental Mechanics Calibration.", tamil: "தொடு உணர்வு சார்ந்த கைவினைத்திறன், துல்லியமான உடல் இயக்கத்திறன், கருவி இயக்கவியல் அளவுத்திருத்தம்." },
-    musical: { english: "Acoustic Pitch Harmonization, Rhythmic Arrangement Composition, Sonic Frequency Discrimination.", tamil: "ஒலியியல் சுருதி ஒத்திசைவு, தாள அமைப்பு உருவாக்கம், ஒலி அதிர்வெண் வேறுபாடு அறிதல்." },
+    musical: { english: "Acoustic Pitch Harmonization, Rhythmic Arrangement Composition, Sonic Frequency Discrimination.", tamil: "மேம்பட்ட சுருதி ஒத்திசைவு, தாள அமைப்பு உருவாக்கம், ஒலி அதிர்வெண் வேறுபாடு அறிதல்." },
     interpersonal: { english: "Mediation Conflict Arbitration, Synergistic Team Leadership, Empathic Relationship Facilitation.", tamil: "சமரசம் மற்றும் முரண்பாடுகளைத் தீர்த்தல், கூட்டு குழு தலைமை, கூட்டுறவு உறவு மேம்பாடு." },
     intrapersonal: { english: "Strategic Behavioral Regulation, Objective Self-Performance Auditing, Metacognitive Mapping.", tamil: "வியூக நடத்தை ஒழுங்குமுறை, சுய செயல்திறன் தணிக்கை, மெட்டா-அறிவாற்றல் வரைபடம்." },
-    naturalistic: { english: "Ecological Specimen Classification, Environmental Impact Analytics, Biological Habitat Diagnostics.", tamil: "சுற்றுச்சூழல் மாதிரி வகைப்பாடு, சுற்றுச்சூழல் தாக்க பகுப்பாய்வு, உயிரியல் வாழ்விடக் கண்டறிதல்." }
+    naturalistic: { english: "Ecological Specimen Classification, Environmental Impact Analytics, Biological Habitat Diagnostics.", tamil: "சுற்றுوسط மாதிரி வகைப்பாடு, சுற்றுச்சூழல் தாக்க பகுப்பாய்வு, உயிரியல் வாழ்விடக் கண்டறிதல்." }
 };
 
 function runUIElementsLocalization() {
@@ -213,7 +213,7 @@ const careerClusters = [
         name: "Engineering & Technology",
         icon: "⚙️",
         description: "Suitable for students who enjoy logical thinking, innovation, mathematics, technology, and problem solving.",
-        intelligences: { logical: 5, spatial: 4, bodily: 2, intrapersonal: 2 },
+        intelligences: { logical: 5, spatial: 5, bodily: 3, intrapersonal: 2 },
         schoolGroups: ["Mathematics + Physics + Chemistry + Computer Science", "Mathematics + Physics + Chemistry + Biology"],
         entranceExams: ["JEE Main", "JEE Advanced", "State Engineering Counselling"],
         degreePrograms: ["B.E", "B.Tech"],
@@ -221,10 +221,10 @@ const careerClusters = [
     },
     {
         id: "computer_science",
-        name: "Computer Science & Digital Technologies",
+        name: "Computer Science, AI & Digital Technologies",
         icon: "💻",
         description: "Recommended for students interested in software, AI, coding, and emerging technologies.",
-        intelligences: { logical: 5, intrapersonal: 4, spatial: 3, linguistic: 2 },
+        intelligences: { logical: 5, intrapersonal: 4, spatial: 3 },
         schoolGroups: ["Mathematics + Physics + Chemistry + Computer Science"],
         entranceExams: ["JEE", "University Entrance Exams"],
         degreePrograms: ["B.Tech Computer Science", "BCA", "B.Sc Computer Science", "AI & Data Science"],
@@ -232,10 +232,10 @@ const careerClusters = [
     },
     {
         id: "science_research",
-        name: "Science & Research",
+        name: "Science, Research & Innovation",
         icon: "🔬",
         description: "Your responses show curiosity and a desire to understand how things work. You may enjoy asking questions, exploring ideas, and discovering new knowledge.",
-        intelligences: { logical: 5, naturalistic: 4, intrapersonal: 3 },
+        intelligences: { logical: 5, intrapersonal: 4, naturalistic: 3 },
         schoolGroups: ["Mathematics, Physics, Chemistry, Biology", "Mathematics, Physics, Chemistry"],
         entranceExams: ["IISER Aptitude Test (IAT)", "NEST", "CUET"],
         degreePrograms: ["B.Sc.", "BS-MS Integrated Programme", "Integrated M.Sc.", "B.Tech. (Research Programmes)"],
@@ -243,10 +243,10 @@ const careerClusters = [
     },
     {
         id: "medicine",
-        name: "Medicine",
+        name: "Medicine & Clinical Sciences",
         icon: "🩺",
         description: "Based on your responses, you may enjoy learning about science while helping others lead healthier lives.",
-        intelligences: { naturalistic: 3, logical: 4, interpersonal: 5 },
+        intelligences: { logical: 5, naturalistic: 4, interpersonal: 4, intrapersonal: 3 },
         schoolGroups: ["Biology, Physics, Chemistry (PCB)"],
         entranceExams: ["NEET-UG"],
         degreePrograms: ["MBBS", "BDS", "BAMS", "BHMS", "BSMS"],
@@ -254,10 +254,10 @@ const careerClusters = [
     },
     {
         id: "paramedical",
-        name: "Paramedical & Allied Health Sciences",
+        name: "Allied Health & Paramedical Sciences",
         icon: "🏥",
         description: "Your responses suggest that you enjoy supporting and caring for others. You may enjoy practical work that makes a positive difference in people's lives.",
-        intelligences: { interpersonal: 5, bodily: 4, logical: 3 },
+        intelligences: { interpersonal: 5, logical: 4, bodily: 4, naturalistic: 3 },
         schoolGroups: ["Biology, Physics, Chemistry (PCB)"],
         entranceExams: ["NEET (for selected programmes)", "AIIMS Nursing", "AIIMS Paramedical", "NIMHANS Paramedical", "CUET"],
         degreePrograms: ["B.Sc. Allied Health Sciences", "Bachelor of Physiotherapy (BPT)", "B.Sc. Medical Laboratory Technology", "B.Sc. Radiography", "B.Optom"],
@@ -265,10 +265,10 @@ const careerClusters = [
     },
     {
         id: "agriculture",
-        name: "Agriculture & Food Technology",
+        name: "Agriculture, Food Technology & Rural Development",
         icon: "🌾",
         description: "Your responses suggest an interest in nature, farming, food, and sustainable living.",
-        intelligences: { naturalistic: 5, logical: 3, bodily: 4 },
+        intelligences: { naturalistic: 5, logical: 4, bodily: 3, interpersonal: 2 },
         schoolGroups: ["Biology, Physics, Chemistry", "Mathematics, Physics, Chemistry", "Agriculture (where offered)"],
         entranceExams: ["ICAR AIEEA", "CUET", "State Agricultural University Entrance Examinations"],
         degreePrograms: ["B.Sc. Agriculture", "B.Tech. Food Technology", "B.Sc. Horticulture", "B.Sc. Forestry", "B.F.Sc."],
@@ -276,10 +276,10 @@ const careerClusters = [
     },
     {
         id: "environment",
-        name: "Environment & Sustainability",
+        name: "Environment, Sustainability & Earth Sciences",
         icon: "🌿",
         description: "Based on your responses, you care about nature and protecting the environment. You may enjoy finding solutions to environmental challenges and promoting sustainable living.",
-        intelligences: { naturalistic: 5, logical: 4, intrapersonal: 3 },
+        intelligences: { naturalistic: 5, logical: 4, intrapersonal: 4 },
         schoolGroups: ["Biology, Physics, Chemistry", "Mathematics, Physics, Chemistry"],
         entranceExams: ["CUET", "ICAR AIEEA", "JEE Main (for Environmental Engineering)"],
         degreePrograms: ["B.Sc. Environmental Science", "B.Tech. Environmental Engineering", "B.Sc. Forestry", "B.Sc. Wildlife Science", "B.Sc. Earth Sciences"],
@@ -287,7 +287,7 @@ const careerClusters = [
     },
     {
         id: "architecture",
-        name: "Architecture & Planning",
+        name: "Architecture, Planning & Built Environment",
         icon: "🏛️",
         description: "Based on your responses, you may enjoy visualising ideas, designing spaces, and combining creativity with practical thinking. This field offers opportunities to shape the places where people live and work.",
         intelligences: { spatial: 5, logical: 4, bodily: 2 },
@@ -298,10 +298,10 @@ const careerClusters = [
     },
     {
         id: "design",
-        name: "Design",
+        name: "Design & Creative Technologies",
         icon: "🎨",
         description: "Based on your responses, you show creativity and enjoy expressing ideas in new and innovative ways. You may enjoy creating designs that are both attractive and useful.",
-        intelligences: { spatial: 5, intrapersonal: 3, bodily: 2 },
+        intelligences: { spatial: 5, intrapersonal: 4, logical: 2, musical: 2 },
         schoolGroups: ["Any Higher Secondary Group (depending on the institution and specialization)"],
         entranceExams: ["UCEED", "NID DAT", "NIFT Entrance Examination", "CUET (for selected institutions)"],
         degreePrograms: ["Bachelor of Design (B.Des.)", "Bachelor of Fine Arts (BFA)", "Bachelor of Fashion Technology (BFTech)", "Bachelor of Interior Design", "Bachelor of Visual Communication"],
@@ -320,10 +320,10 @@ const careerClusters = [
     },
     {
         id: "management",
-        name: "Management",
+        name: "Management & Entrepreneurship",
         icon: "💼",
         description: "Based on your responses, you may enjoy organising activities, leading teams, and working with people. You may also enjoy planning, decision-making, and solving business challenges.",
-        intelligences: { interpersonal: 5, intrapersonal: 4, linguistic: 3 },
+        intelligences: { interpersonal: 5, logical: 4, intrapersonal: 4, linguistic: 3 },
         schoolGroups: ["Commerce", "Commerce with Mathematics", "Mathematics, Physics, Chemistry", "Any stream"],
         entranceExams: ["CUET", "IPMAT (Integrated Programme in Management)", "JIPMAT"],
         degreePrograms: ["Bachelor of Business Administration (BBA)", "Bachelor of Management Studies (BMS)", "Integrated Programme in Management (IPM)", "B.Com.", "Bachelor of Entrepreneurship"],
@@ -331,10 +331,10 @@ const careerClusters = [
     },
     {
         id: "economics",
-        name: "Economics & Public Policy",
+        name: "Economics, Public Policy & Development Studies",
         icon: "📈",
         description: "Based on your responses, you may enjoy understanding society, the economy, and how decisions affect people's lives. You may be interested in solving social and economic challenges.",
-        intelligences: { logical: 5, intrapersonal: 3, linguistic: 2 },
+        intelligences: { logical: 4, linguistic: 4, intrapersonal: 4, interpersonal: 3 },
         schoolGroups: ["Commerce", "Commerce with Mathematics", "Humanities", "Mathematics, Physics, Chemistry"],
         entranceExams: ["CUET"],
         degreePrograms: ["B.Sc. Economics", "B.A. Economics", "B.A. Public Policy", "B.A. Development Studies", "BBA"],
@@ -342,10 +342,10 @@ const careerClusters = [
     },
     {
         id: "law",
-        name: "Law",
+        name: "Law, Governance & Justice",
         icon: "⚖️",
         description: "Based on your responses, you may enjoy communication, logical reasoning, and understanding different viewpoints. You may also enjoy solving problems fairly and standing up for justice.",
-        intelligences: { linguistic: 5, logical: 5, interpersonal: 4 },
+        intelligences: { linguistic: 5, interpersonal: 5, logical: 3, intrapersonal: 3 },
         schoolGroups: ["Any Higher Secondary Group"],
         entranceExams: ["CLAT", "AILET", "SLAT", "LSAT (where applicable)", "CUET (for selected universities)"],
         degreePrograms: ["B.A. LL.B.", "B.B.A. LL.B.", "B.Com. LL.B.", "B.Sc. LL.B.", "LL.B."],
@@ -353,10 +353,10 @@ const careerClusters = [
     },
     {
         id: "public_services",
-        name: "Public Services",
+        name: "Public Services, Defence & Security",
         icon: "🏛️",
         description: "Based on your responses, you may enjoy serving society, taking responsibility, and making a positive difference in people's lives. This field offers opportunities to contribute to the nation through public service.",
-        intelligences: { intrapersonal: 5, interpersonal: 4, linguistic: 3 },
+        intelligences: { interpersonal: 4, bodily: 4, logical: 3, intrapersonal: 3 },
         schoolGroups: ["Any Higher Secondary Group"],
         entranceExams: ["NDA (after Class XII)", "CDS (after graduation)", "UPSC Civil Services Examination (after graduation)", "State Public Service Commission Examinations (after graduation)"],
         degreePrograms: ["Any Bachelor's Degree (eligible for most Civil Services)", "B.A. Public Administration", "B.A. Political Science", "B.A. History", "B.Com./B.Sc./B.Tech. (all are eligible)"],
@@ -364,10 +364,10 @@ const careerClusters = [
     },
     {
         id: "education",
-        name: "Education & Human Development",
+        name: "Education, Psychology & Human Development",
         icon: "🎓",
         description: "Based on your responses, you may enjoy helping others learn, grow, and achieve their potential. You may find satisfaction in guiding, teaching, and supporting people.",
-        intelligences: { interpersonal: 5, linguistic: 4, intrapersonal: 3 },
+        intelligences: { interpersonal: 5, linguistic: 4, intrapersonal: 4 },
         schoolGroups: ["Any Higher Secondary Group"],
         entranceExams: ["NCET", "NCERT - CEE", "CUET"],
         degreePrograms: ["B.A.B.Ed.", "B.Sc.B.Ed.", "B.El.Ed.", "B.A. Psychology"],
@@ -378,7 +378,7 @@ const careerClusters = [
         name: "Humanities & Liberal Arts",
         icon: "🎭",
         description: "Based on your responses, you may enjoy understanding people, society, culture, languages, and history. You may like exploring ideas and thinking about the world from different perspectives.",
-        intelligences: { linguistic: 5, interpersonal: 4, intrapersonal: 4 },
+        intelligences: { linguistic: 5, intrapersonal: 5, interpersonal: 3 },
         schoolGroups: ["Humanities", "Commerce", "Any Higher Secondary Group"],
         entranceExams: ["CUET"],
         degreePrograms: ["B.A.", "B.A. History", "B.A. Sociology", "B.A. Political Science", "B.A. Psychology", "B. Social Work"],
@@ -386,10 +386,10 @@ const careerClusters = [
     },
     {
         id: "media",
-        name: "Media & Communication",
+        name: "Media, Communication & Journalism",
         icon: "🎙️",
         description: "Based on your responses, you may enjoy expressing ideas, telling stories, and connecting with people. You may be creative and confident in sharing information through different forms of communication.",
-        intelligences: { linguistic: 5, interpersonal: 4, spatial: 2 },
+        intelligences: { linguistic: 5, interpersonal: 4, intrapersonal: 3, spatial: 2 },
         schoolGroups: ["Any Higher Secondary Group"],
         entranceExams: ["CUET", "IIMC Entrance Examination (when applicable)"],
         degreePrograms: ["B.A. Journalism", "B.A. Mass Communication", "B.A. Visual Communication", "Bachelor of Multimedia", "Bachelor of Film Studies"],
@@ -397,7 +397,7 @@ const careerClusters = [
     },
     {
         id: "hospitality",
-        name: "Hospitality, Tourism & Sports",
+        name: "Hospitality, Tourism, Sports & Service Industries",
         icon: "🏨",
         description: "Based on your responses, you may enjoy working with people, creating memorable experiences, and working in dynamic environments. You may also enjoy teamwork, communication, and service.",
         intelligences: { interpersonal: 5, bodily: 4, linguistic: 3 },
@@ -518,7 +518,7 @@ const questions = [
     { id: 46, domain: "musical", english: "I enjoy creating beats or rhythms.", tamil: "நான் புதிய தாளங்கள் அல்லது லயங்களை உருவாக்குவதை விரும்புகிறேன்." },
     { id: 47, domain: "musical", english: "I notice sounds around me carefully.", tamil: "என்னைச் சுற்றியுள்ள ஒலிகளை நான் கவனமாகக் கவனிப்பேன்." },
     { id: 48, domain: "musical", english: "I enjoy cultural or musical performances.", tamil: "நான் கலாச்சார அல்லது இசை நிகழ்ச்சிகளை விரும்புகிறேன்." },
-    { id: 49, domain: "musical", english: "I can focus better with music.", tamil: "இசை கேட்கும்போது என்னால் சிறப்பாகக் கவனம் செலுத்த முடிகிறது." },
+    { id: 49, domain: "musical", english: "I can focus better with music.", tamil: "இசை கேட்கும்போது என்னால் சிறப்பாகக் கவனம் செலுத்த முدیدகிறது." },
     { id: 50, domain: "musical", english: "I enjoy learning through rhythm or songs.", tamil: "நான் தாளம் அல்லது பாடல்கள் மூலம் கற்றுக்கொள்வதை விரும்புகிறேன்." },
     
     // SECTION F — INTERPERSONAL INTELLIGENCE (Questions 51–60)
@@ -645,6 +645,34 @@ function updateProgress() {
     if (totalQuestionsElement) totalQuestionsElement.textContent = total;
 }
 
+// PROGRAMMATIC MULTI-FORMAT ROTATION ROUTING SYSTEM FOR ALL GRAPHICS
+function resolveImageExtensionFallback(imgElement, baseSrcPath, alternateExtensions = ['jpg', 'jpeg', 'png', 'webp']) {
+    if (!imgElement.dataset.extensionIndex) {
+        imgElement.dataset.extensionIndex = '0';
+    }
+    
+    let currentIdx = parseInt(imgElement.dataset.extensionIndex, 10);
+    currentIdx++;
+    
+    if (currentIdx < alternateExtensions.length) {
+        imgElement.dataset.extensionIndex = currentIdx.toString();
+        const nextExtension = alternateExtensions[currentIdx];
+        imgElement.src = `${baseSrcPath}.${nextExtension}`;
+    } else {
+        if (!imgElement.dataset.fallbackFinalTriggered) {
+            imgElement.dataset.fallbackFinalTriggered = '1';
+            imgElement.src = 'images/default.jpg';
+        } else {
+            const containerElement = imgElement.closest(".learning-style-image-container") || imgElement.parentNode;
+            if (containerElement && containerElement.classList.contains("learning-style-image-container")) {
+                containerElement.style.display = 'none';
+            } else {
+                imgElement.style.display = 'none';
+            }
+        }
+    }
+}
+
 function getDomain(domainId) { return domains.find(d => d.id === domainId); }
 function getDomainName(domainId) { 
     const d = getDomain(domainId); 
@@ -674,6 +702,10 @@ function renderQuestion() {
     let compiledContent = `<h2 class="question-title-tamil">${currentLanguageMode === "tamil" ? question.tamil : question.english}</h2>`;
     let metaLabelText = currentLanguageMode === "tamil" ? `வினா ${currentQuestion + 1} (மொத்தம் ${questions.length})` : `Question ${currentQuestion + 1} of ${questions.length}`;
 
+    // Standardized to start trying paths from .jpg up to png/webp smoothly
+    // NEW FIXED CODE (Looking for images/Q1, images/Q2, etc.)
+const baseQuestionPath = question.image ? question.image.substring(0, question.image.lastIndexOf('.')) : `images/Q${question.id}`;
+
     questionCard.innerHTML = `
         <div class="question-meta">
             <div>${metaLabelText}</div>
@@ -685,7 +717,7 @@ function renderQuestion() {
                     ${compiledContent}
                 </div>
                 <div class="question-image">
-                    <img src="${question.image}" alt="Question Graphic Reference" onerror="this.src='/images/default.jpg'">
+                    <img src="${baseQuestionPath}.jpg" alt="Question Graphic Reference" onerror="resolveImageExtensionFallback(this, '${baseQuestionPath}')">
                 </div>
             </div>
             <div class="options-grid" id="optionsGrid"></div>
@@ -740,7 +772,7 @@ function renderQuestion() {
     });
 
     updateNavigationButtons();
-}
+}//
 
 function updateNavigationButtons() {
     if (prevBtn) prevBtn.disabled = (currentQuestion === 0);
@@ -842,24 +874,24 @@ function getTopStrengths(scores) {
 
 function calculateCareerMatches(intelligenceScores) {
     const streamMappers = [
-        { id: "engineering", name: "Engineering & Technology", icon: "⚙️", intelligences: { logical: 5, spatial: 4, bodily: 2 } },
-        { id: "computer_science", name: "Computer Science & Digital Technologies", icon: "💻", intelligences: { logical: 5, intrapersonal: 4, spatial: 3 } },
-        { id: "science_research", name: "Science & Research", icon: "🔬", intelligences: { logical: 5, naturalistic: 4, intrapersonal: 3 } },
-        { id: "medicine", name: "Medicine", icon: "🩺", intelligences: { naturalistic: 3, logical: 4, interpersonal: 5 } },
-        { id: "paramedical", name: "Paramedical & Allied Health Sciences", icon: "🏥", intelligences: { interpersonal: 5, bodily: 4, logical: 3 } },
-        { id: "agriculture", name: "Agriculture & Food Technology", icon: "🌾", intelligences: { naturalistic: 5, logical: 3, bodily: 4 } },
-        { id: "environment", name: "Environment & Sustainability", icon: "🌿", intelligences: { naturalistic: 5, logical: 4, intrapersonal: 3 } },
-        { id: "architecture", name: "Architecture & Planning", icon: "🏛️", intelligences: { spatial: 5, logical: 4, bodily: 2 } },
-        { id: "design", name: "Design", icon: "🎨", intelligences: { spatial: 5, intrapersonal: 3, bodily: 2 } },
+        { id: "engineering", name: "Engineering & Technology", icon: "⚙️", intelligences: { logical: 5, spatial: 5, bodily: 3, intrapersonal: 2 } },
+        { id: "computer_science", name: "Computer Science, AI & Digital Technologies", icon: "💻", intelligences: { logical: 5, intrapersonal: 4, spatial: 3 } },
+        { id: "science_research", name: "Science, Research & Innovation", icon: "🔬", intelligences: { logical: 5, intrapersonal: 4, naturalistic: 3 } },
+        { id: "medicine", name: "Medicine & Clinical Sciences", icon: "🩺", intelligences: { logical: 5, naturalistic: 4, interpersonal: 4, intrapersonal: 3 } },
+        { id: "paramedical", name: "Allied Health & Paramedical Sciences", icon: "🏥", intelligences: { interpersonal: 5, logical: 4, bodily: 4, naturalistic: 3 } },
+        { id: "agriculture", name: "Agriculture, Food Technology & Rural Development", icon: "🌾", intelligences: { naturalistic: 5, logical: 4, bodily: 3, interpersonal: 2 } },
+        { id: "environment", name: "Environment, Sustainability & Earth Sciences", icon: "🌿", intelligences: { naturalistic: 5, logical: 4, intrapersonal: 4 } },
+        { id: "architecture", name: "Architecture, Planning & Built Environment", icon: "🏛️", intelligences: { spatial: 5, logical: 4, bodily: 2 } },
+        { id: "design", name: "Design & Creative Technologies", icon: "🎨", intelligences: { spatial: 5, intrapersonal: 4, logical: 2, musical: 2 } },
         { id: "commerce", name: "Commerce, Finance & Accounting", icon: "📊", intelligences: { logical: 5, intrapersonal: 3, linguistic: 2 } },
-        { id: "management", name: "Management", icon: "💼", intelligences: { interpersonal: 5, intrapersonal: 4, linguistic: 3 } },
-        { id: "economics", name: "Economics & Public Policy", icon: "📈", intelligences: { logical: 5, intrapersonal: 3, linguistic: 2 } },
-        { id: "law", name: "Law", icon: "⚖️", intelligences: { linguistic: 5, logical: 5, interpersonal: 4 } },
-        { id: "public_services", name: "Public Services", icon: "🏛️", intelligences: { intrapersonal: 5, interpersonal: 4, linguistic: 3 } },
-        { id: "education", name: "Education & Human Development", icon: "🎓", intelligences: { interpersonal: 5, linguistic: 4, intrapersonal: 3 } },
-        { id: "humanities", name: "Humanities & Liberal Arts", icon: "🎭", intelligences: { linguistic: 5, interpersonal: 4, intrapersonal: 4 } },
-        { id: "media", name: "Media & Communication", icon: "🎙️", intelligences: { linguistic: 5, interpersonal: 4, spatial: 2 } },
-        { id: "hospitality", name: "Hospitality, Tourism & Sports", icon: "🏨", intelligences: { interpersonal: 5, bodily: 4, linguistic: 3 } }
+        { id: "management", name: "Management & Entrepreneurship", icon: "💼", intelligences: { interpersonal: 5, logical: 4, intrapersonal: 4, linguistic: 3 } },
+        { id: "economics", name: "Economics, Public Policy & Development Studies", icon: "📈", intelligences: { logical: 4, linguistic: 4, intrapersonal: 4, interpersonal: 3 } },
+        { id: "law", name: "Law, Governance & Justice", icon: "⚖️", intelligences: { linguistic: 5, interpersonal: 5, logical: 3, intrapersonal: 3 } },
+        { id: "public_services", name: "Public Services, Defence & Security", icon: "🏛️", intelligences: { interpersonal: 4, bodily: 4, logical: 3, intrapersonal: 3 } },
+        { id: "education", name: "Education, Psychology & Human Development", icon: "🎓", intelligences: { interpersonal: 5, linguistic: 4, intrapersonal: 4 } },
+        { id: "humanities", name: "Humanities & Liberal Arts", icon: "🎭", intelligences: { linguistic: 5, intrapersonal: 5, interpersonal: 3 } },
+        { id: "media", name: "Media, Communication & Journalism", icon: "🎙️", intelligences: { linguistic: 5, interpersonal: 4, intrapersonal: 3, spatial: 2 } },
+        { id: "hospitality", name: "Hospitality, Tourism, Sports & Service Industries", icon: "🏨", intelligences: { interpersonal: 5, bodily: 4, linguistic: 3 } }
     ];
 
     const results = streamMappers.map(cluster => {
@@ -1226,234 +1258,203 @@ function displayReportHTML(reportData, targetContainer) {
     };
     const primaryImgNumber = domainImageIndexMap[primaryDomainId] || 1;
 
-    // Helper functions to calculate radar chart points inside an inline vector space layout framework
-    const labels = ["Linguistic", "Logical", "Spatial", "Bodily", "Musical", "Interpersonal", "Intrapersonal", "Naturalistic"];
-    const keys = ["linguistic", "logical", "spatial", "bodily", "musical", "interpersonal", "intrapersonal", "naturalistic"];
-    const center = 150;
-    const radius = 100;
-    const angles = keys.map((_, idx) => (idx * 2 * Math.PI) / 8 - Math.PI / 2);
-
-    let gridCircles = "";
-    for (let r = 20; r <= 100; r += 20) {
-        gridCircles += `<circle cx="${center}" cy="${center}" r="${r}" fill="none" stroke="#e2e8f0" stroke-width="1" />`;
-    }
-
-    let webLines = "";
-    angles.forEach(angle => {
-        const x = center + radius * Math.cos(angle);
-        const y = center + radius * Math.sin(angle);
-        webLines += `<line x1="${center}" y1="${center}" x2="${x}" y2="${y}" stroke="#cbd5e1" stroke-width="1" />`;
-    });
-
-    const pointCoordinates = keys.map((key, idx) => {
-        const scorePct = intelligenceScores.percentage[key] || 0;
-        const currentRadius = (scorePct / 100) * radius;
-        const x = center + currentRadius * Math.cos(angles[idx]);
-        const y = center + currentRadius * Math.sin(angles[idx]);
-        return `${x},${y}`;
-    }).join(" ");
-
-    let textLabels = "";
-    labels.forEach((label, idx) => {
-        const offsetRadius = radius + 22;
-        const x = center + offsetRadius * Math.cos(angles[idx]);
-        const y = center + offsetRadius * Math.sin(angles[idx]);
-        let textAnchor = "middle";
-        if (Math.cos(angles[idx]) > 0.1) textAnchor = "start";
-        else if (Math.cos(angles[idx]) < -0.1) textAnchor = "end";
-        textLabels += `<text x="${x}" y="${y + 4}" text-anchor="${textAnchor}" fill="#475569" font-size="11" font-weight="700">${label}</text>`;
-    });
-
     let html = `
-        <div class="report-section" style="padding: 24px; margin-bottom: 24px;">
-            <h2 style="color:var(--primary-dark); margin-bottom: 18px; font-size:22px; font-weight:800;">Student Profile</h2>
-            <div class="profile-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 14px;">
-                <div class="profile-item">
-                    <div class="profile-label">Name</div>
-                    <div class="profile-value">${reportData.student.name}</div>
-                </div>
-                <div class="profile-item">
-                    <div class="profile-label">EMIS No</div>
-                    <div class="profile-value">${reportData.student.emis || "N/A"}</div>
-                </div>
-                <div class="profile-item">
-                    <div class="profile-label">Standard</div>
-                    <div class="profile-value">${reportData.student.class}</div>
-                </div>
-                <div class="profile-item">
-                    <div class="profile-label">Medium</div>
-                    <div class="profile-value">${reportData.student.medium || "N/A"}</div>
-                </div>
-                <div class="profile-item">
-                    <div class="profile-label">School</div>
-                    <div class="profile-value">${reportData.student.school}</div>
-                </div>
-                <div class="profile-item">
-                    <div class="profile-label">District</div>
-                    <div class="profile-value">${reportData.student.district}</div>
-                </div>
-                <div class="profile-item">
-                    <div class="profile-label">Assessment Date</div>
-                    <div class="profile-value">${new Date().toLocaleDateString()}</div>
-                </div>
-            </div>
-        </div>
-
-        <div class="report-section" style="padding: 24px; margin-bottom: 24px;">
-            <h2 style="color:var(--primary-dark); margin-bottom: 14px; font-size:22px; font-weight:800;">About This Report</h2>
-            <p style="font-size: 14.5px; color: #475569; line-height: 1.6; margin-bottom: 10px;">This report is based on your responses to the Career Exploration Assessment. It helps you understand your strengths, how you learn best, and the career fields that may suit your abilities and interests.</p>
-            <p style="font-size: 14.5px; color: #475569; line-height: 1.6; margin-bottom: 10px;">This report is based on Howard Gardner's Multiple Intelligences Framework, which recognises that every student has unique strengths and talents. It highlights your strongest areas and suggests career clusters that best align with your overall profile.</p>
-            <p style="font-size: 14.5px; color: #475569; line-height: 1.6;">This report is intended to guide and support you in exploring educational and career opportunities.</p>
-        </div>
-
-        <div class="report-section" style="padding: 24px; margin-bottom: 24px;">
-            <h2 style="color:var(--primary-dark); margin-bottom: 14px; font-size:22px; font-weight:800;">How to Use This Report</h2>
-            <ul class="report-list-bullets" style="list-style-type: square; padding-left: 20px;">
-                <li>Use this report as a guide to understand yourself better and explore different career possibilities.</li>
-                <li>Reflect on your strengths and learning preferences.</li>
-                <li>Explore the recommended career clusters and educational pathways.</li>
-                <li>Discuss your report with your parents, teachers, or career counsellor.</li>
-                <li>Take part in activities and learning opportunities that help you build your interests and skills.</li>
-            </ul>
-            <div class="summary-box" style="margin-top:15px; background:#f0fdf4; border-left:5px solid #16a34a; color:#14532d;">
-                <strong>Remember:</strong> Your interests, effort, learning experiences, and opportunities will continue to shape your future. This report is a guide to help you make informed choices and confidently explore the possibilities ahead.
-            </div>
-        </div>
-
-        <div class="report-section">
-            <h2>Intelligence Profile Summary</h2>
-            <div style="display: flex; flex-direction: row; flex-wrap: wrap; align-items: center; justify-content: center; gap: 40px; margin-top: 15px;">
-                <div class="intelligence-list" style="flex: 1; min-width: 300px;">
-    `;
-
-    profileSorted.forEach(item => {
-        html += `
-            <div class="intelligence-row">
-                <div class="intelligence-name">${item.icon} ${item.name}</div>
-                <div class="bar-track">
-                    <div class="bar-fill" style="width:${item.score}%"></div>
-                </div>
-                <div class="intelligence-score">${item.score}%</div>
-            </div>
-        `;
-    });
-
-    html += `
-                </div>
-                <div style="flex: 0 0 320px; display: flex; align-items: center; justify-content: center; background: #f8fafc; padding: 15px; border-radius: 16px; border: 1px solid #e2e8f0;">
-                    <svg width="320" height="300" viewBox="0 0 320 300">
-                        ${gridCircles}
-                        ${webLines}
-                        <polygon points="${pointCoordinates}" fill="rgba(37, 99, 235, 0.25)" stroke="#2563eb" stroke-width="2.5" />
-                        ${textLabels}
-                    </svg>
-                </div>
-            </div>
-        </div>
-
-        <div class="report-section">
-            <h2>Learning Style Summary</h2>
-            <div style="display: flex; flex-direction: row; justify-content: space-between; align-items: stretch; gap: 24px;">
-                <div style="flex: 1; display: flex; flex-direction: column; gap: 16px;">
-                    <div class="summary-box" style="margin: 0; background:#eff6ff; border-left:5px solid #2563eb; padding:16px; border-radius:12px; font-size:14.5px; color:#1e40af; font-weight:500;">
-                        Based upon your top psychometric results, you absorb complex information best using mechanisms related to <strong>${domains.find(x => x.id === primaryDomainId).englishName}</strong>.
+        <div class="pdf-section">
+            <div class="report-section report-section-profile">
+                <h2 class="report-main-title">Student Profile</h2>
+                <div class="profile-grid">
+                    <div class="profile-item">
+                        <div class="profile-label">Name</div>
+                        <div class="profile-value">${reportData.student.name}</div>
                     </div>
-                    <div>
-                        <div class="report-subsection-title" style="margin-top:0; font-weight:700; color:var(--primary-dark); margin-bottom: 8px;">How you learn best:</div>
-                        <div style="background:#ffffff; padding:16px; border-radius:12px; border:1px solid #e2e8f0; font-size:14.5px; color:#334155; line-height:1.6; border-left: 4px solid #cbd5e1;">
-                            ${getLearningStyleNotes(primaryDomainId)}
+                    <div class="profile-item">
+                        <div class="profile-label">EMIS No</div>
+                        <div class="profile-value">${reportData.student.emis || "N/A"}</div>
+                    </div>
+                    <div class="profile-item">
+                        <div class="profile-label">Standard</div>
+                        <div class="profile-value">${reportData.student.class}</div>
+                    </div>
+                    <div class="profile-item">
+                        <div class="profile-label">Medium</div>
+                        <div class="profile-value">${reportData.student.medium || "N/A"}</div>
+                    </div>
+                    <div class="profile-item">
+                        <div class="profile-label">School</div>
+                        <div class="profile-value">${reportData.student.school}</div>
+                    </div>
+                    <div class="profile-item">
+                        <div class="profile-label">District</div>
+                        <div class="profile-value">${reportData.student.district}</div>
+                    </div>
+                    <div class="profile-item">
+                        <div class="profile-label">Assessment Date</div>
+                        <div class="profile-value">${new Date().toLocaleDateString()}</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="pdf-section">
+            <div class="report-section report-section-about">
+                <h2 class="report-main-title">About This Report</h2>
+                <p class="report-paragraph">This report is based on your responses to the Career Exploration Assessment. It helps you understand your strengths, how you learn best, and the career fields that may suit your abilities and interests.</p>
+                <p class="report-paragraph">This report is based on Howard Gardner's Multiple Intelligences Framework, which recognises that every student has unique strengths and talents. It highlights your strongest areas and suggests career clusters that best align with your overall profile.</p>
+                <p class="report-paragraph">This report is intended to guide and support you in exploring educational and career opportunities.</p>
+            </div>
+        </div>
+
+        <div class="pdf-section">
+            <div class="report-section report-section-how-to">
+                <h2 class="report-main-title">How to Use This Report</h2>
+                <ul class="report-list-bullets">
+                    <li>Use this report as a guide to understand yourself better and explore different career possibilities.</li>
+                    <li>Reflect on your strengths and learning preferences.</li>
+                    <li>Explore the recommended career clusters and educational pathways.</li>
+                    <li>Discuss your report with your parents, teachers, or career counsellor.</li>
+                    <li>Take part in activities and learning opportunities that help you build your interests and skills.</li>
+                </ul>
+                <div class="summary-box summary-box-success">
+                    <strong>Remember:</strong> Your interests, effort, learning experiences, and opportunities will continue to shape your future. This report is a guide to help you make informed choices and confidently explore the possibilities ahead.
+                </div>
+            </div>
+        </div>
+
+        <div class="pdf-section">
+            <div class="report-section">
+                <h2>Intelligence Profile Summary</h2>
+                <div class="profile-summary-layout">
+                    <div class="intelligence-list">
+        `;
+
+        profileSorted.forEach(item => {
+            html += `
+                <div class="intelligence-row">
+                    <div class="intelligence-name">${item.icon} ${item.name}</div>
+                    <div class="bar-track">
+                        <div class="bar-fill" style="width:${item.score}%"></div>
+                    </div>
+                    <div class="intelligence-score">${item.score}%</div>
+                </div>
+            `;
+        });
+
+        const styleBaseImgPath = `images/Int${primaryImgNumber}`;
+
+        html += `
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="pdf-section">
+            <div class="report-section">
+                <h2>Learning Style Summary</h2>
+                <div class="learning-style-layout">
+                    <div class="learning-style-content">
+                        <div class="summary-box summary-box-info">
+                            Based upon your top psychometric results, you absorb complex information best using mechanisms related to <strong>${domains.find(x => x.id === primaryDomainId).englishName}</strong>.
+                        </div>
+                        <div>
+                            <div class="report-subsection-title">How you learn best:</div>
+                            <div class="learning-notes-box">
+                                ${getLearningStyleNotes(primaryDomainId)}
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div style="flex: 0 0 260px; display: flex; align-items: center; justify-content: center;">
-                    <img src="/images/Int${primaryImgNumber}.jpg" alt="Learning Style Graphic" style="width: 100%; height: 100%; min-height: 200px; object-fit: cover; border-radius: 16px; border: 2px solid #cbd5e1; box-shadow: 0 4px 12px rgba(0,0,0,0.06);" onerror="this.src='/images/default.jpg'">
+                    <div class="learning-style-image-container">
+                        <img src="${styleBaseImgPath}.jpg" alt="Learning Style Graphic" class="learning-style-image" onerror="resolveImageExtensionFallback(this, '${styleBaseImgPath}')">
+                    </div>
                 </div>
             </div>
         </div>
 
-        <div class="report-section">
-            <h2>Top 3 Core Areas and Strengths</h2>
-            <div class="strength-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px;">
-    `;
-
-    reportData.topStrengths.forEach((strength, index) => {
-        const d = domains.find(x => x.id === strength.id);
-        const englishStrengthName = d ? d.englishName : strength.name;
-        const assocData = getCustomAssociationText(strength.id, strength.score);
-        
-        html += `
-            <div class="strength-card" style="display: flex; flex-direction: column; justify-content: space-between; height: 100%;">
-                <div>
-                    <div class="strength-rank">${index + 1}</div>
-                    <div class="strength-title" style="font-weight:700; font-size:16px;">${strength.icon} ${englishStrengthName}</div>
-                    <div class="strength-percent" style="margin: 8px 0; font-size:24px; font-weight:800; color:var(--primary);">${strength.score}%</div>
-                    <div style="font-size:11px; margin-bottom:10px; color:#1e40af; font-weight:700; text-transform: uppercase; letter-spacing:0.5px;">${assocData.association}</div>
-                </div>
-                <p style="font-size:13px; color:#475569; line-height:1.5; text-align:left; background:#f8fafc; padding:10px; border-radius:8px; border:1px solid #e2e8f0;">${assocData.text}</p>
-            </div>
+        <div class="pdf-section">
+            <div class="report-section">
+                <h2>Top 3 Core Areas and Strengths</h2>
+                <div class="strength-grid">
         `;
-    });
 
-    html += `
+        reportData.topStrengths.forEach((strength, index) => {
+            const d = domains.find(x => x.id === strength.id);
+            const englishStrengthName = d ? d.englishName : strength.name;
+            const assocData = getCustomAssociationText(strength.id, strength.score);
+            
+            html += `
+                <div class="strength-card">
+                    <div>
+                        <div class="strength-rank">${index + 1}</div>
+                        <div class="strength-title">${strength.icon} ${englishStrengthName}</div>
+                        <div class="strength-percent">${strength.score}%</div>
+                        <div class="strength-association">${assocData.association}</div>
+                    </div>
+                    <p class="strength-description">${assocData.text}</p>
+                </div>
+            `;
+        });
+
+        html += `
+                </div>
+                <p class="report-end-note">
+                    <strong>End note:</strong> Everyone has strengths in all eight areas. This report highlights the areas where your strengths are most evident based on your responses. These strengths can continue to grow with learning and experience.
+                </p>
             </div>
-            <p style="font-size:12.5px; color:var(--muted); font-style:italic; margin-top:20px; text-align:center;">
-                <strong>End note:</strong> Everyone has strengths in all eight areas. This report highlights the areas where your strengths are most evident based on your responses. These strengths can continue to grow with learning and experience.
-            </p>
         </div>
 
-        <div class="report-section">
-            <h2>Top 3 Recommended Career Clusters</h2>
-            <div class="career-grid">
-    `;
+        <div class="pdf-section">
+            <div class="report-section">
+                <h2>Top 3 Recommended Career Clusters</h2>
+                <div class="career-grid">
+        `;
 
-    reportData.recommendedStreams.forEach((stream, index) => {
-        const metaProfile = extendedCareerMaster[stream.id] || {
-            description: "Based on your responses, you show strengths that are well suited to this career field.",
-            subDescription: stream.description,
-            careers: stream.careers,
-            group: getSecondaryChoice(stream),
-            exams: stream.entranceExams,
-            degrees: stream.degreePrograms,
-            parentGuidance: "Encourage independent exploration inside the student's highest-scoring talent areas."
-        };
+        reportData.recommendedStreams.forEach((stream, index) => {
+            const metaProfile = extendedCareerMaster[stream.id] || {
+                description: "Based on your responses, you show strengths that are well suited to this career field.",
+                subDescription: stream.description,
+                careers: stream.careers,
+                group: getSecondaryChoice(stream),
+                exams: stream.entranceExams,
+                degrees: stream.degreePrograms,
+                parentGuidance: "Encourage independent exploration inside the student's highest-scoring talent areas."
+            };
+
+            html += `
+                <div class="career-card">
+                    <div class="career-title">
+                        <h3>${index + 1}. ${stream.icon} ${stream.name}</h3>
+                        <span class="match-score">Score: ${stream.matchScore}%</span>
+                    </div>
+                    
+                    <div class="career-description">
+                        <p class="career-description-main">${metaProfile.description}</p>
+                        <p class="career-description-sub">${metaProfile.subDescription}</p>
+                    </div>
+                    
+                    <div class="pathway-layout">
+                        <div class="pathway-left">
+                            <strong>Career Opportunities</strong>
+                            <ul class="career-opportunity-list">
+                                ${metaProfile.careers.map(c => `<li>${c}</li>`).join("")}
+                            </ul>
+                        </div>
+                        <div class="pathway-right">
+                            <h4>Educational Pathway</h4>
+                            <ul class="educational-pathway-list">
+                                <li><strong>Recommended Higher Secondary Group(s):</strong><br>${metaProfile.group}</li>
+                                <li><strong>Entrance Examinations:</strong><br>${Array.isArray(metaProfile.exams) ? metaProfile.exams.join(", ") : metaProfile.exams}</li>
+                                <li><strong>Degree Programmes:</strong><br>${Array.isArray(metaProfile.degrees) ? metaProfile.degrees.join(", ") : metaProfile.degrees}</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="parent-guidance-box">
+                        <strong>Guidance for Parents:</strong> ${metaProfile.parentGuidance}
+                    </div>
+                </div>
+            `;
+        });
 
         html += `
-            <div class="career-card" style="margin-bottom: 20px;">
-                <div class="career-title">
-                    <h3>${index + 1}. ${stream.icon} ${stream.name}</h3>
-                    <span class="match-score">Score: ${stream.matchScore}%</span>
                 </div>
-                
-                <div class="career-description" style="margin-bottom: 12px;">
-                    <p style="font-weight: 600; color: #1e293b; margin-bottom: 4px;">${metaProfile.description}</p>
-                    <p style="color: #475569; font-size:14px;">${metaProfile.subDescription}</p>
-                </div>
-                
-                <div class="pathway-layout">
-                    <div class="pathway-left">
-                        <strong>Career Opportunities</strong>
-                        <ul style="display: grid; grid-template-columns: 1fr 1fr; gap: 4px; padding-left: 15px;">
-                            ${metaProfile.careers.map(c => `<li style="font-size:13px; color:#334155;">${c}</li>`).join("")}
-                        </ul>
-                    </div>
-                    <div class="pathway-right" style="font-size:13px;">
-                        <h4>Educational Pathway</h4>
-                        <ul style="list-style:none; padding:0;">
-                            <li style="padding:4px 0;"><strong>Recommended Higher Secondary Group(s):</strong> ${metaProfile.group}</li>
-                            <li style="padding:4px 0;"><strong>Entrance Examinations:</strong> ${Array.isArray(metaProfile.exams) ? metaProfile.exams.join(", ") : metaProfile.exams}</li>
-                            <li style="padding:4px 0;"><strong>Degree Programmes:</strong> ${Array.isArray(metaProfile.degrees) ? metaProfile.degrees.join(", ") : metaProfile.degrees}</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div style="margin-top:15px; padding:12px 16px; background:#fffdf5; border-left:4px solid #eab308; border-radius:8px; font-size:13px; color:#713f12;">
-                    <strong>Guidance for Parents:</strong> ${metaProfile.parentGuidance}
-                </div>
-            </div>
-        `;
-    });
-
-    html += `
             </div>
         </div>
     `;
@@ -1666,25 +1667,25 @@ window.downloadAdminExcel = function() {
         ]))
     ];
 
-    const workbook = `xml version="1.0"
-?mso-application progid="Excel.Sheet"
-Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+    const workbook = `<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
  xmlns:o="urn:schemas-microsoft-com:office:office"
  xmlns:x="urn:schemas-microsoft-com:office:excel"
  xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
- xmlns:html="http://www.w3.org/TR/REC-html40"
-    \${buildExcelWorksheet("Student Records", studentRows)}
-    \${buildExcelWorksheet("Top Recommendations", recommendationRows)}
-    \${buildExcelWorksheet("District Split", districtRows)}
-    \${buildExcelWorksheet("Domain Scores", domainRows)}
-    \${buildExcelWorksheet("Question Responses", responseRows)}
-/Workbook`;
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+    ${buildExcelWorksheet("Student Records", studentRows)}
+    ${buildExcelWorksheet("Top Recommendations", recommendationRows)}
+    ${buildExcelWorksheet("District Split", districtRows)}
+    ${buildExcelWorksheet("Domain Scores", domainRows)}
+    ${buildExcelWorksheet("Question Responses", responseRows)}
+</Workbook>`;
 
     const blob = new Blob([workbook], { type: "application/vnd.ms-excel;charset=utf-8" });
     const url = URL.createObjectURL(blob);
     const link = document.createElement("a");
     link.href = url;
-    link.download = `Career_Assessment_Admin_Data_\${new Date().toISOString().slice(0, 10)}.xls`;
+    link.download = `Career_Assessment_Admin_Data_${new Date().toISOString().slice(0, 10)}.xls`;
     document.body.appendChild(link);
     link.click();
     link.remove();
@@ -1886,37 +1887,104 @@ function handleStartWorkflow() {
     quizInterfaceContainer.scrollIntoView({ behavior: "smooth", block: "start" });
 }
 
-function executePremiumPDFDownload() {
+async function executePremiumPDFDownload() {
     const reportElement = document.getElementById("reportCaptureBounds");
+    const downloadBtn = document.getElementById("printBtn");
     loadStudentInfo();
     
     if (!reportElement) {
-        alert("System cannot process printing layout reference framework bounds currently.");
+        alert("Cannot generate PDF: Report element not found.");
         return;
     }
-    
-    // Clean and generate file name using student's name value parameters
-    const safeStudentName = studentInfo.name ? studentInfo.name.trim().replace(/[^a-zA-Z0-9]/g, '_') : 'Student';
-    const formattedFilename = `${safeStudentName}_Report.pdf`;
-    
-    const optimalOptions = {
+
+    const studentNameForFile = studentInfo.name ? studentInfo.name.trim() : 'Student';
+    const formattedFilename = `${studentNameForFile} Career Exploration Report.pdf`;
+
+    const pdfOptions = {
         margin:       [10, 10, 10, 10],
         filename:     formattedFilename,
-        image:        { type: 'jpeg', quality: 0.98 },
-        html2canvas:  { scale: 2, useCORS: true, letterRendering: true, scrollY: 0, scrollX: 0 },
+        image:        { type: 'jpeg', quality: 1 },
+        html2canvas:  {
+            scale: 2,
+            useCORS: false,
+            allowTaint: false,
+            imageTimeout: 15000,
+            // html2canvas otherwise captures starting from whatever the
+            // current window scroll position is, not from the true top of
+            // reportElement. If the user had scrolled down at all before
+            // clicking download, that produced blank leading pages (the
+            // scrolled-past distance) and cut the report off partway
+            // through (the tail fell past the bottom of the capture).
+            // Pinning scrollX/scrollY to 0 and capturing at full document
+            // width/height forces it to always start from the real top.
+            scrollX: 0,
+            scrollY: 0,
+            windowWidth: document.documentElement.scrollWidth,
+            windowHeight: document.documentElement.scrollHeight
+        },
         jsPDF:        { unit: 'mm', format: 'a4', orientation: 'portrait' },
-        pagebreak:    { mode: ['avoid-all', 'css', 'legacy'] }
+        pagebreak:    { mode: ['css', 'legacy'] }
     };
-    
+
+    // Belt-and-braces: also physically scroll the window back to the top
+    // and let layout settle before html2canvas runs, in case anything
+    // else (e.g. a smooth-scroll animation still in flight) is relying
+    // on scroll position.
+    window.scrollTo(0, 0);
+    await new Promise(resolve => setTimeout(resolve, 50));
+
     if (loader) loader.classList.remove("hidden");
-    
-    html2pdf().set(optimalOptions).from(reportElement).save().then(() => {
-        if (loader) loader.classList.add("hidden");
-    }).catch(err => {
-        console.error("PDF engine failure:", err);
-        if (loader) loader.classList.add("hidden");
-        window.print(); 
+    if (downloadBtn) downloadBtn.disabled = true;
+
+    function imageWillTaintCanvas(img) {
+        try {
+            const testCanvas = document.createElement("canvas");
+            testCanvas.width = 1;
+            testCanvas.height = 1;
+            const ctx = testCanvas.getContext("2d");
+            ctx.drawImage(img, 0, 0, 1, 1);
+            testCanvas.toDataURL();
+            return false;
+        } catch (e) {
+            return true;
+        }
+    }
+
+    function dropImage(img) {
+        const container = img.closest(".learning-style-image-container");
+        if (container) {
+            container.remove();
+        } else {
+            img.remove();
+        }
+    }
+
+    const reportImages = Array.from(reportElement.querySelectorAll("img"));
+    reportImages.forEach(img => {
+        if (img.complete) {
+            if (img.naturalWidth === 0 || imageWillTaintCanvas(img)) {
+                dropImage(img);
+            }
+        } else {
+            img.addEventListener("error", () => dropImage(img), { once: true });
+            img.addEventListener("load", () => {
+                if (imageWillTaintCanvas(img)) dropImage(img);
+            }, { once: true });
+        }
     });
+
+    await new Promise(resolve => setTimeout(resolve, 100));
+
+    try {
+        await html2pdf().set(pdfOptions).from(reportElement).save();
+    } catch (err) {
+        console.error("PDF generation failed:", err);
+        const detail = err && err.message ? `\n\nDetails: ${err.message}` : "";
+        alert(`Sorry, the PDF could not be generated at this time. Please try again.${detail}`);
+    } finally {
+        if (loader) loader.classList.add("hidden");
+        if (downloadBtn) downloadBtn.disabled = false;
+    }
 }
 
 function updateActiveLanguageButtons() {
